@@ -28,7 +28,7 @@ export function recalculateDay(day,options={people:1,mode:'transit'},database=[]
  a.end=a.start+a.duration;cursor=a.end;if(!a.localPause)previous=p;
  if(!Number.isFinite(a.cost)){warnings.push(`${a.name}：費用待確認。`);}else cost+=a.cost*(a.unit==='group'?1:Number(options.people??1));
  const weekday=new Date(`${day.date}T12:00:00Z`).getUTCDay();
- if(p){if(p.status!=='已確認')warnings.push(`${a.name}：${p.status??'待確認'}，時段與費用未經實地驗證。`);if(p.weekdays&&!p.weekdays.includes(weekday))warnings.push(`${a.name}：本範例設定此日未營業。`);if(Number.isFinite(p.open)&&a.start<p.open||Number.isFinite(p.close)&&a.end>p.close)warnings.push(`${a.name}：超出範例營業時間。`);if(p.lastEntry!=null&&a.start>p.lastEntry)warnings.push(`${a.name}：超過最後入場時間。`);}else warnings.push(`${a.name}：無營業時間，請自行確認。`);
+ if(p){if(p.status!=='已確認')warnings.push(`${a.name}：${p.status??'待確認'}，營業時段待確認，費用為預留估算。`);if(p.weekdays&&!p.weekdays.includes(weekday))warnings.push(`${a.name}：排程設定不包含此日；非營運公告。`);if(Number.isFinite(p.open)&&a.start<p.open||Number.isFinite(p.close)&&a.end>p.close)warnings.push(`${a.name}：超出排程設定時段；實際營業時間需另核對。`);if(p.lastEntry!=null&&a.start>p.lastEntry)warnings.push(`${a.name}：超過最後入場時間。`);}else warnings.push(`${a.name}：無營業時間，請自行確認。`);
  if(a.end>(day.endMinute??1200))warnings.push(`${a.name}：超出當日可安排時間。`);return a;});
  const perPerson=cost/Number(options.people??1);
  if(options.dailyBudget!=null&&perPerson+Number(options.shoppingBudget??0)>options.dailyBudget)warnings.push('當日預估支出加購物預留額超過每日預算。');

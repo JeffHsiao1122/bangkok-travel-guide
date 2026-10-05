@@ -1,0 +1,410 @@
+[
+  {
+    "id": "Q873769",
+    "url": "https://www.wikidata.org/wiki/Q873769",
+    "endpoint": "https://www.wikidata.org/wiki/Special:EntityData/Q873769.json",
+    "revision": 2543941912,
+    "retrievedAt": "2026-10-05",
+    "license": "CC0-1.0",
+    "labels": {
+      "en": "Grand Palace"
+    },
+    "props": {
+      "P625": [
+        {
+          "value": {
+            "latitude": 13.750138888889,
+            "longitude": 100.49202777778,
+            "altitude": null,
+            "precision": 0.0001,
+            "globe": "http://www.wikidata.org/entity/Q2"
+          },
+          "rank": "normal",
+          "referenceCount": 0
+        }
+      ],
+      "P856": [
+        {
+          "value": "https://www.royalgrandpalace.th/en/home",
+          "rank": "normal",
+          "referenceCount": 2
+        }
+      ],
+      "P238": []
+    }
+  },
+  {
+    "id": "Q1059910",
+    "url": "https://www.wikidata.org/wiki/Q1059910",
+    "endpoint": "https://www.wikidata.org/wiki/Special:EntityData/Q1059910.json",
+    "revision": 2543256727,
+    "retrievedAt": "2026-10-05",
+    "license": "CC0-1.0",
+    "labels": {
+      "en": "Wat Pho"
+    },
+    "props": {
+      "P625": [
+        {
+          "value": {
+            "latitude": 13.746388888889,
+            "longitude": 100.49361111111,
+            "altitude": null,
+            "precision": null,
+            "globe": "http://www.wikidata.org/entity/Q2"
+          },
+          "rank": "normal",
+          "referenceCount": 0
+        }
+      ],
+      "P856": [
+        {
+          "value": "http://www.watpho.com/",
+          "rank": "normal",
+          "referenceCount": 0
+        }
+      ],
+      "P238": []
+    }
+  },
+  {
+    "id": "Q724970",
+    "url": "https://www.wikidata.org/wiki/Q724970",
+    "endpoint": "https://www.wikidata.org/wiki/Special:EntityData/Q724970.json",
+    "revision": 2513533803,
+    "retrievedAt": "2026-10-05",
+    "license": "CC0-1.0",
+    "labels": {
+      "en": "Wat Arun"
+    },
+    "props": {
+      "P625": [
+        {
+          "value": {
+            "latitude": 13.743688888888888,
+            "longitude": 100.48891944444445,
+            "altitude": null,
+            "precision": 0.000277778,
+            "globe": "http://www.wikidata.org/entity/Q2"
+          },
+          "rank": "normal",
+          "referenceCount": 0
+        }
+      ],
+      "P856": [
+        {
+          "value": "http://www.watarun.net/",
+          "rank": "normal",
+          "referenceCount": 1
+        }
+      ],
+      "P238": []
+    }
+  },
+  {
+    "id": "Q972334",
+    "url": "https://www.wikidata.org/wiki/Q972334",
+    "endpoint": "https://www.wikidata.org/wiki/Special:EntityData/Q972334.json",
+    "revision": 2545977656,
+    "retrievedAt": "2026-10-05",
+    "license": "CC0-1.0",
+    "labels": {
+      "en": "Siam Paragon"
+    },
+    "props": {
+      "P625": [
+        {
+          "value": {
+            "latitude": 13.746389,
+            "longitude": 100.535,
+            "altitude": null,
+            "precision": 0.00001,
+            "globe": "http://www.wikidata.org/entity/Q2"
+          },
+          "rank": "normal",
+          "referenceCount": 1
+        }
+      ],
+      "P856": [
+        {
+          "value": "http://www.siamparagon.co.th/",
+          "rank": "normal",
+          "referenceCount": 1
+        }
+      ],
+      "P238": []
+    }
+  },
+  {
+    "id": "Q1130188",
+    "url": "https://www.wikidata.org/wiki/Q1130188",
+    "endpoint": "https://www.wikidata.org/wiki/Special:EntityData/Q1130188.json",
+    "revision": 2413717226,
+    "retrievedAt": "2026-10-05",
+    "license": "CC0-1.0",
+    "labels": {
+      "en": "Bangkok Art and Culture Centre"
+    },
+    "props": {
+      "P625": [
+        {
+          "value": {
+            "latitude": 13.74670111,
+            "longitude": 100.53022385,
+            "altitude": null,
+            "precision": 0.00000277777777778,
+            "globe": "http://www.wikidata.org/entity/Q2"
+          },
+          "rank": "normal",
+          "referenceCount": 1
+        }
+      ],
+      "P856": [
+        {
+          "value": "http://www.bacc.or.th/",
+          "rank": "normal",
+          "referenceCount": 0
+        }
+      ],
+      "P238": []
+    }
+  },
+  {
+    "id": "Q2916351",
+    "url": "https://www.wikidata.org/wiki/Q2916351",
+    "endpoint": "https://www.wikidata.org/wiki/Special:EntityData/Q2916351.json",
+    "revision": 2487167554,
+    "retrievedAt": "2026-10-05",
+    "license": "CC0-1.0",
+    "labels": {
+      "en": "Jim Thompson House"
+    },
+    "props": {
+      "P625": [
+        {
+          "value": {
+            "latitude": 13.74916667,
+            "longitude": 100.52833333,
+            "altitude": null,
+            "precision": 0.00027777777777778,
+            "globe": "http://www.wikidata.org/entity/Q2"
+          },
+          "rank": "normal",
+          "referenceCount": 1
+        }
+      ],
+      "P856": [
+        {
+          "value": "http://www.jimthompsonhouse.com/",
+          "rank": "normal",
+          "referenceCount": 1
+        }
+      ],
+      "P238": []
+    }
+  },
+  {
+    "id": "Q977437",
+    "url": "https://www.wikidata.org/wiki/Q977437",
+    "endpoint": "https://www.wikidata.org/wiki/Special:EntityData/Q977437.json",
+    "revision": 2442775722,
+    "retrievedAt": "2026-10-05",
+    "license": "CC0-1.0",
+    "labels": {
+      "en": "Lumphini Park"
+    },
+    "props": {
+      "P625": [
+        {
+          "value": {
+            "latitude": 13.73111111,
+            "longitude": 100.54166667,
+            "altitude": null,
+            "precision": 0.00027777777777778,
+            "globe": "http://www.wikidata.org/entity/Q2"
+          },
+          "rank": "normal",
+          "referenceCount": 1
+        }
+      ],
+      "P856": [],
+      "P238": []
+    }
+  },
+  {
+    "id": "Q3270302",
+    "url": "https://www.wikidata.org/wiki/Q3270302",
+    "endpoint": "https://www.wikidata.org/wiki/Special:EntityData/Q3270302.json",
+    "revision": 2523937405,
+    "retrievedAt": "2026-10-05",
+    "license": "CC0-1.0",
+    "labels": {
+      "en": "CentralWorld"
+    },
+    "props": {
+      "P625": [
+        {
+          "value": {
+            "latitude": 13.746944,
+            "longitude": 100.539722,
+            "altitude": null,
+            "precision": 0.00001,
+            "globe": "http://www.wikidata.org/entity/Q2"
+          },
+          "rank": "normal",
+          "referenceCount": 1
+        }
+      ],
+      "P856": [
+        {
+          "value": "https://www.centralworld.co.th/",
+          "rank": "normal",
+          "referenceCount": 1
+        }
+      ],
+      "P238": []
+    }
+  },
+  {
+    "id": "Q3278033",
+    "url": "https://www.wikidata.org/wiki/Q3278033",
+    "endpoint": "https://www.wikidata.org/wiki/Special:EntityData/Q3278033.json",
+    "revision": 2552097508,
+    "retrievedAt": "2026-10-05",
+    "license": "CC0-1.0",
+    "labels": {
+      "en": "Terminal 21"
+    },
+    "props": {
+      "P625": [
+        {
+          "value": {
+            "latitude": 13.7375,
+            "longitude": 100.56055555555555,
+            "altitude": null,
+            "precision": 0.0002777777777777778,
+            "globe": "http://www.wikidata.org/entity/Q2"
+          },
+          "rank": "normal",
+          "referenceCount": 1
+        }
+      ],
+      "P856": [
+        {
+          "value": "https://www.terminal21.co.th/",
+          "rank": "normal",
+          "referenceCount": 1
+        }
+      ],
+      "P238": []
+    }
+  },
+  {
+    "id": "Q1936390",
+    "url": "https://www.wikidata.org/wiki/Q1936390",
+    "endpoint": "https://www.wikidata.org/wiki/Special:EntityData/Q1936390.json",
+    "revision": 2465689580,
+    "retrievedAt": "2026-10-05",
+    "license": "CC0-1.0",
+    "labels": {
+      "en": "Chatuchak Park"
+    },
+    "props": {
+      "P625": [
+        {
+          "value": {
+            "latitude": 13.80805556,
+            "longitude": 100.55555556,
+            "altitude": null,
+            "precision": 0.00027777777777778,
+            "globe": "http://www.wikidata.org/entity/Q2"
+          },
+          "rank": "normal",
+          "referenceCount": 1
+        }
+      ],
+      "P856": [],
+      "P238": []
+    }
+  },
+  {
+    "id": "Q194316",
+    "url": "https://www.wikidata.org/wiki/Q194316",
+    "endpoint": "https://www.wikidata.org/wiki/Special:EntityData/Q194316.json",
+    "revision": 2547988545,
+    "retrievedAt": "2026-10-05",
+    "license": "CC0-1.0",
+    "labels": {
+      "en": "Suvarnabhumi Airport"
+    },
+    "props": {
+      "P625": [
+        {
+          "value": {
+            "latitude": 13.681111,
+            "longitude": 100.747222,
+            "altitude": null,
+            "precision": 0.00001,
+            "globe": "http://www.wikidata.org/entity/Q2"
+          },
+          "rank": "normal",
+          "referenceCount": 1
+        }
+      ],
+      "P856": [
+        {
+          "value": "https://suvarnabhumi.airportthai.co.th/",
+          "rank": "normal",
+          "referenceCount": 0
+        }
+      ],
+      "P238": [
+        {
+          "value": "BKK",
+          "rank": "normal",
+          "referenceCount": 0
+        }
+      ]
+    }
+  },
+  {
+    "id": "Q1046755",
+    "url": "https://www.wikidata.org/wiki/Q1046755",
+    "endpoint": "https://www.wikidata.org/wiki/Special:EntityData/Q1046755.json",
+    "revision": 2547975895,
+    "retrievedAt": "2026-10-05",
+    "license": "CC0-1.0",
+    "labels": {
+      "en": "Don Mueang International Airport"
+    },
+    "props": {
+      "P625": [
+        {
+          "value": {
+            "latitude": 13.9125,
+            "longitude": 100.60666666667,
+            "altitude": null,
+            "precision": 0.00027777777777778,
+            "globe": "http://www.wikidata.org/entity/Q2"
+          },
+          "rank": "normal",
+          "referenceCount": 1
+        }
+      ],
+      "P856": [
+        {
+          "value": "https://donmueang.airportthai.co.th/",
+          "rank": "normal",
+          "referenceCount": 2
+        }
+      ],
+      "P238": [
+        {
+          "value": "DMK",
+          "rank": "normal",
+          "referenceCount": 1
+        }
+      ]
+    }
+  }
+]

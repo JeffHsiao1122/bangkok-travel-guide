@@ -1,0 +1,1031 @@
+{
+  "date": "2026-10-05",
+  "environment": "本機開發版與本機 Pages 建置，未發布",
+  "checks": [
+    {
+      "route": "/",
+      "width": 1280,
+      "brokenImages": 0,
+      "h1Count": 1,
+      "heading": "把曼谷，安排成你的樣子。",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/first-visit",
+      "width": 1280,
+      "brokenImages": 0,
+      "h1Count": 1,
+      "heading": "第一次去曼谷，從這份指南開始",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/travel/flights",
+      "width": 1280,
+      "brokenImages": 0,
+      "h1Count": 1,
+      "heading": "出發之前，先準備好",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/travel/airports/bkk",
+      "width": 1280,
+      "brokenImages": 0,
+      "h1Count": 1,
+      "heading": "BKK 素萬那普機場",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/travel/airports/dmk",
+      "width": 1280,
+      "brokenImages": 0,
+      "h1Count": 1,
+      "heading": "DMK 廊曼機場",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/travel/transportation",
+      "width": 1280,
+      "brokenImages": 0,
+      "h1Count": 1,
+      "heading": "自在移動，探索城市",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/travel/accommodation",
+      "width": 1280,
+      "brokenImages": 0,
+      "h1Count": 1,
+      "heading": "找到適合你的落腳處",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/travel/attractions",
+      "width": 1280,
+      "brokenImages": 0,
+      "h1Count": 1,
+      "heading": "探索曼谷的不同面貌",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/travel/areas/%E6%9A%B9%E7%BE%85",
+      "width": 1280,
+      "brokenImages": 0,
+      "h1Count": 1,
+      "heading": "暹羅住宿區域",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/travel/areas/%E7%B4%A0%E5%9D%A4%E9%80%B8",
+      "width": 1280,
+      "brokenImages": 0,
+      "h1Count": 1,
+      "heading": "素坤逸住宿區域",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/travel/areas/%E6%98%AF%E9%9A%86",
+      "width": 1280,
+      "brokenImages": 0,
+      "h1Count": 1,
+      "heading": "是隆住宿區域",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/travel/areas/%E8%88%8A%E5%9F%8E%E6%B2%B3%E5%B2%B8",
+      "width": 1280,
+      "brokenImages": 0,
+      "h1Count": 1,
+      "heading": "舊城河岸住宿區域",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/travel/areas/%E5%94%90%E4%BA%BA%E8%A1%97",
+      "width": 1280,
+      "brokenImages": 0,
+      "h1Count": 1,
+      "heading": "唐人街住宿區域",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/travel/areas/%E6%B2%B3%E5%B2%B8",
+      "width": 1280,
+      "brokenImages": 0,
+      "h1Count": 1,
+      "heading": "河岸住宿區域",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/travel/areas/%E6%B4%BD%E5%9C%96%E6%B4%BD",
+      "width": 1280,
+      "brokenImages": 0,
+      "h1Count": 1,
+      "heading": "洽圖洽住宿區域",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/travel/attractions/grand-palace",
+      "width": 1280,
+      "brokenImages": 0,
+      "h1Count": 1,
+      "heading": "大皇宮",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/travel/attractions/wat-pho",
+      "width": 1280,
+      "brokenImages": 0,
+      "h1Count": 1,
+      "heading": "臥佛寺 Wat Pho",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/travel/attractions/wat-arun",
+      "width": 1280,
+      "brokenImages": 0,
+      "h1Count": 1,
+      "heading": "鄭王廟 Wat Arun",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/travel/attractions/siam-paragon",
+      "width": 1280,
+      "brokenImages": 0,
+      "h1Count": 1,
+      "heading": "Siam Paragon 暹羅百麗宮",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/travel/attractions/art-center",
+      "width": 1280,
+      "brokenImages": 0,
+      "h1Count": 1,
+      "heading": "曼谷藝術文化中心 BACC",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/travel/attractions/jim-thompson",
+      "width": 1280,
+      "brokenImages": 0,
+      "h1Count": 1,
+      "heading": "Jim Thompson House 湯普生博物館",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/travel/attractions/lumphini",
+      "width": 1280,
+      "brokenImages": 0,
+      "h1Count": 1,
+      "heading": "倫披尼公園 Lumphini Park",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/travel/attractions/centralworld",
+      "width": 1280,
+      "brokenImages": 0,
+      "h1Count": 1,
+      "heading": "CentralWorld",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/travel/attractions/terminal21",
+      "width": 1280,
+      "brokenImages": 0,
+      "h1Count": 1,
+      "heading": "Terminal 21（Asok 規劃點）",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/travel/attractions/chatuchak-park",
+      "width": 1280,
+      "brokenImages": 0,
+      "h1Count": 1,
+      "heading": "洽圖洽公園 Chatuchak Park",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/trips/bangkok-3",
+      "width": 1280,
+      "brokenImages": 0,
+      "h1Count": 1,
+      "heading": "初訪曼谷・文化與城市三日",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/trips/bangkok-4",
+      "width": 1280,
+      "brokenImages": 0,
+      "h1Count": 1,
+      "heading": "曼谷四日・城市與河岸",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/sources",
+      "width": 1280,
+      "brokenImages": 0,
+      "h1Count": 1,
+      "heading": "資料來源與使用說明",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/guides",
+      "width": 1280,
+      "brokenImages": 0,
+      "h1Count": 1,
+      "heading": "出發之前的小筆記",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/sitemap",
+      "width": 1280,
+      "brokenImages": 0,
+      "h1Count": 1,
+      "heading": "網站地圖",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/lounge-finder",
+      "width": 1280,
+      "brokenImages": 0,
+      "h1Count": 1,
+      "heading": "我的信用卡，可以進哪間貴賓室？",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/",
+      "width": 768,
+      "brokenImages": 0,
+      "h1Count": 1,
+      "heading": "把曼谷，安排成你的樣子。",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/first-visit",
+      "width": 768,
+      "brokenImages": 0,
+      "h1Count": 1,
+      "heading": "第一次去曼谷，從這份指南開始",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/travel/flights",
+      "width": 768,
+      "brokenImages": 0,
+      "h1Count": 1,
+      "heading": "出發之前，先準備好",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/travel/airports/bkk",
+      "width": 768,
+      "brokenImages": 0,
+      "h1Count": 1,
+      "heading": "BKK 素萬那普機場",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/travel/airports/dmk",
+      "width": 768,
+      "brokenImages": 0,
+      "h1Count": 1,
+      "heading": "DMK 廊曼機場",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/travel/transportation",
+      "width": 768,
+      "brokenImages": 0,
+      "h1Count": 1,
+      "heading": "自在移動，探索城市",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/travel/accommodation",
+      "width": 768,
+      "brokenImages": 0,
+      "h1Count": 1,
+      "heading": "找到適合你的落腳處",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/travel/attractions",
+      "width": 768,
+      "brokenImages": 0,
+      "h1Count": 1,
+      "heading": "探索曼谷的不同面貌",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/travel/areas/%E6%9A%B9%E7%BE%85",
+      "width": 768,
+      "brokenImages": 0,
+      "h1Count": 1,
+      "heading": "暹羅住宿區域",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/travel/areas/%E7%B4%A0%E5%9D%A4%E9%80%B8",
+      "width": 768,
+      "brokenImages": 0,
+      "h1Count": 1,
+      "heading": "素坤逸住宿區域",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/travel/areas/%E6%98%AF%E9%9A%86",
+      "width": 768,
+      "brokenImages": 0,
+      "h1Count": 1,
+      "heading": "是隆住宿區域",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/travel/areas/%E8%88%8A%E5%9F%8E%E6%B2%B3%E5%B2%B8",
+      "width": 768,
+      "brokenImages": 0,
+      "h1Count": 1,
+      "heading": "舊城河岸住宿區域",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/travel/areas/%E5%94%90%E4%BA%BA%E8%A1%97",
+      "width": 768,
+      "brokenImages": 0,
+      "h1Count": 1,
+      "heading": "唐人街住宿區域",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/travel/areas/%E6%B2%B3%E5%B2%B8",
+      "width": 768,
+      "brokenImages": 0,
+      "h1Count": 1,
+      "heading": "河岸住宿區域",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/travel/areas/%E6%B4%BD%E5%9C%96%E6%B4%BD",
+      "width": 768,
+      "brokenImages": 0,
+      "h1Count": 1,
+      "heading": "洽圖洽住宿區域",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/travel/attractions/grand-palace",
+      "width": 768,
+      "brokenImages": 0,
+      "h1Count": 1,
+      "heading": "大皇宮",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/travel/attractions/wat-pho",
+      "width": 768,
+      "brokenImages": 0,
+      "h1Count": 1,
+      "heading": "臥佛寺 Wat Pho",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/travel/attractions/wat-arun",
+      "width": 768,
+      "brokenImages": 0,
+      "h1Count": 1,
+      "heading": "鄭王廟 Wat Arun",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/travel/attractions/siam-paragon",
+      "width": 768,
+      "brokenImages": 0,
+      "h1Count": 1,
+      "heading": "Siam Paragon 暹羅百麗宮",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/travel/attractions/art-center",
+      "width": 768,
+      "brokenImages": 0,
+      "h1Count": 1,
+      "heading": "曼谷藝術文化中心 BACC",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/travel/attractions/jim-thompson",
+      "width": 768,
+      "brokenImages": 0,
+      "h1Count": 1,
+      "heading": "Jim Thompson House 湯普生博物館",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/travel/attractions/lumphini",
+      "width": 768,
+      "brokenImages": 0,
+      "h1Count": 1,
+      "heading": "倫披尼公園 Lumphini Park",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/travel/attractions/centralworld",
+      "width": 768,
+      "brokenImages": 0,
+      "h1Count": 1,
+      "heading": "CentralWorld",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/travel/attractions/terminal21",
+      "width": 768,
+      "brokenImages": 0,
+      "h1Count": 1,
+      "heading": "Terminal 21（Asok 規劃點）",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/travel/attractions/chatuchak-park",
+      "width": 768,
+      "brokenImages": 0,
+      "h1Count": 1,
+      "heading": "洽圖洽公園 Chatuchak Park",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/trips/bangkok-3",
+      "width": 768,
+      "brokenImages": 0,
+      "h1Count": 1,
+      "heading": "初訪曼谷・文化與城市三日",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/trips/bangkok-4",
+      "width": 768,
+      "brokenImages": 0,
+      "h1Count": 1,
+      "heading": "曼谷四日・城市與河岸",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/sources",
+      "width": 768,
+      "brokenImages": 0,
+      "h1Count": 1,
+      "heading": "資料來源與使用說明",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/guides",
+      "width": 768,
+      "brokenImages": 0,
+      "h1Count": 1,
+      "heading": "出發之前的小筆記",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/sitemap",
+      "width": 768,
+      "brokenImages": 0,
+      "h1Count": 1,
+      "heading": "網站地圖",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/lounge-finder",
+      "width": 768,
+      "brokenImages": 0,
+      "h1Count": 1,
+      "heading": "我的信用卡，可以進哪間貴賓室？",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "brokenImages": 0,
+      "h1Count": 1,
+      "heading": "把曼谷，安排成你的樣子。",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/first-visit",
+      "width": 390,
+      "brokenImages": 0,
+      "h1Count": 1,
+      "heading": "第一次去曼谷，從這份指南開始",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/travel/flights",
+      "width": 390,
+      "brokenImages": 0,
+      "h1Count": 1,
+      "heading": "出發之前，先準備好",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/travel/airports/bkk",
+      "width": 390,
+      "brokenImages": 0,
+      "h1Count": 1,
+      "heading": "BKK 素萬那普機場",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/travel/airports/dmk",
+      "width": 390,
+      "brokenImages": 0,
+      "h1Count": 1,
+      "heading": "DMK 廊曼機場",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/travel/transportation",
+      "width": 390,
+      "brokenImages": 0,
+      "h1Count": 1,
+      "heading": "自在移動，探索城市",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/travel/accommodation",
+      "width": 390,
+      "brokenImages": 0,
+      "h1Count": 1,
+      "heading": "找到適合你的落腳處",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/travel/attractions",
+      "width": 390,
+      "brokenImages": 0,
+      "h1Count": 1,
+      "heading": "探索曼谷的不同面貌",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/travel/areas/%E6%9A%B9%E7%BE%85",
+      "width": 390,
+      "brokenImages": 0,
+      "h1Count": 1,
+      "heading": "暹羅住宿區域",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/travel/areas/%E7%B4%A0%E5%9D%A4%E9%80%B8",
+      "width": 390,
+      "brokenImages": 0,
+      "h1Count": 1,
+      "heading": "素坤逸住宿區域",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/travel/areas/%E6%98%AF%E9%9A%86",
+      "width": 390,
+      "brokenImages": 0,
+      "h1Count": 1,
+      "heading": "是隆住宿區域",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/travel/areas/%E8%88%8A%E5%9F%8E%E6%B2%B3%E5%B2%B8",
+      "width": 390,
+      "brokenImages": 0,
+      "h1Count": 1,
+      "heading": "舊城河岸住宿區域",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/travel/areas/%E5%94%90%E4%BA%BA%E8%A1%97",
+      "width": 390,
+      "brokenImages": 0,
+      "h1Count": 1,
+      "heading": "唐人街住宿區域",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/travel/areas/%E6%B2%B3%E5%B2%B8",
+      "width": 390,
+      "brokenImages": 0,
+      "h1Count": 1,
+      "heading": "河岸住宿區域",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/travel/areas/%E6%B4%BD%E5%9C%96%E6%B4%BD",
+      "width": 390,
+      "brokenImages": 0,
+      "h1Count": 1,
+      "heading": "洽圖洽住宿區域",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/travel/attractions/grand-palace",
+      "width": 390,
+      "brokenImages": 0,
+      "h1Count": 1,
+      "heading": "大皇宮",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/travel/attractions/wat-pho",
+      "width": 390,
+      "brokenImages": 0,
+      "h1Count": 1,
+      "heading": "臥佛寺 Wat Pho",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/travel/attractions/wat-arun",
+      "width": 390,
+      "brokenImages": 0,
+      "h1Count": 1,
+      "heading": "鄭王廟 Wat Arun",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/travel/attractions/siam-paragon",
+      "width": 390,
+      "brokenImages": 0,
+      "h1Count": 1,
+      "heading": "Siam Paragon 暹羅百麗宮",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/travel/attractions/art-center",
+      "width": 390,
+      "brokenImages": 0,
+      "h1Count": 1,
+      "heading": "曼谷藝術文化中心 BACC",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/travel/attractions/jim-thompson",
+      "width": 390,
+      "brokenImages": 0,
+      "h1Count": 1,
+      "heading": "Jim Thompson House 湯普生博物館",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/travel/attractions/lumphini",
+      "width": 390,
+      "brokenImages": 0,
+      "h1Count": 1,
+      "heading": "倫披尼公園 Lumphini Park",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/travel/attractions/centralworld",
+      "width": 390,
+      "brokenImages": 0,
+      "h1Count": 1,
+      "heading": "CentralWorld",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/travel/attractions/terminal21",
+      "width": 390,
+      "brokenImages": 0,
+      "h1Count": 1,
+      "heading": "Terminal 21（Asok 規劃點）",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/travel/attractions/chatuchak-park",
+      "width": 390,
+      "brokenImages": 0,
+      "h1Count": 1,
+      "heading": "洽圖洽公園 Chatuchak Park",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/trips/bangkok-3",
+      "width": 390,
+      "brokenImages": 0,
+      "h1Count": 1,
+      "heading": "初訪曼谷・文化與城市三日",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/trips/bangkok-4",
+      "width": 390,
+      "brokenImages": 0,
+      "h1Count": 1,
+      "heading": "曼谷四日・城市與河岸",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/sources",
+      "width": 390,
+      "brokenImages": 0,
+      "h1Count": 1,
+      "heading": "資料來源與使用說明",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/guides",
+      "width": 390,
+      "brokenImages": 0,
+      "h1Count": 1,
+      "heading": "出發之前的小筆記",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/sitemap",
+      "width": 390,
+      "brokenImages": 0,
+      "h1Count": 1,
+      "heading": "網站地圖",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/lounge-finder",
+      "width": 390,
+      "brokenImages": 0,
+      "h1Count": 1,
+      "heading": "我的信用卡，可以進哪間貴賓室？",
+      "notFound": false,
+      "overflow": false
+    }
+  ],
+  "pagesChecks": [
+    {
+      "route": "/",
+      "heading": "把曼谷，安排成你的樣子。",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/first-visit",
+      "heading": "第一次去曼谷，從這份指南開始",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/travel/flights",
+      "heading": "出發之前，先準備好",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/travel/airports/bkk",
+      "heading": "BKK 素萬那普機場",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/travel/airports/dmk",
+      "heading": "DMK 廊曼機場",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/travel/transportation",
+      "heading": "自在移動，探索城市",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/travel/accommodation",
+      "heading": "找到適合你的落腳處",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/travel/attractions",
+      "heading": "探索曼谷的不同面貌",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/travel/areas/%E6%9A%B9%E7%BE%85",
+      "heading": "暹羅住宿區域",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/travel/areas/%E7%B4%A0%E5%9D%A4%E9%80%B8",
+      "heading": "素坤逸住宿區域",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/travel/areas/%E6%98%AF%E9%9A%86",
+      "heading": "是隆住宿區域",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/travel/areas/%E8%88%8A%E5%9F%8E%E6%B2%B3%E5%B2%B8",
+      "heading": "舊城河岸住宿區域",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/travel/areas/%E5%94%90%E4%BA%BA%E8%A1%97",
+      "heading": "唐人街住宿區域",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/travel/areas/%E6%B2%B3%E5%B2%B8",
+      "heading": "河岸住宿區域",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/travel/areas/%E6%B4%BD%E5%9C%96%E6%B4%BD",
+      "heading": "洽圖洽住宿區域",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/travel/attractions/grand-palace",
+      "heading": "大皇宮",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/travel/attractions/wat-pho",
+      "heading": "臥佛寺 Wat Pho",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/travel/attractions/wat-arun",
+      "heading": "鄭王廟 Wat Arun",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/travel/attractions/siam-paragon",
+      "heading": "Siam Paragon 暹羅百麗宮",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/travel/attractions/art-center",
+      "heading": "曼谷藝術文化中心 BACC",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/travel/attractions/jim-thompson",
+      "heading": "Jim Thompson House 湯普生博物館",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/travel/attractions/lumphini",
+      "heading": "倫披尼公園 Lumphini Park",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/travel/attractions/centralworld",
+      "heading": "CentralWorld",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/travel/attractions/terminal21",
+      "heading": "Terminal 21（Asok 規劃點）",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/travel/attractions/chatuchak-park",
+      "heading": "洽圖洽公園 Chatuchak Park",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/trips/bangkok-3",
+      "heading": "初訪曼谷・文化與城市三日",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/trips/bangkok-4",
+      "heading": "曼谷四日・城市與河岸",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/sources",
+      "heading": "資料來源與使用說明",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/guides",
+      "heading": "出發之前的小筆記",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/sitemap",
+      "heading": "網站地圖",
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "route": "/lounge-finder",
+      "heading": "我的信用卡，可以進哪間貴賓室？",
+      "notFound": false,
+      "overflow": false
+    }
+  ]
+}

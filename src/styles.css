@@ -11,3 +11,11 @@
 @media(max-width:760px){.hero h1{font-size:clamp(1.9rem,8vw,2.6rem)}}
 .export-dialog{width:min(720px,calc(100% - 32px));max-height:85vh;overflow:auto;border:1px solid var(--line);border-radius:16px;padding:28px;background:#f8f6f0;color:#233d34}.export-dialog::backdrop{background:#173f3580}.export-dialog h2{margin-top:0}.export-dialog textarea{font:12px/1.6 ui-monospace,monospace;resize:vertical}.export-dialog summary{cursor:pointer;padding:16px 0}
 @media print{header,footer,.toast,.no-print,.button,.text-link,.day-tabs,.filters,.export-dialog{display:none!important}.container{padding:0;max-width:none}.print-only{display:block}.detail-grid{display:block}.panel,.info-card{break-inside:avoid;border-color:#ccc}.map-wrap{break-inside:avoid}body{background:white;color:black}}
+
+/* First-visit editorial content uses the existing responsive card system. */
+.first-visit section[id]{scroll-margin-top:110px;margin-top:40px}
+.first-visit section[id]>h2{margin:28px 0 12px}
+.evidence{border-top:1px solid var(--line,#d7dfd4);margin-top:24px;padding-top:18px;overflow-wrap:anywhere}
+.evidence p{margin-top:10px}.first-visit .chip{cursor:pointer}
+.detail-grid>*{min-width:0}.detail-list dd{min-width:0;overflow-wrap:anywhere}
+.detail-list .text-link,.evidence .text-link{white-space:normal;overflow-wrap:anywhere}
