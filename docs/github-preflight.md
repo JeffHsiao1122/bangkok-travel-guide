@@ -9,9 +9,10 @@
 - 已初始化本機 Git，主要分支為 `main`。
 - 首次本機版本作者採用已登入 GitHub 帳號 `JeffHsiao1122` 與設定頁提供的 noreply 替代信箱。作者設定僅適用此專案；本機 commit 不代表公開上傳。
 - 使用者確認建立公開空白 Repository 後，已建立 `https://github.com/JeffHsiao1122/bangkok-travel-guide`，並在本機設定 `origin` 指向該網址。
-- 尚未推送網站檔案、取得程式推送登入授權或發布 Pages。使用者的這次確認僅涵蓋空白 Repository 建立，上傳與發布仍需另行確認。
-- 尚未安裝 GitHub CLI、GitHub Desktop 或新的網站套件。
-- 公開程式、資料、素材、正式聯絡管道及發布權限仍需確認。
+- 使用者已另行確認公開上傳程式、文件、AI 插畫、靜態示範資料與版本紀錄，並親自完成官方 GitHub CLI 授權。
+- 已安全推送 `main`；首批遠端版本 `eed9341` 與本機一致，47 個檔案的暫存區檢查未發現常見敏感值。
+- GitHub CLI 2.102.0 採官方可攜版本，下載摘要與 Mac 簽章已核對；工具與登入設定放在忽略的本機資料夾。憑證保存在 macOS 鑰匙圈，未上傳。沒有安裝 GitHub Desktop 或新的網站套件。
+- 尚未發布 Pages；上傳後確認 Actions 執行清單為空，正式網站發布仍等待另外確認。聯絡管道仍待設定並如實標示。
 
 ## 部署相容調整
 
@@ -52,8 +53,8 @@ Pages 模式使用 `/bangkok-travel-guide/` 資源前綴、HashRouter 與 `dist-
 
 ## 尚未驗證與待完成
 
-GitHub Actions 實際執行、GitHub Pages 公開網址、正式主機的圖片／路由／RWD／Local Storage／主要功能，都要等登入、Repository 與公開許可後驗證。本機通過不代表公開網址已經通過。
+GitHub Actions 實際執行、GitHub Pages 公開網址、正式主機的圖片／路由／RWD／Local Storage／主要功能，都要等正式網站發布許可後驗證。本機通過不代表公開網址已經通過。
 
-實際檔案下載、原生檔案選擇器、列印 PDF、其他瀏覽器及實體手機的限制沿用 `qa-report.md`。真實旅遊資料未查證；真實信用卡入場權益已查證 0 筆。AI 插畫的官方輸出權利與公開標示規範已核對，見 `source-register.md`；尚需使用者確認本次公開範圍。聯絡管道仍待設定，網站明確標示尚未開放，不偽造聯絡信箱。
+實際檔案下載、原生檔案選擇器、列印 PDF、其他瀏覽器及實體手機的限制沿用 `qa-report.md`。真實旅遊資料未查證；真實信用卡入場權益已查證 0 筆。AI 插畫的官方輸出權利與公開標示規範已核對，見 `source-register.md`；使用者已確認 Repository 上傳範圍，Pages 發布須另行確認。聯絡管道仍待設定，網站明確標示尚未開放，不偽造聯絡信箱。
 
-已讀取 GitHub 帳號與提交用替代信箱。下一步先確認信箱隱私開關，再取得 Repository 公開範圍與上傳的確認；操作說明見 `github-pages-guide.md`。不需要輸入任何 Git 指令。
+GitHub 登入、信箱隱私、noreply 作者設定、Repository 建立與授權上傳均已完成。下一步等待網站發布確認，再設定 Pages、執行手動發布與正式網址測試；操作說明見 `github-pages-guide.md`。不需要使用者輸入任何 Git 指令。

@@ -1,6 +1,6 @@
 # GitHub 與 GitHub Pages｜初學者部署說明
 
-更新：2026-10-05。**目前只有本機準備，尚未推送或公開部署。** 不需要使用者輸入 Git 指令。
+更新：2026-10-05。**已依使用者確認推送至公開 Repository，尚未發布 GitHub Pages 網站。** 不需要使用者輸入 Git 指令。
 
 ## 三個名稱的意思
 
@@ -16,15 +16,15 @@ React + Vite 產生靜態檔案，不需要後端、登入資料庫、API 金鑰
 
 預計專案名稱：`bangkok-travel-guide`。
 
-公開網址格式：`https://你的帳號.github.io/bangkok-travel-guide/`。目前沒有實際公開網址。
+預計公開網址：`https://JeffHsiao1122.github.io/bangkok-travel-guide/`。尚未發布，不能當作已可用的網站。
 
 頁面網址範例：`https://你的帳號.github.io/bangkok-travel-guide/#/trips/bangkok-4`。`#/` 讓瀏覽器處理各頁面，直接貼網址與重新整理也能開啟。需要從舊頁面的完整網址移轉時，可提供新網址；未建立站外自動重導。
 
 一般本機預覽保留 `http://127.0.0.1:5173/trips/bangkok-4`。Pages 建置輸出 `dist-pages/`，一般建置輸出 `dist/`，互不覆蓋。
 
-## 第一步：由使用者建立或登入帳號
+## 第一步：由使用者建立或登入帳號（已完成）
 
-現在先做這一步即可，其餘步驟由 Codex 在後續逐步協助。
+以下保留初學者操作說明；本次帳號、信箱隱私與本機作者設定已完成，不必重做。
 
 1. 開啟 [GitHub 首頁](https://github.com)。已有帳號選 **Sign in**；沒有帳號選 **Sign up**。
 2. 自己完成帳號、信箱驗證、密碼、驗證碼與服務條款。先選免費方案，不需要填信用卡或購買 Copilot。
@@ -34,9 +34,9 @@ React + Vite 產生靜態檔案，不需要後端、登入資料庫、API 金鑰
 
 Codex 收到作者資訊後，只對這個專案設定 Git 作者，不改全電腦的 Git 設定，並建立第一個本機 commit。若不想提供作者資訊，可以先停在本機準備狀態。
 
-## 第二步：確認公開範圍，再建立 Repository
+## 第二步：確認公開範圍，再建立 Repository（已完成）
 
-**先確認再操作，尚未取得公開建立／上傳的確認。**
+**使用者已確認公開建立及上傳，Repository 為 `JeffHsiao1122/bangkok-travel-guide`。以下保留操作說明，不必重新建立。**
 
 免費 GitHub Pages 適用公開 Repository；公開代表程式與版本紀錄也可以被他人查看、下載。若希望程式不公開，先告訴 Codex，由你決定符合方案的私有 Pages 或其他主機；不自動付費。
 
@@ -52,9 +52,11 @@ Codex 收到作者資訊後，只對這個專案設定 Git 作者，不改全電
 
 如果同名 Repository 已存在或已經有內容，Codex 先檢查，不覆蓋、不刪除、不 Force Push。
 
-## 第三步：安全推送
+## 第三步：安全推送（已完成）
 
-Codex 會核對遠端網址屬於你、檔案清單與安全檢查結果，並在取得確認後推送。需要登入授權時交由你本人完成官方 GitHub 畫面。還未決定授權方式；不會要求你把 PAT、密碼、SSH 私鑰或一次性驗證碼貼進聊天／專案。
+Codex 已核對遠端擁有者、公開範圍、檔案清單與安全檢查，並使用你本人完成的官方 GitHub CLI 授權推送 `main`。憑證保存在 Mac 鑰匙圈；工具與登入設定排除上傳。Git 認證只套用在這次命令，沒有修改全電腦的 Git 認證設定。不需要把 PAT、密碼、SSH 私鑰或一次性驗證碼貼進聊天／專案。
+
+CLI 授權包含 `repo`、`read:org`、`gist`、`workflow`，不是只限此專案；本站仍沒有 API 金鑰或新增公開登入功能。GitHub 網頁登入與 Mac CLI 授權是不同的登入方式。
 
 `.gitignore` 排除套件、建置輸出、環境變數、私密設定、憑證與行程備份；掃描另外檢查 Git 暫存區的實際內容，不僅依靠忽略清單。掃描不能保證找出任意格式的秘密或個資，仍需人工核對。
 
@@ -64,7 +66,7 @@ Codex 會核對遠端網址屬於你、檔案清單與安全檢查結果，並�
 
 已準備 `.github/workflows/pages.yml`，只在手動啟動時執行；第一次推送與之後修改不會自動發布。開啟 **Actions** →「發布 Bangkok Travel Guide 至 GitHub Pages」→ **Run workflow** → 選 `main`，確認公開範圍後勾選確認欄位再執行。
 
-流程只讀取程式、檢查、測試、產生 `dist-pages/`、上傳網站產物及發布。發布工作需要 `pages: write` 與 `id-token: write`，用途是讓 GitHub 自己的工作流程取得 Pages 發布許可；沒有設定自己的 Token 或永久 API Key。這是程式設定，尚未登入或實際授權。GitHub Actions 執行時會安裝 Node.js 24、pnpm 11.19.0 及鎖定版本的專案套件，只影響 GitHub 執行環境，不替這台 Mac 安裝新軟體。
+流程只讀取程式、檢查、測試、產生 `dist-pages/`、上傳網站產物及發布。發布工作需要 `pages: write` 與 `id-token: write`，用途是讓 GitHub 自己的工作流程取得 Pages 發布許可；沒有設定自己的 Token 或永久 API Key。這是工作流程設定；CLI 登入已完成，Pages 發布仍未執行。GitHub Actions 執行時會安裝 Node.js 24、pnpm 11.19.0 及鎖定版本的專案套件，只影響 GitHub 執行環境，不替這台 Mac 安裝新軟體。
 
 使用免費公開方案；若畫面要求方案升級、付款、預算設定或額外授權，先停止確認。GitHub 網域不用購買自訂網域；自訂網域不在本次範圍。
 

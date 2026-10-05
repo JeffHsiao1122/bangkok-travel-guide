@@ -2,7 +2,7 @@
 
 Discover Bangkok. Plan Your Journey.
 
-目前是可在這台 Mac 操作的第一版。Phase 2–5 的 MVP 實作與驗證已完成；**Phase 6 已改用 GitHub 與 GitHub Pages，目前僅完成本機準備，沒有公開部署**。
+目前是可在這台 Mac 操作的第一版。Phase 2–5 的 MVP 實作與驗證已完成；**Phase 6 已改用 GitHub 與 GitHub Pages，已上傳至 GitHub，尚未發布 Pages 網站**。
 
 ## 現在如何查看
 
@@ -97,7 +97,7 @@ Discover Bangkok. Plan Your Journey.
 - [來源、素材與外部服務紀錄](docs/source-register.md)
 - [已確認的 Phase 1 規劃](PHASE-1-PLAN.md)
 
-下一階段已改為 GitHub 與 GitHub Pages（2026-10-05 使用者指示）。本機 Git 初始化與 Pages 相容設定已準備；首次本機版本使用已登入 GitHub 帳號名稱與 GitHub 提供的 noreply 替代信箱，作者設定只適用這個專案。已依使用者確認建立公開空白 Repository：[JeffHsiao1122/bangkok-travel-guide](https://github.com/JeffHsiao1122/bangkok-travel-guide)，並設定本機上傳目標。尚未推送或發布網站；上傳與正式發布將另外取得確認。
+下一階段已改為 GitHub 與 GitHub Pages（2026-10-05 使用者指示）。本機 Git 初始化與 Pages 相容設定已準備；首次本機版本使用已登入 GitHub 帳號名稱與 GitHub 提供的 noreply 替代信箱，作者設定只適用這個專案。已依使用者確認建立公開空白 Repository：[JeffHsiao1122/bangkok-travel-guide](https://github.com/JeffHsiao1122/bangkok-travel-guide)，並設定本機上傳目標。使用者已另行確認公開上傳並完成官方 CLI 授權，main 已推送且遠端版本一致；正式 Pages 網站發布仍等待另外確認。工具與登入設定排除上傳，憑證保存在 Mac 鑰匙圈。
 
 [GitHub 初學者部署說明](docs/github-pages-guide.md) · [本機準備與安全檢查紀錄](docs/github-preflight.md)
 
