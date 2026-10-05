@@ -1,0 +1,769 @@
+{
+  "schemaVersion": 1,
+  "id": "a0020942-2ed0-4419-a205-6cc4335138bc",
+  "name": "QA 匯入測試",
+  "start": "2026-11-10",
+  "end": "2026-11-12",
+  "timezone": "Asia/Bangkok",
+  "origin": "規則排程",
+  "createdAt": "2026-10-04T17:38:42.652Z",
+  "updatedAt": "2026-10-04T17:38:42.652Z",
+  "options": {
+    "start": "2026-11-10",
+    "days": 3,
+    "people": 2,
+    "prefs": [
+      "美食",
+      "購物"
+    ],
+    "name": "QA 匯入測試",
+    "startMinute": 540,
+    "endMinute": 1200,
+    "children": 0,
+    "totalBudget": null,
+    "dailyBudget": null,
+    "foodBudget": null,
+    "transportBudget": null,
+    "ticketBudget": null,
+    "shoppingBudget": null,
+    "flightBudget": null,
+    "hotelBudget": null,
+    "must": [],
+    "excluded": [],
+    "mode": "transit",
+    "pace": "normal"
+  },
+  "days": [
+    {
+      "id": "ce505e8b-bcee-4ddd-82a0-1c3479aa87b8",
+      "date": "2026-11-10",
+      "startMinute": 540,
+      "endMinute": 1200,
+      "activities": [
+        {
+          "id": "a6f17663-e676-4136-8a76-54b091b87547",
+          "placeId": "iconsiam",
+          "name": "ICONSIAM",
+          "snapshot": {
+            "id": "iconsiam",
+            "name": "ICONSIAM",
+            "type": "購物",
+            "category": "購物中心",
+            "area": "河岸",
+            "lat": 13.726,
+            "lng": 100.51,
+            "duration": 150,
+            "cost": 0,
+            "open": 600,
+            "close": 1320,
+            "tags": [
+              "購物",
+              "美食",
+              "親子活動"
+            ],
+            "weekdays": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "status": "範例資料",
+            "source": "本網站自行建立的操作情境；未查證真實營業、價格或座標。",
+            "updatedAt": "2026-10-04",
+            "confirmedAt": null,
+            "accessibility": null,
+            "address": "詳細地址待確認",
+            "lastEntry": null,
+            "description": "探索這個區域的旅遊安排。下列時段、費用及位置僅用於排程示範，出發前請另查官方資訊。"
+          },
+          "start": 600,
+          "duration": 150,
+          "cost": 0,
+          "unit": "person",
+          "locked": false,
+          "fixed": true,
+          "note": "",
+          "end": 750
+        },
+        {
+          "id": "35951fa2-106e-4b53-a4d6-d818dc080dda",
+          "placeId": "food-river",
+          "name": "範例餐桌｜河岸晚餐",
+          "snapshot": {
+            "id": "food-river",
+            "name": "範例餐桌｜河岸晚餐",
+            "type": "餐廳",
+            "category": "泰式料理",
+            "area": "河岸",
+            "lat": 13.726,
+            "lng": 100.509,
+            "duration": 60,
+            "cost": 300,
+            "open": 660,
+            "close": 1260,
+            "tags": [
+              "美食"
+            ],
+            "weekdays": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "status": "範例資料",
+            "source": "本網站自行建立的操作情境；未查證真實營業、價格或座標。",
+            "updatedAt": "2026-10-04",
+            "confirmedAt": null,
+            "accessibility": null,
+            "address": "詳細地址待確認",
+            "lastEntry": null,
+            "description": "這是一筆虛構餐廳範例，用來體驗搜尋、用餐安排與預算計算。"
+          },
+          "start": 790,
+          "duration": 60,
+          "cost": 300,
+          "unit": "person",
+          "locked": false,
+          "fixed": true,
+          "note": "",
+          "end": 850
+        },
+        {
+          "id": "218cb554-c4b4-468c-8270-7f6c67456acf",
+          "placeId": "siam-paragon",
+          "name": "Siam 購物散步",
+          "snapshot": {
+            "id": "siam-paragon",
+            "name": "Siam 購物散步",
+            "type": "購物",
+            "category": "購物中心",
+            "area": "暹羅",
+            "lat": 13.746,
+            "lng": 100.535,
+            "duration": 120,
+            "cost": 0,
+            "open": 600,
+            "close": 1260,
+            "tags": [
+              "購物",
+              "美食"
+            ],
+            "weekdays": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "status": "範例資料",
+            "source": "本網站自行建立的操作情境；未查證真實營業、價格或座標。",
+            "updatedAt": "2026-10-04",
+            "confirmedAt": null,
+            "accessibility": null,
+            "address": "詳細地址待確認",
+            "lastEntry": null,
+            "description": "探索這個區域的旅遊安排。下列時段、費用及位置僅用於排程示範，出發前請另查官方資訊。"
+          },
+          "start": 900,
+          "duration": 120,
+          "cost": 0,
+          "unit": "person",
+          "locked": false,
+          "fixed": true,
+          "note": "",
+          "end": 1020
+        },
+        {
+          "id": "be2c5358-8fee-412e-8bab-dfca54d5907a",
+          "placeId": "centralworld",
+          "name": "CentralWorld",
+          "snapshot": {
+            "id": "centralworld",
+            "name": "CentralWorld",
+            "type": "購物",
+            "category": "購物中心",
+            "area": "暹羅",
+            "lat": 13.747,
+            "lng": 100.539,
+            "duration": 120,
+            "cost": 0,
+            "open": 600,
+            "close": 1260,
+            "tags": [
+              "購物",
+              "美食"
+            ],
+            "weekdays": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "status": "範例資料",
+            "source": "本網站自行建立的操作情境；未查證真實營業、價格或座標。",
+            "updatedAt": "2026-10-04",
+            "confirmedAt": null,
+            "accessibility": null,
+            "address": "詳細地址待確認",
+            "lastEntry": null,
+            "description": "探索這個區域的旅遊安排。下列時段、費用及位置僅用於排程示範，出發前請另查官方資訊。"
+          },
+          "start": 1060,
+          "duration": 120,
+          "cost": 0,
+          "unit": "person",
+          "locked": false,
+          "fixed": true,
+          "note": "",
+          "end": 1180
+        }
+      ],
+      "segments": [
+        {
+          "from": "a6f17663-e676-4136-8a76-54b091b87547",
+          "to": "35951fa2-106e-4b53-a4d6-d818dc080dda",
+          "minutes": 20,
+          "cost": 40,
+          "unit": "人",
+          "unknown": false,
+          "mode": "transit",
+          "status": "預估資料"
+        },
+        {
+          "from": "35951fa2-106e-4b53-a4d6-d818dc080dda",
+          "to": "218cb554-c4b4-468c-8270-7f6c67456acf",
+          "minutes": 30,
+          "cost": 50,
+          "unit": "人",
+          "unknown": false,
+          "mode": "transit",
+          "status": "預估資料"
+        },
+        {
+          "from": "218cb554-c4b4-468c-8270-7f6c67456acf",
+          "to": "be2c5358-8fee-412e-8bab-dfca54d5907a",
+          "minutes": 20,
+          "cost": 40,
+          "unit": "人",
+          "unknown": false,
+          "mode": "transit",
+          "status": "預估資料"
+        }
+      ],
+      "reasons": [
+        "ICONSIAM：符合偏好，依河岸與交通距離安排；預留交通與休息。",
+        "範例餐桌｜河岸晚餐：符合偏好，依河岸與交通距離安排；預留交通與休息。",
+        "Siam 購物散步：符合偏好，依暹羅與交通距離安排；預留交通與休息。",
+        "CentralWorld：符合偏好，依暹羅與交通距離安排；預留交通與休息。"
+      ],
+      "cost": 860,
+      "perPerson": 430,
+      "warnings": [
+        "ICONSIAM：範例資料，時段與費用未經實地驗證。",
+        "範例餐桌｜河岸晚餐：範例資料，時段與費用未經實地驗證。",
+        "Siam 購物散步：範例資料，時段與費用未經實地驗證。",
+        "CentralWorld：範例資料，時段與費用未經實地驗證。"
+      ]
+    },
+    {
+      "id": "043a0074-2fb2-494f-b505-1bf83b4bdda4",
+      "date": "2026-11-11",
+      "startMinute": 540,
+      "endMinute": 1200,
+      "activities": [
+        {
+          "id": "ae5b861e-6d74-4b73-b686-a0aa9e37049f",
+          "placeId": "terminal21",
+          "name": "Terminal 21",
+          "snapshot": {
+            "id": "terminal21",
+            "name": "Terminal 21",
+            "type": "購物",
+            "category": "購物中心",
+            "area": "素坤逸",
+            "lat": 13.738,
+            "lng": 100.56,
+            "duration": 120,
+            "cost": 0,
+            "open": 600,
+            "close": 1260,
+            "tags": [
+              "購物",
+              "美食"
+            ],
+            "weekdays": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "status": "範例資料",
+            "source": "本網站自行建立的操作情境；未查證真實營業、價格或座標。",
+            "updatedAt": "2026-10-04",
+            "confirmedAt": null,
+            "accessibility": null,
+            "address": "詳細地址待確認",
+            "lastEntry": null,
+            "description": "探索這個區域的旅遊安排。下列時段、費用及位置僅用於排程示範，出發前請另查官方資訊。"
+          },
+          "start": 600,
+          "duration": 120,
+          "cost": 0,
+          "unit": "person",
+          "locked": false,
+          "fixed": true,
+          "note": "",
+          "end": 720
+        },
+        {
+          "id": "443d090b-ec9a-4033-be89-26afa9a4e8c7",
+          "placeId": "food-basil",
+          "name": "範例食堂｜打拋豬",
+          "snapshot": {
+            "id": "food-basil",
+            "name": "範例食堂｜打拋豬",
+            "type": "餐廳",
+            "category": "打拋豬",
+            "area": "素坤逸",
+            "lat": 13.738,
+            "lng": 100.563,
+            "duration": 60,
+            "cost": 160,
+            "open": 660,
+            "close": 1260,
+            "tags": [
+              "美食"
+            ],
+            "weekdays": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "status": "範例資料",
+            "source": "本網站自行建立的操作情境；未查證真實營業、價格或座標。",
+            "updatedAt": "2026-10-04",
+            "confirmedAt": null,
+            "accessibility": null,
+            "address": "詳細地址待確認",
+            "lastEntry": null,
+            "description": "這是一筆虛構餐廳範例，用來體驗搜尋、用餐安排與預算計算。"
+          },
+          "start": 760,
+          "duration": 60,
+          "cost": 160,
+          "unit": "person",
+          "locked": false,
+          "fixed": true,
+          "note": "",
+          "end": 820
+        },
+        {
+          "id": "e509c1fd-b92a-4a3c-b7c1-d4e3de244209",
+          "placeId": "emporium",
+          "name": "Phrom Phong 購物散步",
+          "snapshot": {
+            "id": "emporium",
+            "name": "Phrom Phong 購物散步",
+            "type": "購物",
+            "category": "購物中心",
+            "area": "素坤逸",
+            "lat": 13.731,
+            "lng": 100.569,
+            "duration": 120,
+            "cost": 0,
+            "open": 600,
+            "close": 1260,
+            "tags": [
+              "購物"
+            ],
+            "weekdays": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "status": "範例資料",
+            "source": "本網站自行建立的操作情境；未查證真實營業、價格或座標。",
+            "updatedAt": "2026-10-04",
+            "confirmedAt": null,
+            "accessibility": null,
+            "address": "詳細地址待確認",
+            "lastEntry": null,
+            "description": "探索這個區域的旅遊安排。下列時段、費用及位置僅用於排程示範，出發前請另查官方資訊。"
+          },
+          "start": 860,
+          "duration": 120,
+          "cost": 0,
+          "unit": "person",
+          "locked": false,
+          "fixed": true,
+          "note": "",
+          "end": 980
+        },
+        {
+          "id": "1f1b8690-8641-49eb-94ba-e902ce4b5231",
+          "placeId": "mbk",
+          "name": "MBK 購物散步",
+          "snapshot": {
+            "id": "mbk",
+            "name": "MBK 購物散步",
+            "type": "購物",
+            "category": "購物中心",
+            "area": "暹羅",
+            "lat": 13.745,
+            "lng": 100.53,
+            "duration": 90,
+            "cost": 0,
+            "open": 600,
+            "close": 1260,
+            "tags": [
+              "購物"
+            ],
+            "weekdays": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "status": "範例資料",
+            "source": "本網站自行建立的操作情境；未查證真實營業、價格或座標。",
+            "updatedAt": "2026-10-04",
+            "confirmedAt": null,
+            "accessibility": null,
+            "address": "詳細地址待確認",
+            "lastEntry": null,
+            "description": "探索這個區域的旅遊安排。下列時段、費用及位置僅用於排程示範，出發前請另查官方資訊。"
+          },
+          "start": 1030,
+          "duration": 90,
+          "cost": 0,
+          "unit": "person",
+          "locked": false,
+          "fixed": true,
+          "note": "",
+          "end": 1120
+        }
+      ],
+      "segments": [
+        {
+          "from": "ae5b861e-6d74-4b73-b686-a0aa9e37049f",
+          "to": "443d090b-ec9a-4033-be89-26afa9a4e8c7",
+          "minutes": 20,
+          "cost": 40,
+          "unit": "人",
+          "unknown": false,
+          "mode": "transit",
+          "status": "預估資料"
+        },
+        {
+          "from": "443d090b-ec9a-4033-be89-26afa9a4e8c7",
+          "to": "e509c1fd-b92a-4a3c-b7c1-d4e3de244209",
+          "minutes": 20,
+          "cost": 40,
+          "unit": "人",
+          "unknown": false,
+          "mode": "transit",
+          "status": "預估資料"
+        },
+        {
+          "from": "e509c1fd-b92a-4a3c-b7c1-d4e3de244209",
+          "to": "1f1b8690-8641-49eb-94ba-e902ce4b5231",
+          "minutes": 30,
+          "cost": 50,
+          "unit": "人",
+          "unknown": false,
+          "mode": "transit",
+          "status": "預估資料"
+        }
+      ],
+      "reasons": [
+        "Terminal 21：符合偏好，依素坤逸與交通距離安排；預留交通與休息。",
+        "範例食堂｜打拋豬：符合偏好，依素坤逸與交通距離安排；預留交通與休息。",
+        "Phrom Phong 購物散步：符合偏好，依素坤逸與交通距離安排；預留交通與休息。",
+        "MBK 購物散步：符合偏好，依暹羅與交通距離安排；預留交通與休息。"
+      ],
+      "cost": 580,
+      "perPerson": 290,
+      "warnings": [
+        "Terminal 21：範例資料，時段與費用未經實地驗證。",
+        "範例食堂｜打拋豬：範例資料，時段與費用未經實地驗證。",
+        "Phrom Phong 購物散步：範例資料，時段與費用未經實地驗證。",
+        "MBK 購物散步：範例資料，時段與費用未經實地驗證。"
+      ]
+    },
+    {
+      "id": "910c3fcb-9827-4611-8c4e-838d976c00f0",
+      "date": "2026-11-12",
+      "startMinute": 540,
+      "endMinute": 1200,
+      "activities": [
+        {
+          "id": "bdc938cd-401e-4374-8c2c-f0635bf5c6f2",
+          "placeId": "flower-market",
+          "name": "河岸花市",
+          "snapshot": {
+            "id": "flower-market",
+            "name": "河岸花市",
+            "type": "景點",
+            "category": "文創園區",
+            "area": "舊城河岸",
+            "lat": 13.742,
+            "lng": 100.496,
+            "duration": 60,
+            "cost": 0,
+            "open": 600,
+            "close": 1260,
+            "tags": [
+              "觀光",
+              "購物"
+            ],
+            "weekdays": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "status": "範例資料",
+            "source": "本網站自行建立的操作情境；未查證真實營業、價格或座標。",
+            "updatedAt": "2026-10-04",
+            "confirmedAt": null,
+            "accessibility": null,
+            "address": "詳細地址待確認",
+            "lastEntry": null,
+            "description": "探索這個區域的旅遊安排。下列時段、費用及位置僅用於排程示範，出發前請另查官方資訊。"
+          },
+          "start": 600,
+          "duration": 60,
+          "cost": 0,
+          "unit": "person",
+          "locked": false,
+          "fixed": true,
+          "note": "",
+          "end": 660
+        },
+        {
+          "id": "b00989af-9d5b-45a1-87f8-0a26c85f1c88",
+          "placeId": "food-thai",
+          "name": "範例食堂｜泰式家常菜",
+          "snapshot": {
+            "id": "food-thai",
+            "name": "範例食堂｜泰式家常菜",
+            "type": "餐廳",
+            "category": "泰式料理",
+            "area": "舊城河岸",
+            "lat": 13.748,
+            "lng": 100.497,
+            "duration": 60,
+            "cost": 220,
+            "open": 660,
+            "close": 1260,
+            "tags": [
+              "美食"
+            ],
+            "weekdays": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "status": "範例資料",
+            "source": "本網站自行建立的操作情境；未查證真實營業、價格或座標。",
+            "updatedAt": "2026-10-04",
+            "confirmedAt": null,
+            "accessibility": null,
+            "address": "詳細地址待確認",
+            "lastEntry": null,
+            "description": "這是一筆虛構餐廳範例，用來體驗搜尋、用餐安排與預算計算。"
+          },
+          "start": 700,
+          "duration": 60,
+          "cost": 220,
+          "unit": "person",
+          "locked": false,
+          "fixed": true,
+          "note": "",
+          "end": 760
+        },
+        {
+          "id": "96a47793-e60f-40d2-abe1-c7e917208d25",
+          "placeId": "chinatown",
+          "name": "唐人街散步",
+          "snapshot": {
+            "id": "chinatown",
+            "name": "唐人街散步",
+            "type": "景點",
+            "category": "夜市",
+            "area": "唐人街",
+            "lat": 13.74,
+            "lng": 100.51,
+            "duration": 90,
+            "cost": 0,
+            "open": 900,
+            "close": 1320,
+            "tags": [
+              "美食",
+              "夜市"
+            ],
+            "weekdays": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "status": "範例資料",
+            "source": "本網站自行建立的操作情境；未查證真實營業、價格或座標。",
+            "updatedAt": "2026-10-04",
+            "confirmedAt": null,
+            "accessibility": null,
+            "address": "詳細地址待確認",
+            "lastEntry": null,
+            "description": "探索這個區域的旅遊安排。下列時段、費用及位置僅用於排程示範，出發前請另查官方資訊。"
+          },
+          "start": 900,
+          "duration": 90,
+          "cost": 0,
+          "unit": "person",
+          "locked": false,
+          "fixed": true,
+          "note": "",
+          "end": 990
+        },
+        {
+          "id": "dfb1dd98-f6f7-4fea-b537-fb8df0dae474",
+          "placeId": "asiatique",
+          "name": "河岸夜間散步",
+          "snapshot": {
+            "id": "asiatique",
+            "name": "河岸夜間散步",
+            "type": "景點",
+            "category": "夜市",
+            "area": "河岸",
+            "lat": 13.705,
+            "lng": 100.503,
+            "duration": 90,
+            "cost": 0,
+            "open": 960,
+            "close": 1320,
+            "tags": [
+              "夜市",
+              "購物"
+            ],
+            "weekdays": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "status": "範例資料",
+            "source": "本網站自行建立的操作情境；未查證真實營業、價格或座標。",
+            "updatedAt": "2026-10-04",
+            "confirmedAt": null,
+            "accessibility": null,
+            "address": "詳細地址待確認",
+            "lastEntry": null,
+            "description": "探索這個區域的旅遊安排。下列時段、費用及位置僅用於排程示範，出發前請另查官方資訊。"
+          },
+          "start": 1040,
+          "duration": 90,
+          "cost": 0,
+          "unit": "person",
+          "locked": false,
+          "fixed": true,
+          "note": "",
+          "end": 1130
+        }
+      ],
+      "segments": [
+        {
+          "from": "bdc938cd-401e-4374-8c2c-f0635bf5c6f2",
+          "to": "b00989af-9d5b-45a1-87f8-0a26c85f1c88",
+          "minutes": 20,
+          "cost": 40,
+          "unit": "人",
+          "unknown": false,
+          "mode": "transit",
+          "status": "預估資料"
+        },
+        {
+          "from": "b00989af-9d5b-45a1-87f8-0a26c85f1c88",
+          "to": "96a47793-e60f-40d2-abe1-c7e917208d25",
+          "minutes": 25,
+          "cost": 40,
+          "unit": "人",
+          "unknown": false,
+          "mode": "transit",
+          "status": "預估資料"
+        },
+        {
+          "from": "96a47793-e60f-40d2-abe1-c7e917208d25",
+          "to": "dfb1dd98-f6f7-4fea-b537-fb8df0dae474",
+          "minutes": 30,
+          "cost": 50,
+          "unit": "人",
+          "unknown": false,
+          "mode": "transit",
+          "status": "預估資料"
+        }
+      ],
+      "reasons": [
+        "河岸花市：符合偏好，依舊城河岸與交通距離安排；預留交通與休息。",
+        "範例食堂｜泰式家常菜：符合偏好，依舊城河岸與交通距離安排；預留交通與休息。",
+        "唐人街散步：符合偏好，依唐人街與交通距離安排；預留交通與休息。",
+        "河岸夜間散步：符合偏好，依河岸與交通距離安排；預留交通與休息。"
+      ],
+      "cost": 700,
+      "perPerson": 350,
+      "warnings": [
+        "河岸花市：範例資料，時段與費用未經實地驗證。",
+        "範例食堂｜泰式家常菜：範例資料，時段與費用未經實地驗證。",
+        "唐人街散步：範例資料，時段與費用未經實地驗證。",
+        "河岸夜間散步：範例資料，時段與費用未經實地驗證。"
+      ]
+    }
+  ],
+  "unassigned": [],
+  "reasons": [
+    "未完整填寫航班時間；第一天與最後一天請自行核對可用時段。"
+  ],
+  "estimatedGroup": 2140,
+  "estimatedPerPerson": 1070,
+  "shoppingTotal": 0,
+  "totalPerPerson": 1070,
+  "warnings": []
+}

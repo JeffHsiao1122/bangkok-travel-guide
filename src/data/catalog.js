@@ -1,0 +1,28 @@
+import rows from './places.json' with { type: 'json' };
+export const updatedAt = '2026-10-04';
+export const statusText = '範例資料';
+export const places = rows.map(([id,name,type,category,area,lat,lng,duration,cost,open,close,tags,weekdays])=>({id,name,type,category,area,lat,lng,duration,cost,open:open*60,close:close*60,tags,weekdays:weekdays??[0,1,2,3,4,5,6],status:'範例資料',source:'本網站自行建立的操作情境；未查證真實營業、價格或座標。',updatedAt,confirmedAt:null,accessibility:null,address:'詳細地址待確認',lastEntry:null,description:type==='餐廳'?'這是一筆虛構餐廳範例，用來體驗搜尋、用餐安排與預算計算。':'探索這個區域的旅遊安排。下列時段、費用及位置僅用於排程示範，出發前請另查官方資訊。'}));
+export const areas = ['暹羅','素坤逸','是隆','舊城河岸','唐人街','河岸','洽圖洽'];
+export const preferences = ['觀光','美食','購物','夜市','文化體驗','按摩及 SPA','咖啡廳','自然景點','親子活動','水上市場','近郊一日遊'];
+export const themes = ['初次曼谷自由行','美食之旅','購物之旅','文化體驗','輕鬆慢遊','親子旅遊','情侶旅遊','高 CP 值旅遊'];
+export const accommodations = Array.from({length:8},(_,i)=>({id:`stay-${i+1}`,name:['暹羅交通型住宿','素坤逸城市飯店','是隆商務型住宿','河岸景觀住宿','老城文化旅宿','唐人街設計旅宿','Ari 生活型住宿','暹羅親子住宿'][i],area:areas[[0,1,2,5,3,4,6,0][i]],kind:['平價住宿','中價位住宿','中價位住宿','高級飯店','平價住宿','中價位住宿','平價住宿','親子住宿'][i],price:[1200,2500,2200,6000,1500,2800,1800,3500][i],transport:i===3?'船運／轉乘範例':'BTS／MRT 沿線範例',family:i===7,description:'虛構住宿方案，非可預訂飯店。用來比較區域、交通與預算；不代表即時房價。',status:'範例資料',source:'本網站住宿情境範例',updatedAt,confirmedAt:null}));
+export const banks = ['國泰世華銀行','中國信託銀行','玉山銀行','台新銀行','永豐銀行','富邦銀行','其他銀行','示範銀行'];
+export const lounges = ['Miracle Lounge','Coral Lounge','Oman Air First & Business Class Lounge','Thai Airways Royal Orchid Lounge','Turkish Airlines Lounge'].map((name,i)=>({id:`lounge-${i}`,name,brand:name.split(' Lounge')[0],airport:'BKK',terminal:null,floor:null,gate:null,hours:null,price:null,shower:null,wifi:null,charging:null,family:null,food:null,drinks:null,quiet:null,location:'航廈、樓層與登機門待確認',status:'待確認',updatedAt,confirmedAt:null,source:'依專案需求建立的待核實品牌清單；未確認目前營運或合作資格。',official:null,booking:null,review:null}));
+export const demoLounges = ['河岸休息室 A','城市休息室 B','花園休息室 C'].map((name,i)=>({id:`demo-lounge-${i}`,name:`示範｜${name}`,brand:'虛構示範品牌',airport:'BKK（示範）',terminal:'國際出發區（虛構）',floor:3,gate:['A1','B2','C3'][i],hours:'06:00–23:00（範例）',open:360,close:1380,price:[1000,1200,900][i],shower:i!==2,wifi:true,charging:true,family:i===2,food:i!==2,drinks:'飲水／咖啡（範例）',quiet:i!==0,location:`虛構國際出發區 3 樓，${['A1','B2','C3'][i]} 門旁`,status:'範例資料',updatedAt,confirmedAt:null,source:'本網站虛構示範；非真實貴賓室',official:null,booking:null,review:null}));
+export const cards = ['Priority Pass 示範卡','LoungeKey 示範卡','DragonPass 示範卡'].map((name,i)=>({id:`demo-card-${i}`,bank:'示範銀行',name,version:'正卡／範例版本',status:'範例資料',source:'本網站虛構示範卡，不能用於真實入場',updatedAt,confirmedAt:null}));
+export const benefits = cards.map((c,i)=>({id:`demo-benefit-${i}`,cardId:c.id,scheme:['Priority Pass','LoungeKey','DragonPass'][i],quota:[4,2,6][i],cycle:'曆年（範例）',start:'2026-01-01',end:'2026-12-31',spend:[20000,10000,30000][i],spendPeriod:'使用前 90 天（範例）',activation:true,guestPrice:[800,1000,900][i],reservation:i===2,loungeIds:i===0?['demo-lounge-0','demo-lounge-1']:i===1?['demo-lounge-1']:['demo-lounge-0','demo-lounge-2'],status:'範例資料',verified:false,source:'虛構條件，不是銀行公告',updatedAt}));
+export const transport = [
+ ['bts','BTS 空鐵','適合市區沿線移動','找車站 → 確認方向 → 購票或依現場支援方式付款 → 通過閘門 → 留意下車站',40,'按人'],
+ ['mrt','MRT 地鐵','適合沿線與轉乘','找入口 → 查看路線方向 → 購票 → 通過閘門 → 依指示轉乘',40,'按人'],
+ ['arl','Airport Rail Link','機場與市區間移動選項','確認機場與路線 → 查看官方時刻及終點 → 購票 → 轉乘市區交通',45,'按人'],
+ ['taxi','計程車','行李多或多人同行可比較','確認合法乘車位置 → 提供目的地 → 確認跳表與附加費 → 保留行車資訊',250,'按車'],
+ ['grab','Grab','透過應用程式選車與報價','設定上下車點 → 檢查報價 → 確認車牌 → 依應用程式付款',300,'按車'],
+ ['tuktuk','嘟嘟車','短程體驗選項','上車前確認目的地與總價 → 確認乘坐安全 → 不接受不需要的購物繞路',200,'按車'],
+ ['bus','公車','需較多時間確認路線','核對路線與方向 → 等候 → 依現場方式付款 → 留意下車點',20,'按人'],
+ ['boat','船運','河岸景點的移動選項','確認碼頭與船種 → 查營運時間 → 購票 → 注意安全與行李',40,'按人'],
+ ['transfer','機場接送','適合預約與行李需求','確認接機位置、時間、人數與行李 → 核對總價與取消規定 → 預約',900,'按車']
+].map(([id,name,description,steps,cost,unit])=>({id,name,description,steps,cost,unit,status:'預估資料',source:'本站操作示範，非官方運價或即時路線',updatedAt}));
+export const airlines = [{id:'traditional',name:'傳統航空介紹',description:'比較票價時一起查看行李、餐食、改票與轉機條件。'}, {id:'low-cost',name:'廉價航空介紹',description:'比較加購行李、座位、付款與機場交通後的總價。'}];
+export const guideTitles=['BKK 機場貴賓室完整攻略','台灣信用卡免費使用曼谷機場貴賓室攻略','Miracle Lounge 與 Coral Lounge 比較','第一次使用機場貴賓室教學','搭乘廉價航空是否可以使用貴賓室','BKK 機場貴賓室預約教學','如何查詢自己的信用卡貴賓室權益'];
+export const templates = [3,4,5,6,7].map((days,i)=>({id:`bangkok-${days}`,days,name:['初訪曼谷・經典三日','曼谷四日・城市與河岸','五日慢遊・街區與美食','六日探索・文化與綠意','七日假期・留點時間給自己'][i],theme:[themes[0],themes[2],themes[4],themes[3],themes[6]][i],tags:i===0?[themes[0],themes[7]]:i===1?[themes[2],themes[1]]:i===2?[themes[4],themes[1]]:i===3?[themes[3],themes[5]]:[themes[6],themes[4]],prefs:i===3?['文化體驗','自然景點','親子活動']:i===1?['購物','美食']:['觀光','美食','文化體驗'],description:'保留交通、用餐與休息的空間，從範例安排開始，改成你的曼谷旅程。',status:'範例資料',updatedAt}));
+export const publicRoutes = [ ['/', '首頁'], ['/travel','旅遊資訊'], ['/travel/flights','機票與機場'], ['/travel/airports/bkk','BKK 機場'], ['/travel/airports/dmk','DMK 機場'], ['/travel/accommodation','住宿'], ['/travel/transportation','交通'], ['/travel/food','美食'], ['/travel/attractions','觀光'], ['/lounges','BKK 貴賓室'], ['/lounges/compare','貴賓室比較'], ['/credit-cards','信用卡權益'], ['/credit-cards/compare','信用卡比較'], ['/lounge-finder','信用卡貴賓室查詢'], ['/trips','推薦行程'], ['/planner','自動排程'], ['/my-trips/new','建立空白行程'], ['/my-trips','我的行程'], ['/guides','實用攻略'], ['/about','關於我們'], ['/faq','常見問題'], ['/contact','聯絡我們'], ['/sitemap','網站地圖'], ['/privacy','隱私權政策'], ['/disclaimer','免責聲明'], ['/sources','資料來源與使用說明'] ];
