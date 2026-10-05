@@ -1,0 +1,53 @@
+Bangkok Travel Guide — 旅遊參考內容授權
+更新：2026-10-05
+
+適用範圍：src/data/content-references.js 的 Wikivoyage 改寫欄位及其公開呈現。
+原創文字與參考欄位分開署名；不是將第三方官方網站、照片、商標或整個網站程式改授權。
+
+授權：CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+法律條文：https://creativecommons.org/licenses/by-sa/4.0/legalcode.en
+署名：Wikivoyage contributors；作者與歷史詳見各來源。
+修改：部分欄位翻譯成繁體中文、刪節與重新組織；改寫內容以相同授權提供，無額外限制。
+原文頁尾另載 CC BY-SA 3.0 相容內容及作者歷史；請一併保留原文與歷史連結。
+沒有使用照片、路線圖、評價、電話、聯絡信箱或官方網站文章。
+不暗示 Wikivoyage、Wikimedia 或營運方背書。
+來源閱讀與版本不保證票價、營業或路線現在仍有效；欄位資料日期另列。
+
+Bangkok
+https://en.wikivoyage.org/wiki/Bangkok
+作者與歷史：https://en.wikivoyage.org/w/index.php?title=Bangkok&action=history
+閱讀版本：5359262；閱讀日期：2026-10-05
+
+Bangkok/Rattanakosin
+https://en.wikivoyage.org/wiki/Bangkok/Rattanakosin
+作者與歷史：https://en.wikivoyage.org/w/index.php?title=Bangkok%2FRattanakosin&action=history
+閱讀版本：5348590；閱讀日期：2026-10-05
+
+Bangkok/Thonburi
+https://en.wikivoyage.org/wiki/Bangkok/Thonburi
+作者與歷史：https://en.wikivoyage.org/w/index.php?title=Bangkok%2FThonburi&action=history
+閱讀版本：5348594；閱讀日期：2026-10-05
+
+Bangkok/Siam Square
+https://en.wikivoyage.org/wiki/Bangkok/Siam_Square
+作者與歷史：https://en.wikivoyage.org/w/index.php?title=Bangkok%2FSiam_Square&action=history
+閱讀版本：5359263；閱讀日期：2026-10-05
+
+Bangkok/Silom
+https://en.wikivoyage.org/wiki/Bangkok/Silom
+作者與歷史：https://en.wikivoyage.org/w/index.php?title=Bangkok%2FSilom&action=history
+閱讀版本：5369519；閱讀日期：2026-10-05
+
+Bangkok/Phahonyothin
+https://en.wikivoyage.org/wiki/Bangkok/Phahonyothin
+作者與歷史：https://en.wikivoyage.org/w/index.php?title=Bangkok%2FPhahonyothin&action=history
+閱讀版本：5348586；閱讀日期：2026-10-05
+
+Bangkok/Sukhumvit
+https://en.wikivoyage.org/wiki/Bangkok/Sukhumvit
+作者與歷史：https://en.wikivoyage.org/w/index.php?title=Bangkok%2FSukhumvit&action=history
+閱讀版本：5374176；閱讀日期：2026-10-05
+
+Wikidata 的基本欄位另採 CC0 1.0；來源及版本列於地點／機場頁。
+CC0：https://creativecommons.org/publicdomain/zero/1.0/
+資料快照：src/data/open-place-facts.json

@@ -22,7 +22,7 @@ export const transport = [
  ['bus','公車','需較多時間確認路線','核對路線與方向 → 等候 → 依現場方式付款 → 留意下車點',20,'按人'],
  ['boat','船運','河岸景點的移動選項','確認碼頭與船種 → 查營運時間 → 購票 → 注意安全與行李',40,'按人'],
  ['transfer','機場接送','適合預約與行李需求','確認接機位置、時間、人數與行李 → 核對總價與取消規定 → 預約',900,'按車']
-].map(([id,name,description,steps,cost,unit])=>({id,name,description,steps,cost,unit,status:'預估資料',source:'本站操作示範，非官方運價或即時路線',updatedAt}));
+].map(([id,name,description,steps,cost,unit])=>({id,name,description,steps,cost,unit,status:'預估資料',source:'本站操作示範，非官方運價或即時路線',updatedAt})).concat({id:'red-line',name:'深紅線（DMK 候選方案）',description:'先核對機場車站接續與市區轉乘',steps:'核對 DMK 與車站接續 → 核對方向與首末班 → 購票 → 查市區轉乘與住宿最後一段',cost:null,unit:'按人',status:'待確認',source:'本站準備步驟；路線參考另見 Wikivoyage，未向營運方確認',updatedAt:'2026-10-05',confirmedAt:null});
 export const airlines = [{id:'traditional',name:'傳統航空介紹',description:'比較票價時一起查看行李、餐食、改票與轉機條件。'}, {id:'low-cost',name:'廉價航空介紹',description:'比較加購行李、座位、付款與機場交通後的總價。'}];
 export const guideTitles=['BKK 機場貴賓室完整攻略','台灣信用卡免費使用曼谷機場貴賓室攻略','Miracle Lounge 與 Coral Lounge 比較','第一次使用機場貴賓室教學','搭乘廉價航空是否可以使用貴賓室','BKK 機場貴賓室預約教學','如何查詢自己的信用卡貴賓室權益'];
 export const templates = [3,4,5,6,7].map((days,i)=>({id:`bangkok-${days}`,days,name:['初訪曼谷・文化與城市三日','曼谷四日・城市與河岸','五日慢遊・街區與美食','六日探索・文化與綠意','七日假期・留點時間給自己'][i],theme:[themes[0],themes[2],themes[4],themes[3],themes[6]][i],tags:i===0?[themes[0],themes[7]]:i===1?[themes[2],themes[1]]:i===2?[themes[4],themes[1]]:i===3?[themes[3],themes[5]]:[themes[6],themes[4]],prefs:i===3?['文化體驗','自然景點','親子活動']:i===1?['購物','美食']:['觀光','美食','文化體驗'],description:i===0?'真實地點的原創三日動線，保留自行用餐與休息；時段與費用需出發前核對。':'保留交通、用餐與休息的空間，從範例安排開始，改成你的曼谷旅程。',status:i===0?'原創動線／費用預估':'範例資料',curated:i===0,updatedAt:i===0?'2026-10-05':updatedAt}));

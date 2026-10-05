@@ -118,3 +118,13 @@ Pages 建置使用專案前綴與 `#/` 頁面網址，輸出至 `dist-pages/`；
 新增 `/first-visit` 實用指南、兩座機場準備、四種進城選擇、七個住宿區域的原創選房建議、10 個真實地點介紹及可編輯三日動線。地點／機場基本欄位取自有明確 CC0 依據的 Wikidata；營業時間、票價、交通班次與設施未核實，費用是預留估算，0 不代表免費。此次新增不包含真實餐廳／飯店推薦。
 
 2026-10-05 使用者回覆「同意」後，此批已安全推送並發布。開啟 [首次曼谷指南](https://jeffhsiao1122.github.io/bangkok-travel-guide/#/first-visit)。34 項測試通過；正式網站 114 個公開頁面、三種尺寸共 342 次檢查及新行程修改／儲存／來源備份驗證通過。來源與授權見 [內容紀錄](docs/first-visit-content-review.md)，發布版本與結果見 [發布紀錄](docs/first-visit-release.md)。
+
+## 景點與交通參考更新（本機完成，待發布）
+
+已補充 10 個地點的到訪與車站／碼頭參考、2 筆既有 CC0 泰文地址，以及 BTS、MRT、BKK Airport Rail Link、DMK 深紅線 4 種鐵路指南。可查看 [本機交通頁](http://127.0.0.1:5173/travel/transportation) 與 [本機臥佛寺頁](http://127.0.0.1:5173/travel/attractions/wat-pho)。正式網站尚未包含這批更新。
+
+指南欄位來自已核對重用規則的 Wikivoyage CC BY-SA 4.0，保留原文、作者歷史、授權、閱讀版本及逐欄日期。這是社群參考，並非官方已核實票價或營業公告；有衝突或缺少時效依據的內容保留未知。參考值不會修改排程與預算。大皇宮與 BTS 官方內容的書面授權限制已記錄，未重製；未標授權的政府候選集亦未採用。沒有新增真實餐廳、飯店或信用卡權益。
+
+新檔案分工：`src/data/content-references.js` 保存參考與署名，`src/components/ContentReference.jsx` 呈現逐欄來源，`public/content-licenses.txt` 提供公開授權清單，`tests/content-references.test.js` 檢查日期、權利與行程相容。沒有新增套件、付費服務或外部資料 API。
+
+39 項測試、一般／Pages 建置與 Pages 路徑檢查通過；115 個公開頁面三種尺寸共 345 次本機檢查沒有失效圖片、錯誤頁面或橫向溢出。行程改名、儲存、重新整理與來源備份亦已實際驗證。完整來源與限制見 [本批紀錄](docs/visit-reference-review.md)。正式提交、推送及發布等待使用者確認。

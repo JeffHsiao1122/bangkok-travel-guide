@@ -19,3 +19,8 @@
 .evidence p{margin-top:10px}.first-visit .chip{cursor:pointer}
 .detail-grid>*{min-width:0}.detail-list dd{min-width:0;overflow-wrap:anywhere}
 .detail-list .text-link,.evidence .text-link{white-space:normal;overflow-wrap:anywhere}
+.visit-reference .detail-list dd>p,.rail-reference .detail-list dd>p{margin-top:8px}
+.reference-details{margin:20px 0;border-top:1px solid var(--line);padding-top:16px}
+.reference-details summary{cursor:pointer;font-weight:600;color:var(--green);min-height:44px}
+.reference-details>p{margin-top:12px}
+.rail-reference ol li{margin:10px 0}

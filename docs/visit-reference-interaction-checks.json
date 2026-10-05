@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-05",
+  "scope": "本機 GitHub Pages 待發布建置",
+  "checks": {
+    "railCardNavigation": true,
+    "nestedHashReload": true,
+    "referenceDisclosure": true,
+    "tripNameSavedAfterReload": true,
+    "tripDays": 3,
+    "cc0SnapshotRetained": true,
+    "guideNotInjectedIntoBackup": true,
+    "exportSchemaVersion": 1
+  },
+  "note": "僅建立及修改本站自己產生的 QA 行程；沒有改動或刪除使用者行程。"
+}

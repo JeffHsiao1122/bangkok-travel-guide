@@ -58,3 +58,13 @@
 行程仍保存地點快照，包含來源與版本；新內容不會自動改寫既有已保存行程。原創三日動線提供自選午餐，沒有用虛構餐廳冒充真實推薦。更新營業時間或票價之前，仍須另外核對授權、來源及當期規則。
 
 詳見 [本次內容與合規紀錄](first-visit-content-review.md)。
+
+## 社群指南參考欄位（本機完成，待發布）
+
+`src/data/content-references.js` 保存 10 個地點與 4 種鐵路的指南欄位。這些欄位不合併到排程用地點：`value`、`sourceId`、`section`、`status`、`sourceUpdatedAt`、`reviewedAt`、`confirmedAt` 各自保留。`sourceUpdatedAt` 未提供時為 null，不能用閱讀日期補成更新日期；`confirmedAt` 仍為 null。沒有採用的欄位保存原因，不能改成 0 或免費。
+
+`guideSources` 保存原文、作者歷史、版本與 CC BY-SA 4.0 授權；公開頁面及 `public/content-licenses.txt` 都提供署名。更新來源時同時更新版本、取用範圍、授權清單及查核紀錄，不能只改價格數字。
+
+參考時段與列價不改 `open`、`close`、`weekdays`、`cost` 或使用者行程快照。只有另行完成可重用授權與當期營運核實後，才可提案將已確認欄位用於排程。新增深紅線 `cost:null` 保留未知；原有 9 種交通估算維持標示。
+
+本批詳見 [景點與鐵路紀錄](visit-reference-review.md)。

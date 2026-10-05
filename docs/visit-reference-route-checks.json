@@ -1,0 +1,3456 @@
+{
+  "date": "2026-10-05",
+  "scope": "本機待發布 GitHub Pages 建置：景點與鐵路參考內容，不是正式網站結果",
+  "checks": [
+    {
+      "path": "/",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "把曼谷，安排成你的樣子。",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "你的曼谷旅行資料夾",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/flights",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "出發之前，先準備好",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/airports/bkk",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "BKK 素萬那普機場",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/airports/dmk",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "DMK 廊曼機場",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/accommodation",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "找到適合你的落腳處",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/transportation",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "自在移動，探索城市",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/food",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "把喜歡的味道，排進行程",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/attractions",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "探索曼谷的不同面貌",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/lounges",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "下一段旅程前，好好休息",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/lounges/compare",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "找到適合你的休息空間",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/credit-cards",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "先看條件，再看免費次數",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/credit-cards/compare",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "信用卡權益比較",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/lounge-finder",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "我的信用卡，可以進哪間貴賓室？",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/trips",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "有幾天，就有幾種曼谷",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/planner",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "告訴我們偏好，排一趟曼谷旅程",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/my-trips/new",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "從空白開始，安排你的曼谷",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/my-trips",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "我的曼谷行程",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/guides",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "出發之前的小筆記",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/about",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "關於 Bangkok Travel Guide",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/faq",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "常見問題",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/contact",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "聯絡我們",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/sitemap",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "網站地圖",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/privacy",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "隱私權政策",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/disclaimer",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "免責聲明",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/sources",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "資料來源與使用說明",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/trips/bangkok-5",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "五日慢遊・街區與美食",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/trips/bangkok-3",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "初訪曼谷・文化與城市三日",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/trips/bangkok-4",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "曼谷四日・城市與河岸",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/attractions/grand-palace",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "大皇宮",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/attractions/wat-pho",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "臥佛寺 Wat Pho",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/attractions/wat-arun",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "鄭王廟 Wat Arun",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/food/food-thai",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "範例食堂｜泰式家常菜",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/food/food-noodle",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "範例麵館｜船麵",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/food/food-basil",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "範例食堂｜打拋豬",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/accommodation/stay-1",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "暹羅交通型住宿",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/accommodation/stay-2",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "素坤逸城市飯店",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/accommodation/stay-3",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "是隆商務型住宿",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/guides/first-lounge",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "第一次使用機場貴賓室教學",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/airlines/traditional",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "傳統航空介紹",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/airlines/low-cost",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "廉價航空介紹",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/accommodation/compare",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "住宿比較",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/accommodation/stay-4",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "河岸景觀住宿",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/accommodation/stay-5",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "老城文化旅宿",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/accommodation/stay-6",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "唐人街設計旅宿",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/accommodation/stay-7",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "Ari 生活型住宿",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/accommodation/stay-8",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "暹羅親子住宿",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/areas/%E6%9A%B9%E7%BE%85",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "暹羅住宿區域",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/areas/%E7%B4%A0%E5%9D%A4%E9%80%B8",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "素坤逸住宿區域",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/areas/%E6%98%AF%E9%9A%86",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "是隆住宿區域",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/areas/%E8%88%8A%E5%9F%8E%E6%B2%B3%E5%B2%B8",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "舊城河岸住宿區域",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/areas/%E5%94%90%E4%BA%BA%E8%A1%97",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "唐人街住宿區域",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/areas/%E6%B2%B3%E5%B2%B8",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "河岸住宿區域",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/areas/%E6%B4%BD%E5%9C%96%E6%B4%BD",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "洽圖洽住宿區域",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/transportation/bts",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "BTS 空鐵",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/transportation/mrt",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "MRT 地鐵",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/transportation/arl",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "Airport Rail Link",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/transportation/taxi",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "計程車",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/transportation/grab",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "Grab",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/transportation/tuktuk",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "嘟嘟車",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/transportation/bus",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "公車",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/transportation/boat",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "船運",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/transportation/transfer",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "機場接送",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/food/food-tea",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "範例茶舖｜泰式奶茶",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/food/food-mango",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "範例甜點｜芒果糯米",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/food/food-street",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "範例攤位｜街頭小吃",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/food/food-cafe",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "範例咖啡｜老街午後",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/food/food-market",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "範例夜市｜晚餐散步",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/food/food-mall",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "範例美食街｜購物中心",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/food/food-ari",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "範例咖啡｜Ari 日常",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/food/food-silom",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "範例食堂｜是隆午餐",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/food/food-river",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "範例餐桌｜河岸晚餐",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/attractions/flower-market",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "河岸花市",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/attractions/chinatown",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "唐人街散步",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/attractions/talat-noi",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "塔拉特諾老街",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/attractions/river-city",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "河岸藝文散步",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/attractions/iconsiam",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "ICONSIAM",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/attractions/asiatique",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "河岸夜間散步",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/attractions/siam-paragon",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "Siam Paragon 暹羅百麗宮",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/attractions/mbk",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "MBK 購物散步",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/attractions/art-center",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "曼谷藝術文化中心 BACC",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/attractions/jim-thompson",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "Jim Thompson House 湯普生博物館",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/attractions/centralworld",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "CentralWorld",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/attractions/lumphini",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "倫披尼公園 Lumphini Park",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/attractions/benjakitti",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "班嘉奇蒂公園",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/attractions/terminal21",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "Terminal 21（Asok 規劃點）",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/attractions/emporium",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "Phrom Phong 購物散步",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/attractions/spa-example",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "泰式按摩體驗",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/attractions/chatuchak",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "洽圖洽週末探索",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/attractions/ari",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "Ari 街區散步",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/attractions/aquarium-example",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "親子水族探索",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/attractions/floating-example",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "水上市場一日遊範例",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/attractions/ayutthaya-example",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "大城一日遊範例",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/lounges/lounge-0",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "Miracle Lounge",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/lounges/lounge-1",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "Coral Lounge",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/lounges/lounge-2",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "Oman Air First & Business Class Lounge",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/lounges/lounge-3",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "Thai Airways Royal Orchid Lounge",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/lounges/lounge-4",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "Turkish Airlines Lounge",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/credit-cards/demo-card-0",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "Priority Pass 示範卡",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/credit-cards/demo-card-1",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "LoungeKey 示範卡",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/credit-cards/demo-card-2",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "DragonPass 示範卡",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/trips/bangkok-6",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "六日探索・文化與綠意",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/trips/bangkok-7",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "七日假期・留點時間給自己",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/guides/bkk-guide",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "BKK 機場貴賓室完整攻略",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/guides/taiwan-cards",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "台灣信用卡免費使用曼谷機場貴賓室攻略",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/guides/miracle-coral",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "Miracle Lounge 與 Coral Lounge 比較",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/guides/low-cost-lounge",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "搭乘廉價航空是否可以使用貴賓室",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/guides/booking",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "BKK 機場貴賓室預約教學",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/guides/check-benefits",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "如何查詢自己的信用卡貴賓室權益",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/lounges/demo-lounge-0",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "示範｜河岸休息室 A",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/lounges/demo-lounge-1",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "示範｜城市休息室 B",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/lounges/demo-lounge-2",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "示範｜花園休息室 C",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/first-visit",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "第一次去曼谷，從這份指南開始",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/attractions/chatuchak-park",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "洽圖洽公園 Chatuchak Park",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/transportation/red-line",
+      "width": 1280,
+      "height": 900,
+      "brokenImages": 0,
+      "h1": "深紅線（DMK 候選方案）",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "把曼谷，安排成你的樣子。",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "你的曼谷旅行資料夾",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/flights",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "出發之前，先準備好",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/airports/bkk",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "BKK 素萬那普機場",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/airports/dmk",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "DMK 廊曼機場",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/accommodation",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "找到適合你的落腳處",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/transportation",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "自在移動，探索城市",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/food",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "把喜歡的味道，排進行程",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/attractions",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "探索曼谷的不同面貌",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/lounges",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "下一段旅程前，好好休息",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/lounges/compare",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "找到適合你的休息空間",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/credit-cards",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "先看條件，再看免費次數",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/credit-cards/compare",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "信用卡權益比較",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/lounge-finder",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "我的信用卡，可以進哪間貴賓室？",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/trips",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "有幾天，就有幾種曼谷",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/planner",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "告訴我們偏好，排一趟曼谷旅程",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/my-trips/new",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "從空白開始，安排你的曼谷",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/my-trips",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "我的曼谷行程",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/guides",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "出發之前的小筆記",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/about",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "關於 Bangkok Travel Guide",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/faq",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "常見問題",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/contact",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "聯絡我們",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/sitemap",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "網站地圖",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/privacy",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "隱私權政策",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/disclaimer",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "免責聲明",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/sources",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "資料來源與使用說明",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/trips/bangkok-5",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "五日慢遊・街區與美食",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/trips/bangkok-3",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "初訪曼谷・文化與城市三日",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/trips/bangkok-4",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "曼谷四日・城市與河岸",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/attractions/grand-palace",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "大皇宮",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/attractions/wat-pho",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "臥佛寺 Wat Pho",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/attractions/wat-arun",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "鄭王廟 Wat Arun",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/food/food-thai",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "範例食堂｜泰式家常菜",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/food/food-noodle",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "範例麵館｜船麵",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/food/food-basil",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "範例食堂｜打拋豬",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/accommodation/stay-1",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "暹羅交通型住宿",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/accommodation/stay-2",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "素坤逸城市飯店",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/accommodation/stay-3",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "是隆商務型住宿",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/guides/first-lounge",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "第一次使用機場貴賓室教學",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/airlines/traditional",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "傳統航空介紹",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/airlines/low-cost",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "廉價航空介紹",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/accommodation/compare",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "住宿比較",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/accommodation/stay-4",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "河岸景觀住宿",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/accommodation/stay-5",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "老城文化旅宿",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/accommodation/stay-6",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "唐人街設計旅宿",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/accommodation/stay-7",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "Ari 生活型住宿",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/accommodation/stay-8",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "暹羅親子住宿",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/areas/%E6%9A%B9%E7%BE%85",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "暹羅住宿區域",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/areas/%E7%B4%A0%E5%9D%A4%E9%80%B8",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "素坤逸住宿區域",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/areas/%E6%98%AF%E9%9A%86",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "是隆住宿區域",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/areas/%E8%88%8A%E5%9F%8E%E6%B2%B3%E5%B2%B8",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "舊城河岸住宿區域",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/areas/%E5%94%90%E4%BA%BA%E8%A1%97",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "唐人街住宿區域",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/areas/%E6%B2%B3%E5%B2%B8",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "河岸住宿區域",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/areas/%E6%B4%BD%E5%9C%96%E6%B4%BD",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "洽圖洽住宿區域",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/transportation/bts",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "BTS 空鐵",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/transportation/mrt",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "MRT 地鐵",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/transportation/arl",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "Airport Rail Link",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/transportation/taxi",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "計程車",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/transportation/grab",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "Grab",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/transportation/tuktuk",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "嘟嘟車",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/transportation/bus",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "公車",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/transportation/boat",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "船運",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/transportation/transfer",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "機場接送",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/food/food-tea",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "範例茶舖｜泰式奶茶",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/food/food-mango",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "範例甜點｜芒果糯米",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/food/food-street",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "範例攤位｜街頭小吃",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/food/food-cafe",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "範例咖啡｜老街午後",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/food/food-market",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "範例夜市｜晚餐散步",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/food/food-mall",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "範例美食街｜購物中心",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/food/food-ari",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "範例咖啡｜Ari 日常",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/food/food-silom",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "範例食堂｜是隆午餐",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/food/food-river",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "範例餐桌｜河岸晚餐",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/attractions/flower-market",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "河岸花市",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/attractions/chinatown",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "唐人街散步",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/attractions/talat-noi",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "塔拉特諾老街",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/attractions/river-city",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "河岸藝文散步",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/attractions/iconsiam",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "ICONSIAM",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/attractions/asiatique",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "河岸夜間散步",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/attractions/siam-paragon",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "Siam Paragon 暹羅百麗宮",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/attractions/mbk",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "MBK 購物散步",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/attractions/art-center",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "曼谷藝術文化中心 BACC",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/attractions/jim-thompson",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "Jim Thompson House 湯普生博物館",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/attractions/centralworld",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "CentralWorld",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/attractions/lumphini",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "倫披尼公園 Lumphini Park",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/attractions/benjakitti",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "班嘉奇蒂公園",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/attractions/terminal21",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "Terminal 21（Asok 規劃點）",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/attractions/emporium",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "Phrom Phong 購物散步",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/attractions/spa-example",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "泰式按摩體驗",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/attractions/chatuchak",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "洽圖洽週末探索",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/attractions/ari",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "Ari 街區散步",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/attractions/aquarium-example",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "親子水族探索",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/attractions/floating-example",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "水上市場一日遊範例",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/attractions/ayutthaya-example",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "大城一日遊範例",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/lounges/lounge-0",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "Miracle Lounge",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/lounges/lounge-1",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "Coral Lounge",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/lounges/lounge-2",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "Oman Air First & Business Class Lounge",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/lounges/lounge-3",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "Thai Airways Royal Orchid Lounge",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/lounges/lounge-4",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "Turkish Airlines Lounge",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/credit-cards/demo-card-0",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "Priority Pass 示範卡",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/credit-cards/demo-card-1",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "LoungeKey 示範卡",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/credit-cards/demo-card-2",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "DragonPass 示範卡",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/trips/bangkok-6",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "六日探索・文化與綠意",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/trips/bangkok-7",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "七日假期・留點時間給自己",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/guides/bkk-guide",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "BKK 機場貴賓室完整攻略",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/guides/taiwan-cards",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "台灣信用卡免費使用曼谷機場貴賓室攻略",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/guides/miracle-coral",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "Miracle Lounge 與 Coral Lounge 比較",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/guides/low-cost-lounge",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "搭乘廉價航空是否可以使用貴賓室",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/guides/booking",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "BKK 機場貴賓室預約教學",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/guides/check-benefits",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "如何查詢自己的信用卡貴賓室權益",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/lounges/demo-lounge-0",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "示範｜河岸休息室 A",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/lounges/demo-lounge-1",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "示範｜城市休息室 B",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/lounges/demo-lounge-2",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "示範｜花園休息室 C",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/first-visit",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "第一次去曼谷，從這份指南開始",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/attractions/chatuchak-park",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "洽圖洽公園 Chatuchak Park",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/transportation/red-line",
+      "width": 768,
+      "height": 1024,
+      "brokenImages": 0,
+      "h1": "深紅線（DMK 候選方案）",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "把曼谷，安排成你的樣子。",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "你的曼谷旅行資料夾",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/flights",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "出發之前，先準備好",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/airports/bkk",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "BKK 素萬那普機場",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/airports/dmk",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "DMK 廊曼機場",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/accommodation",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "找到適合你的落腳處",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/transportation",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "自在移動，探索城市",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/food",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "把喜歡的味道，排進行程",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/attractions",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "探索曼谷的不同面貌",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/lounges",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "下一段旅程前，好好休息",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/lounges/compare",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "找到適合你的休息空間",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/credit-cards",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "先看條件，再看免費次數",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/credit-cards/compare",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "信用卡權益比較",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/lounge-finder",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "我的信用卡，可以進哪間貴賓室？",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/trips",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "有幾天，就有幾種曼谷",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/planner",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "告訴我們偏好，排一趟曼谷旅程",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/my-trips/new",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "從空白開始，安排你的曼谷",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/my-trips",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "我的曼谷行程",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/guides",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "出發之前的小筆記",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/about",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "關於 Bangkok Travel Guide",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/faq",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "常見問題",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/contact",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "聯絡我們",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/sitemap",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "網站地圖",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/privacy",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "隱私權政策",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/disclaimer",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "免責聲明",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/sources",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "資料來源與使用說明",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/trips/bangkok-5",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "五日慢遊・街區與美食",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/trips/bangkok-3",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "初訪曼谷・文化與城市三日",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/trips/bangkok-4",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "曼谷四日・城市與河岸",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/attractions/grand-palace",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "大皇宮",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/attractions/wat-pho",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "臥佛寺 Wat Pho",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/attractions/wat-arun",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "鄭王廟 Wat Arun",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/food/food-thai",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "範例食堂｜泰式家常菜",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/food/food-noodle",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "範例麵館｜船麵",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/food/food-basil",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "範例食堂｜打拋豬",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/accommodation/stay-1",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "暹羅交通型住宿",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/accommodation/stay-2",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "素坤逸城市飯店",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/accommodation/stay-3",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "是隆商務型住宿",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/guides/first-lounge",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "第一次使用機場貴賓室教學",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/airlines/traditional",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "傳統航空介紹",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/airlines/low-cost",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "廉價航空介紹",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/accommodation/compare",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "住宿比較",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/accommodation/stay-4",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "河岸景觀住宿",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/accommodation/stay-5",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "老城文化旅宿",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/accommodation/stay-6",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "唐人街設計旅宿",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/accommodation/stay-7",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "Ari 生活型住宿",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/accommodation/stay-8",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "暹羅親子住宿",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/areas/%E6%9A%B9%E7%BE%85",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "暹羅住宿區域",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/areas/%E7%B4%A0%E5%9D%A4%E9%80%B8",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "素坤逸住宿區域",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/areas/%E6%98%AF%E9%9A%86",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "是隆住宿區域",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/areas/%E8%88%8A%E5%9F%8E%E6%B2%B3%E5%B2%B8",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "舊城河岸住宿區域",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/areas/%E5%94%90%E4%BA%BA%E8%A1%97",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "唐人街住宿區域",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/areas/%E6%B2%B3%E5%B2%B8",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "河岸住宿區域",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/areas/%E6%B4%BD%E5%9C%96%E6%B4%BD",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "洽圖洽住宿區域",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/transportation/bts",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "BTS 空鐵",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/transportation/mrt",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "MRT 地鐵",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/transportation/arl",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "Airport Rail Link",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/transportation/taxi",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "計程車",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/transportation/grab",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "Grab",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/transportation/tuktuk",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "嘟嘟車",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/transportation/bus",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "公車",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/transportation/boat",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "船運",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/transportation/transfer",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "機場接送",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/food/food-tea",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "範例茶舖｜泰式奶茶",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/food/food-mango",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "範例甜點｜芒果糯米",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/food/food-street",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "範例攤位｜街頭小吃",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/food/food-cafe",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "範例咖啡｜老街午後",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/food/food-market",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "範例夜市｜晚餐散步",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/food/food-mall",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "範例美食街｜購物中心",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/food/food-ari",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "範例咖啡｜Ari 日常",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/food/food-silom",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "範例食堂｜是隆午餐",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/food/food-river",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "範例餐桌｜河岸晚餐",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/attractions/flower-market",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "河岸花市",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/attractions/chinatown",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "唐人街散步",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/attractions/talat-noi",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "塔拉特諾老街",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/attractions/river-city",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "河岸藝文散步",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/attractions/iconsiam",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "ICONSIAM",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/attractions/asiatique",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "河岸夜間散步",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/attractions/siam-paragon",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "Siam Paragon 暹羅百麗宮",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/attractions/mbk",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "MBK 購物散步",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/attractions/art-center",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "曼谷藝術文化中心 BACC",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/attractions/jim-thompson",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "Jim Thompson House 湯普生博物館",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/attractions/centralworld",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "CentralWorld",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/attractions/lumphini",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "倫披尼公園 Lumphini Park",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/attractions/benjakitti",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "班嘉奇蒂公園",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/attractions/terminal21",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "Terminal 21（Asok 規劃點）",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/attractions/emporium",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "Phrom Phong 購物散步",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/attractions/spa-example",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "泰式按摩體驗",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/attractions/chatuchak",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "洽圖洽週末探索",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/attractions/ari",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "Ari 街區散步",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/attractions/aquarium-example",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "親子水族探索",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/attractions/floating-example",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "水上市場一日遊範例",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/attractions/ayutthaya-example",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "大城一日遊範例",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/lounges/lounge-0",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "Miracle Lounge",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/lounges/lounge-1",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "Coral Lounge",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/lounges/lounge-2",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "Oman Air First & Business Class Lounge",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/lounges/lounge-3",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "Thai Airways Royal Orchid Lounge",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/lounges/lounge-4",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "Turkish Airlines Lounge",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/credit-cards/demo-card-0",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "Priority Pass 示範卡",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/credit-cards/demo-card-1",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "LoungeKey 示範卡",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/credit-cards/demo-card-2",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "DragonPass 示範卡",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/trips/bangkok-6",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "六日探索・文化與綠意",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/trips/bangkok-7",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "七日假期・留點時間給自己",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/guides/bkk-guide",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "BKK 機場貴賓室完整攻略",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/guides/taiwan-cards",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "台灣信用卡免費使用曼谷機場貴賓室攻略",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/guides/miracle-coral",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "Miracle Lounge 與 Coral Lounge 比較",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/guides/low-cost-lounge",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "搭乘廉價航空是否可以使用貴賓室",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/guides/booking",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "BKK 機場貴賓室預約教學",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/guides/check-benefits",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "如何查詢自己的信用卡貴賓室權益",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/lounges/demo-lounge-0",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "示範｜河岸休息室 A",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/lounges/demo-lounge-1",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "示範｜城市休息室 B",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/lounges/demo-lounge-2",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "示範｜花園休息室 C",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/first-visit",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "第一次去曼谷，從這份指南開始",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/attractions/chatuchak-park",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "洽圖洽公園 Chatuchak Park",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    },
+    {
+      "path": "/travel/transportation/red-line",
+      "width": 390,
+      "height": 844,
+      "brokenImages": 0,
+      "h1": "深紅線（DMK 候選方案）",
+      "h1Count": 1,
+      "notFound": false,
+      "overflow": false
+    }
+  ]
+}
