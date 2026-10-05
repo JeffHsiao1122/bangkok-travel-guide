@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-05",
+  "version": "c059234f35c54c41522dd8ac9ec208b6e23a34f9",
+  "checks": {
+    "mobileMenuOpenedAndClosed": true,
+    "referenceDisclosureOpened": true,
+    "licenseAndUnknownFieldDatesDisplayed": true,
+    "redLineCardAndHashReload": true,
+    "redLineFareRemainsUnknown": true,
+    "creditCardTextInputs": 0,
+    "creditCardTextareas": 0,
+    "creditCardNameIsSelect": true,
+    "tripNameAfterReload": "發布驗證｜景點與交通指南",
+    "tripDays": 3,
+    "tripDuration": 90,
+    "tripCost": 550,
+    "totalPerPerson": 1930,
+    "estimatedGroup": 3860,
+    "backupSchema": 1,
+    "snapshotSource": "Q873769",
+    "snapshotLicense": "CC0-1.0",
+    "snapshotAddressRetained": true,
+    "guideReferenceInjected": false,
+    "consoleErrorsAndWarnings": 0
+  },
+  "scope": "僅建立、修改本次 QA 行程，沒有更改或刪除使用者行程；完整行程備份不收錄。"
+}

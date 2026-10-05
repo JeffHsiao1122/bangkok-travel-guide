@@ -59,7 +59,7 @@
 
 詳見 [本次內容與合規紀錄](first-visit-content-review.md)。
 
-## 社群指南參考欄位（本機完成，待發布）
+## 社群指南參考欄位（已發布）
 
 `src/data/content-references.js` 保存 10 個地點與 4 種鐵路的指南欄位。這些欄位不合併到排程用地點：`value`、`sourceId`、`section`、`status`、`sourceUpdatedAt`、`reviewedAt`、`confirmedAt` 各自保留。`sourceUpdatedAt` 未提供時為 null，不能用閱讀日期補成更新日期；`confirmedAt` 仍為 null。沒有採用的欄位保存原因，不能改成 0 或免費。
 
