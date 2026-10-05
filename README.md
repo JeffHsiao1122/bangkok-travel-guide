@@ -97,10 +97,12 @@ Discover Bangkok. Plan Your Journey.
 - [來源、素材與外部服務紀錄](docs/source-register.md)
 - [已確認的 Phase 1 規劃](PHASE-1-PLAN.md)
 
-下一階段已改為 GitHub 與 GitHub Pages（2026-10-05 使用者指示）。本機 Git 初始化與 Pages 相容設定已準備；首次本機版本使用已登入 GitHub 帳號名稱與 GitHub 提供的 noreply 替代信箱，作者設定只適用這個專案。未連接遠端、未推送、未建立公開 Repository、未發布網站。
+下一階段已改為 GitHub 與 GitHub Pages（2026-10-05 使用者指示）。本機 Git 初始化與 Pages 相容設定已準備；首次本機版本使用已登入 GitHub 帳號名稱與 GitHub 提供的 noreply 替代信箱，作者設定只適用這個專案。已依使用者確認建立公開空白 Repository：[JeffHsiao1122/bangkok-travel-guide](https://github.com/JeffHsiao1122/bangkok-travel-guide)，並設定本機上傳目標。尚未推送或發布網站；上傳與正式發布將另外取得確認。
 
 [GitHub 初學者部署說明](docs/github-pages-guide.md) · [本機準備與安全檢查紀錄](docs/github-preflight.md)
 
 Pages 建置使用專案前綴與 `#/` 頁面網址，輸出至 `dist-pages/`；一般本機預覽維持原本路由。`pnpm build:pages`、`pnpm check:pages`、`pnpm preview:pages` 都只在本機操作。發布流程僅能手動啟動，推送程式不會自動發布。
 
 環境變數、憑證、私密資料及行程備份由 `.gitignore` 排除；`pnpm security:check --staged` 檢查實際預計提交的版本。這是常見格式檢查，不能保證辨識所有機密；首次推送前仍會核對檔案清單。所有環境變數檔都忽略，包含 `.env.example`，避免誤放真實值。未來若要提供設定範本，先另行檢查。
+
+程式、一般教學與專案文件由 Codex 協助建立，經本機測試與頁面檢查；首頁插畫由內建生成工具製作並標示 AI 插畫。資料狀態與工具完成度以本文件及測試報告為準，不代表已由官方查證真實旅遊權益。
