@@ -2,11 +2,13 @@
 
 Discover Bangkok. Plan Your Journey.
 
-目前是可在這台 Mac 操作的第一版。Phase 2–5 的 MVP 實作與驗證已完成；**Phase 6 已改用 GitHub 與 GitHub Pages，已上傳至 GitHub，尚未發布 Pages 網站**。
+Phase 2–5 的 MVP 實作與驗證已完成；**Phase 6 已依使用者確認完成 GitHub Pages 發布及正式網址測試**。目前為使用示範與待確認資料的第一版。
 
 ## 現在如何查看
 
-開啟 [本機網站](http://127.0.0.1:5173)。這個網址只適用目前這台電腦，不能當作公開網址分享。
+開啟 [正式網站](https://jeffhsiao1122.github.io/bangkok-travel-guide/)，可以分享此網址，也可以從手機開啟。正式網站不需要啟動這台 Mac。
+
+開發時仍可開啟 [本機網站](http://127.0.0.1:5173)。本機網址只適用目前這台電腦；兩個網址的行程保存空間分開，移轉時請先匯出再匯入。
 
 如果之後無法開啟：
 
@@ -81,7 +83,7 @@ Discover Bangkok. Plan Your Journey.
 | `public/` | 網站圖示與插畫 |
 | `tests/core.test.js` | 自動測試 |
 | `docs/` | 資料維護、來源、階段成果與測試紀錄 |
-| `dist/` | 建置後的發布檔案，仍未部署 |
+| `dist/`、`dist-pages/` | 一般與 GitHub Pages 建置檔案，不納入 Git |
 
 目前沒有後端伺服器或會員資料庫，符合已確認的第一版架構。
 
@@ -97,7 +99,7 @@ Discover Bangkok. Plan Your Journey.
 - [來源、素材與外部服務紀錄](docs/source-register.md)
 - [已確認的 Phase 1 規劃](PHASE-1-PLAN.md)
 
-下一階段已改為 GitHub 與 GitHub Pages（2026-10-05 使用者指示）。本機 Git 初始化與 Pages 相容設定已準備；首次本機版本使用已登入 GitHub 帳號名稱與 GitHub 提供的 noreply 替代信箱，作者設定只適用這個專案。已依使用者確認建立公開空白 Repository：[JeffHsiao1122/bangkok-travel-guide](https://github.com/JeffHsiao1122/bangkok-travel-guide)，並設定本機上傳目標。使用者已另行確認公開上傳並完成官方 CLI 授權，main 已推送且遠端版本一致；正式 Pages 網站發布仍等待另外確認。工具與登入設定排除上傳，憑證保存在 Mac 鑰匙圈。
+部署方向已改為 GitHub 與 GitHub Pages（2026-10-05 使用者指示）。本機 Git 初始化與 Pages 相容設定已準備；首次本機版本使用已登入 GitHub 帳號名稱與 GitHub 提供的 noreply 替代信箱，作者設定只適用這個專案。已依使用者確認建立公開空白 Repository：[JeffHsiao1122/bangkok-travel-guide](https://github.com/JeffHsiao1122/bangkok-travel-guide)，並設定本機上傳目標。使用者已另行確認公開上傳並完成官方 CLI 授權，main 已推送且遠端版本一致；使用者另外回覆「同意發布」後，Pages 已啟用且發布成功。工具與登入設定排除上傳，憑證保存在 Mac 鑰匙圈。
 
 [GitHub 初學者部署說明](docs/github-pages-guide.md) · [本機準備與安全檢查紀錄](docs/github-preflight.md)
 
@@ -107,4 +109,4 @@ Pages 建置使用專案前綴與 `#/` 頁面網址，輸出至 `dist-pages/`；
 
 程式、一般教學與專案文件由 Codex 協助建立，經本機測試與頁面檢查；首頁插畫由內建生成工具製作並標示 AI 插畫。資料狀態與工具完成度以本文件及測試報告為準，不代表已由官方查證真實旅遊權益。
 
-2026-10-05 本機更新：信用卡查詢與列表改成固定選單，移除卡名自由輸入；來源頁與第三方程式授權聲明已補齊。31 項測試與一般／Pages 建置通過；本次瀏覽器互動回歸尚未完成，詳見 [來源合規複核與修正紀錄](docs/compliance-review-2026-10-05.md)。此更新尚未推送或發布。
+2026-10-05 已發布更新：信用卡查詢與列表改成固定選單，移除卡名自由輸入；來源頁與第三方程式授權聲明已補齊。31 項測試通過，GitHub 建置與發布成功；正式網站 112 頁、三種尺寸共 336 次巡檢及主要互動驗證通過。詳見 [正式發布與測試紀錄](docs/github-pages-release.md) 與 [來源合規複核](docs/compliance-review-2026-10-05.md)。

@@ -24,7 +24,7 @@
 | Google Maps URLs | 依官方網址格式開啟名稱搜尋或兩點路線 | 不需 API Key；不嵌入圖磚、不複製內容；座標或地點搜尋詞傳給 Google，私人備註與卡片資料不傳送 | 補齊地圖額外條款與名稱搜尋的隱私說明 |
 | 執行期開源程式 | React、React DOM、scheduler、React Router、React Router DOM、cookie、set-cookie-parser 的已安裝版本 | 7 個執行期套件均為 MIT，另附 Vite 產生的前端輔助程式核心 MIT 聲明；需保留原著作權與授權文字；授權只適用第三方程式，不替本專案選擇開源授權 | 新增 public/third-party-notices.txt，讓一般與 Pages 建置一併附帶 |
 | 開發工具與相依套件 | package.json／pnpm-lock.yaml 所列官方套件 | 僅在開發／建置使用，不上傳 node_modules；安裝檔中保留各自 LICENSE。部分開發相依含 ISC、BSD、Apache、CC-BY，不因 MIT 執行期清單就當成全部 MIT | 不重製或發布開發套件本體／資料集；未新增套件 |
-| GitHub Repository／Pages | 使用者已確認 Repository 公開；Pages 尚待確認 | 公開內容可被查看及 fork，須具備發布權利；Pages 不可當作營運線上商業、交易或商用 SaaS 的免費主機，也不應傳送卡號等敏感交易資訊 | 目前維持功能示範、無交易；若要商業營運先另評估主機，不擅自改架構或發布 |
+| GitHub Repository／Pages | 使用者已確認 Repository 與 Pages 公開 | 公開內容可被查看及 fork，須具備發布權利；Pages 不可當作營運線上商業、交易或商用 SaaS 的免費主機，也不應傳送卡號等敏感交易資訊 | 目前維持功能示範、無交易；若要商業營運先另評估主機，不擅自改架構或發布 |
 
 ## 官方依據與核對範圍
 
@@ -34,7 +34,7 @@
 - [OpenAI 使用條款](https://openai.com/policies/terms-of-use/) 與 [服務協議](https://openai.com/policies/services-agreement/)：輸出權利受法律、條款與第三方權利限制；使用者仍負責輸入與輸出用途。內建工具回傳不是從 OpenAI 網頁爬取內容；實際適用合約依帳號／方案，本站未取得帳號個別合約。
 - [OpenAI 分享／公開規範](https://openai.com/policies/sharing-publication-policy/) 與 [使用政策](https://openai.com/policies/usage-policies/)：核對 AI 標示、歸屬、分享前檢視與使用限制；不得把生成內容冒充全部由人產生。
 - 開源授權依已安裝套件的原 LICENSE 文字逐份核對，完整保留於 [第三方程式聲明](../public/third-party-notices.txt)。不是從未核對條款的外站抓取程式。
-- [GitHub 服務條款](https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) 的使用者內容權利／公開 Repository 規範，以及 [Pages 限制](https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits)。沒有接受新條款、更改帳號權限或部署。
+- [GitHub 服務條款](https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) 的使用者內容權利／公開 Repository 規範，以及 [Pages 限制](https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits)。本次條款複核時沒有接受新條款、更改帳號權限或部署；其後經使用者另行確認完成發布，見下方補充。
 
 網站內只提供上述官方連結及自行撰寫的簡短說明，不複製完整條款文章。官方條款不作為真實旅遊／卡片權益資料來源。
 
@@ -50,4 +50,8 @@
 
 31 項自動測試通過，包括卡號／任意卡名拒絕、跨銀行識別碼拒絕、未知網址參數不回顯，以及實際 React 頁面渲染沒有自由文字輸入。一般與 Pages 建置、資源路徑、授權聲明原文隨建置附帶、安全掃描均通過。
 
-本次尚未實際用瀏覽器點選回歸：先前瀏覽器工具拒絕本機頁面操作，未繞過限制。渲染與資料檢查不等於實際瀏覽器互動／手機驗證。修改只保存在本機，未推送本次修正或發布 Pages；既有 GitHub 上傳版本不包含本次修正。
+發布前紀錄：當時尚未實際用瀏覽器點選回歸：先前瀏覽器工具拒絕本機頁面操作，未繞過限制。渲染與資料檢查不等於實際瀏覽器互動／手機驗證。修改只保存在本機，未推送本次修正或發布 Pages；既有 GitHub 上傳版本不包含本次修正。
+
+## 使用者確認發布後補充
+
+2026-10-05 使用者回覆「同意發布」。上述信用卡選單與授權修正已隨 `3019295` 推送並發布至 GitHub Pages；正式網站的信用卡選單、三種示範查詢、比較、全頁面尺寸巡檢與行程互動已完成瀏覽器驗證。正式主機第三方授權檔回應 200，與本機原文逐位元相同。這些結果更新發布前的待辦狀態，未擴大來源授權或宣稱真實資料已查證。詳見 [正式發布紀錄](github-pages-release.md)。

@@ -1,0 +1,49 @@
+{
+  "date": "2026-10-05",
+  "base": "https://jeffhsiao1122.github.io/bangkok-travel-guide/",
+  "commit": "3019295",
+  "results": [
+    {
+      "path": "index.html",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "bytes": 752,
+      "sameBytes": true
+    },
+    {
+      "path": "favicon.svg",
+      "status": 200,
+      "type": "image/svg+xml",
+      "bytes": 264,
+      "sameBytes": true
+    },
+    {
+      "path": "images/bangkok-hero.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 2942824,
+      "sameBytes": true
+    },
+    {
+      "path": "third-party-notices.txt",
+      "status": 200,
+      "type": "text/plain; charset=utf-8",
+      "bytes": 10077,
+      "sameBytes": true
+    },
+    {
+      "path": "assets/index-BHoI2ZBb.js",
+      "status": 200,
+      "type": "application/javascript; charset=utf-8",
+      "bytes": 393623,
+      "sameBytes": true
+    },
+    {
+      "path": "assets/index-CRkC5tm2.css",
+      "status": 200,
+      "type": "text/css; charset=utf-8",
+      "bytes": 22771,
+      "sameBytes": true
+    }
+  ]
+}
