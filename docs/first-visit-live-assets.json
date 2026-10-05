@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-05",
+  "version": "718f61ccae43a20bc312f671e333114850ba1edf",
+  "checks": [
+    {
+      "path": "/bangkok-travel-guide/",
+      "status": 200,
+      "bytes": 752,
+      "matchesLocal": true,
+      "sha256": "f68a0b9de99a585190e0a518a288b93d370a3ecdf3e68909b2c38de9e51d7a02"
+    },
+    {
+      "path": "/bangkok-travel-guide/favicon.svg",
+      "status": 200,
+      "bytes": 264,
+      "matchesLocal": true,
+      "sha256": "ff67040081541d90a713bff5feca7c6ba1e3450238c177ca6cfc9e2b59deb83c"
+    },
+    {
+      "path": "/bangkok-travel-guide/assets/index-B_iErTwA.js",
+      "status": 200,
+      "bytes": 424689,
+      "matchesLocal": true,
+      "sha256": "475cd7d74fa85725a17bfb1e8f4edda0e47c057d2f478b511786a4d31031e393"
+    },
+    {
+      "path": "/bangkok-travel-guide/assets/index-CmSE634G.css",
+      "status": 200,
+      "bytes": 23217,
+      "matchesLocal": true,
+      "sha256": "1fe4af7375ad1a7ebec662e53dcc665828d59b750e47e0b595276158ff079cad"
+    },
+    {
+      "path": "/bangkok-travel-guide/images/bangkok-hero.png",
+      "status": 200,
+      "bytes": 2942824,
+      "matchesLocal": true,
+      "sha256": "47f173eafe8bc831d45fa1e512f9b6a7189a814f869a81c5c52109eb15553770"
+    },
+    {
+      "path": "/bangkok-travel-guide/third-party-notices.txt",
+      "status": 200,
+      "bytes": 10077,
+      "matchesLocal": true,
+      "sha256": "f5e63fc614f5db603a9e384a5d788903a512679a6020433f36f62d0cd3fe8581"
+    }
+  ]
+}
