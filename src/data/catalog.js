@@ -1,8 +1,9 @@
+import {realFoodPlaces} from './food-guides.js';
 import {enrichPlace} from './first-visit.js';
 import rows from './places.json' with { type: 'json' };
 export const updatedAt = '2026-10-04';
 export const statusText = '範例資料';
-export const places = rows.map(([id,name,type,category,area,lat,lng,duration,cost,open,close,tags,weekdays])=>({id,name,type,category,area,lat,lng,duration,cost,open:open*60,close:close*60,tags,weekdays:weekdays??[0,1,2,3,4,5,6],status:'範例資料',source:'本網站自行建立的操作情境；未查證真實營業、價格或座標。',updatedAt,confirmedAt:null,accessibility:null,address:'詳細地址待確認',lastEntry:null,description:type==='餐廳'?'這是一筆虛構餐廳範例，用來體驗搜尋、用餐安排與預算計算。':'探索這個區域的旅遊安排。下列時段、費用及位置僅用於排程示範，出發前請另查官方資訊。'})).map(enrichPlace);
+export const places = rows.map(([id,name,type,category,area,lat,lng,duration,cost,open,close,tags,weekdays])=>({id,name,type,category,area,lat,lng,duration,cost,open:open*60,close:close*60,tags,weekdays:weekdays??[0,1,2,3,4,5,6],status:'範例資料',source:'本網站自行建立的操作情境；未查證真實營業、價格或座標。',updatedAt,confirmedAt:null,accessibility:null,address:'詳細地址待確認',lastEntry:null,description:type==='餐廳'?'這是一筆虛構餐廳範例，用來體驗搜尋、用餐安排與預算計算。':'探索這個區域的旅遊安排。下列時段、費用及位置僅用於排程示範，出發前請另查官方資訊。'})).map(enrichPlace).concat(realFoodPlaces);
 export const areas = ['暹羅','素坤逸','是隆','舊城河岸','唐人街','河岸','洽圖洽'];
 export const preferences = ['觀光','美食','購物','夜市','文化體驗','按摩及 SPA','咖啡廳','自然景點','親子活動','水上市場','近郊一日遊'];
 export const themes = ['初次曼谷自由行','美食之旅','購物之旅','文化體驗','輕鬆慢遊','親子旅遊','情侶旅遊','高 CP 值旅遊'];

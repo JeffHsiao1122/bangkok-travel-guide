@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-06",
+  "environment": "local-development-and-pages-build",
+  "checks": [
+    {
+      "test": "餐點搜尋",
+      "pass": true
+    },
+    {
+      "test": "區域篩選",
+      "pass": true
+    },
+    {
+      "test": "12 個虛構範例保留",
+      "pass": true
+    },
+    {
+      "test": "全部 18 個用餐地點",
+      "pass": true
+    },
+    {
+      "test": "本機行程儲存後重新整理",
+      "pass": true
+    },
+    {
+      "test": "匯出保留未知價格與座標、CC BY-SA 來源",
+      "pass": true
+    },
+    {
+      "test": "自填餐費保存並重新計算",
+      "pass": true
+    },
+    {
+      "test": "未知位置不虛構地圖",
+      "pass": true
+    },
+    {
+      "test": "Pages 巢狀餐廳網址重新整理",
+      "pass": true
+    }
+  ]
+}

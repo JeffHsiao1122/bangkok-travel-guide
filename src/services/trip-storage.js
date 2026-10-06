@@ -7,7 +7,8 @@ function byteLength(value){return new TextEncoder().encode(value).byteLength;}
 function parseJson(raw){try{return JSON.parse(raw);}catch{throw Error('內容不是完整有效的 JSON，請使用本網站匯出的完整備份。');}}
 function minute(value){return Number.isInteger(value)&&value>=0&&value<=1440;}
 function stringList(value){return Array.isArray(value)&&value.length<=100&&value.every(v=>text(v,500));}
-function validSnapshot(p){return text(p.name,200)&&text(p.id,100)&&text(p.area,200)&&text(p.type,100)&&Number.isFinite(p.lat)&&Math.abs(p.lat)<=90&&Number.isFinite(p.lng)&&Math.abs(p.lng)<=180&&minute(p.open)&&minute(p.close)&&p.close>=p.open&&Array.isArray(p.weekdays)&&p.weekdays.every(n=>Number.isInteger(n)&&n>=0&&n<=6)&&stringList(p.tags)&&text(p.status,50)&&(p.lastEntry==null||minute(p.lastEntry));}
+function validCoordinates(p){return p.lat===null&&p.lng===null || Number.isFinite(p.lat)&&Math.abs(p.lat)<=90&&Number.isFinite(p.lng)&&Math.abs(p.lng)<=180;}
+function validSnapshot(p){return text(p.name,200)&&text(p.id,100)&&text(p.area,200)&&text(p.type,100)&&validCoordinates(p)&&minute(p.open)&&minute(p.close)&&p.close>=p.open&&Array.isArray(p.weekdays)&&p.weekdays.every(n=>Number.isInteger(n)&&n>=0&&n<=6)&&stringList(p.tags)&&text(p.status,50)&&(p.lastEntry==null||minute(p.lastEntry));}
 export function validateTrip(trip) {
  if(!trip||trip.schemaVersion!==1)throw Error('不支援的行程版本。');
  if(!text(trip.id,100)||!trip.id||!text(trip.name,120)||!trip.name.trim()||!validDate(trip.start)||!validDate(trip.end)||!Array.isArray(trip.days)||trip.days.length<1||trip.days.length>14||dayCount(trip.start,trip.end)!==trip.days.length)throw Error('行程日期、名稱或天數格式不正確。');

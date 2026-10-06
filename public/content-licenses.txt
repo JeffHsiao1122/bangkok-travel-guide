@@ -1,7 +1,7 @@
 Bangkok Travel Guide — 旅遊參考內容授權
-更新：2026-10-05
+更新：2026-10-06
 
-適用範圍：src/data/content-references.js 的 Wikivoyage 改寫欄位及其公開呈現。
+適用範圍：src/data/content-references.js 及 src/data/food-guides.js 的 Wikivoyage 改寫欄位及其公開呈現。
 原創文字與參考欄位分開署名；不是將第三方官方網站、照片、商標或整個網站程式改授權。
 
 授權：CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
@@ -51,3 +51,31 @@ https://en.wikivoyage.org/wiki/Bangkok/Sukhumvit
 Wikidata 的基本欄位另採 CC0 1.0；來源及版本列於地點／機場頁。
 CC0：https://creativecommons.org/publicdomain/zero/1.0/
 資料快照：src/data/open-place-facts.json
+
+餐廳參考新增（2026-10-06）
+範圍：src/data/food-guides.js 中的店名、參考店址、餐點及部分交通起點。
+修改：翻譯、刪節、以特定街道識別據點；上述改寫字段以 CC BY-SA 4.0 提供。
+未採用價格、營業時段、照片、評價、電話、信箱或店家官方文章。
+停留建議與規劃段落由本專案撰寫，與來源參考分開標示。
+作者：Wikivoyage contributors；授權：https://creativecommons.org/licenses/by-sa/4.0/
+
+Bangkok/Rattanakosin：Thip Samai、Mont Nomsod（Eat）
+https://en.wikivoyage.org/wiki/Bangkok/Rattanakosin
+作者與歷史：https://en.wikivoyage.org/w/index.php?title=Bangkok%2FRattanakosin&action=history
+閱讀版本：5348590；閱讀日期：2026-10-06；條目日期未提供。
+
+Bangkok/Siam Square：Som Tam Nua（Eat / Mid-range）
+https://en.wikivoyage.org/wiki/Bangkok/Siam_Square
+作者與歷史：https://en.wikivoyage.org/w/index.php?title=Bangkok%2FSiam_Square&action=history
+閱讀版本：5359263；閱讀日期：2026-10-06；條目日期未提供。
+
+Bangkok/Silom：Prachak Restaurant（Eat / Budget）
+https://en.wikivoyage.org/wiki/Bangkok/Silom
+作者與歷史：https://en.wikivoyage.org/w/index.php?title=Bangkok%2FSilom&action=history
+閱讀版本：5369519；閱讀日期：2026-10-06；條目日期未提供。
+
+Bangkok/Sukhumvit：Roong Roeng、Wattana Panich（Eat）
+https://en.wikivoyage.org/wiki/Bangkok/Sukhumvit
+作者與歷史：https://en.wikivoyage.org/w/index.php?title=Bangkok%2FSukhumvit&action=history
+閱讀版本：5374176；閱讀日期：2026-10-06。
+Wattana Panich 條目標示更新 2025-01；Roong Roeng 日期未提供，均非目前營運核實。

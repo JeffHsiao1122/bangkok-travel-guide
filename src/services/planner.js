@@ -23,7 +23,7 @@ export function makeActivity(place,start=540) {return {id:uid(),placeId:place.id
 export function recalculateDay(day,options={people:1,mode:'transit'},database=[]) {
  const warnings=[];const segments=[];let cost=0; let cursor=day.startMinute??540;let previous=null;
  const activities=day.activities.map((item,index)=>{const a=clone(item);const p=a.snapshot??database.find(p=>p.id===a.placeId); const t=index&&!a.localPause?travelEstimate(previous,p,options.mode):{minutes:0,cost:0,unit:'人'};
- if(index){segments.push({from:day.activities[index-1].id,to:a.id,...t,mode:options.mode,status:'預估資料'});cost+=t.cost*(t.unit==='車'?1:Number(options.people??1));}
+ if(index){segments.push({from:day.activities[index-1].id,to:a.id,...t,mode:options.mode,status:'預估資料'});cost+=t.cost*(t.unit==='車'?1:Number(options.people??1));if(t.unknown)warnings.push(`${a.name}：接續交通缺少位置資料，時間與車資只是預留估算，並非已查到的路線。`);}
  if(a.fixed||a.locked) {if(a.start<cursor+t.minutes)warnings.push(`${a.name}：固定時間與前一活動／交通衝突。`);} else a.start=Math.max(cursor+t.minutes,p?.open??0);
  a.end=a.start+a.duration;cursor=a.end;if(!a.localPause)previous=p;
  if(!Number.isFinite(a.cost)){warnings.push(`${a.name}：費用待確認。`);}else cost+=a.cost*(a.unit==='group'?1:Number(options.people??1));
@@ -37,8 +37,8 @@ export function recalculateDay(day,options={people:1,mode:'transit'},database=[]
 export function recalculateTrip(trip,database=[]) {const result=clone(trip);result.days=result.days.map(d=>recalculateDay(d,result.options,database));result.estimatedGroup=result.days.reduce((n,d)=>n+d.cost,0);result.estimatedPerPerson=result.estimatedGroup/result.options.people;result.shoppingTotal=Number(result.options.shoppingBudget??0)*result.days.length;result.totalPerPerson=result.estimatedPerPerson+result.shoppingTotal+Number(result.options.flightBudget??0)+Number(result.options.hotelBudget??0);result.warnings=[];if(result.options.totalBudget!=null&&result.totalPerPerson>result.options.totalBudget)result.warnings.push('總預估支出超過總預算，請刪減活動或調整條件。');return result;}
 export function generateTrip(raw,database,blocked=[]) {
  const options=normaliseOptions(raw);const used=new Set(blocked);const reasons=[];const unassigned=[];const days=[];let totalSpent=0;
- const eligible=database.filter(p=>!options.excluded.includes(p.id)&&(!options.accessible||p.accessibility===true));
- for(const id of options.must)if(!eligible.some(p=>p.id===id))unassigned.push({id,name:database.find(p=>p.id===id)?.name??id,reason:'必要條件、無障礙資料或地點資料不符，無法確認安排。'});
+ const eligible=database.filter(p=>p.planningEligible!==false&&!options.excluded.includes(p.id)&&(!options.accessible||p.accessibility===true));
+ for(const id of options.must)if(!eligible.some(p=>p.id===id))unassigned.push({id,name:database.find(p=>p.id===id)?.name??id,reason:database.find(p=>p.id===id)?.planningEligible===false?'當期營業時段、餐費與位置不足，暫不自動安排；可核對後手動加入。':'必要條件、無障礙資料或地點資料不符，無法確認安排。'});
  for(let i=0;i<options.days;i++) {
   const date=addDays(options.start,i);const weekday=new Date(`${date}T12:00:00Z`).getUTCDay();let start=options.startMinute,end=options.endMinute;
   if(i===0&&options.arrivalTime){const time=parseTime(options.arrivalTime);if(!Number.isFinite(time))throw Error('抵達時間格式錯誤。');start=Math.min(1440,Math.max(start,time+150));}
