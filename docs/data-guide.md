@@ -69,7 +69,7 @@
 
 本批詳見 [景點與鐵路紀錄](visit-reference-review.md)。
 
-## 餐廳指南資料（本機待發布）
+## 餐廳指南資料（已發布）
 
 `src/data/food-guides.js` 保存 6 個特定據點：`foodGuide` 含店名、店址、餐點、部分交通起點、來源章節、閱讀日期、條目日期及 CC BY-SA 4.0 署名；`confirmedAt` 保持 null。未知的餐費、座標、時段與官方網址不填猜測數字。
 

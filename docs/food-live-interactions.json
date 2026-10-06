@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-06",
+  "release": "ac7c2141383a0897c863f29412bdc62208a1d62f",
+  "environment": "正式 GitHub Pages 網站",
+  "checks": [
+    {
+      "test": "手機導覽選單可開啟並導覽後收合",
+      "pass": true
+    },
+    {
+      "test": "餐點搜尋",
+      "pass": true
+    },
+    {
+      "test": "虛構範例切換",
+      "pass": true
+    },
+    {
+      "test": "詳細頁來源署名與巢狀網址重新整理",
+      "pass": true
+    },
+    {
+      "test": "正式網址加入餐廳、改名、儲存並重新讀取",
+      "pass": true
+    },
+    {
+      "test": "匯出保留未知價格／位置與授權來源快照",
+      "pass": true
+    },
+    {
+      "test": "手動填餐費後保存與預算計算",
+      "pass": true
+    },
+    {
+      "test": "未知座標顯示核對連結，不填虛構標記",
+      "pass": true
+    },
+    {
+      "test": "信用卡查詢保持選單，不含自由文字與卡號欄位",
+      "pass": true
+    }
+  ],
+  "consoleIssues": []
+}
