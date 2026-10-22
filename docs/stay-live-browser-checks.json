@@ -1,0 +1,346 @@
+{
+  "date": "2026-10-23",
+  "scope": "正式網站 Chrome 獨立環境；只允許本站網域；不讀取使用者瀏覽器資料",
+  "checks": [
+    {
+      "test": "預設指南列表 4 個據點",
+      "pass": true
+    },
+    {
+      "test": "名稱搜尋",
+      "pass": true
+    },
+    {
+      "test": "區域篩選",
+      "pass": true
+    },
+    {
+      "test": "8 筆示範資料保留",
+      "pass": true
+    },
+    {
+      "test": "比較兩個據點與授權呈現",
+      "pass": true
+    },
+    {
+      "test": "移除比較",
+      "pass": true
+    },
+    {
+      "test": "無效比較網址",
+      "pass": true
+    },
+    {
+      "test": "詳細頁、來源與重新整理",
+      "pass": true
+    },
+    {
+      "test": "住宿至規劃工具導覽",
+      "pass": true
+    },
+    {
+      "test": "手機導覽開啟與收合",
+      "pass": true
+    }
+  ],
+  "layouts": [
+    {
+      "path": "/",
+      "width": 1280,
+      "height": 900,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": 0,
+      "notFound": false
+    },
+    {
+      "path": "/travel/accommodation?data=real",
+      "width": 1280,
+      "height": 900,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": 0,
+      "notFound": false
+    },
+    {
+      "path": "/travel/accommodation?data=demo",
+      "width": 1280,
+      "height": 900,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": 0,
+      "notFound": false
+    },
+    {
+      "path": "/travel/accommodation?data=all",
+      "width": 1280,
+      "height": 900,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": 0,
+      "notFound": false
+    },
+    {
+      "path": "/travel/accommodation/compare?ids=hotel-novotel-siam,hotel-shangri-la",
+      "width": 1280,
+      "height": 900,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": 0,
+      "notFound": false
+    },
+    {
+      "path": "/travel/accommodation/hotel-novotel-siam",
+      "width": 1280,
+      "height": 900,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": 0,
+      "notFound": false
+    },
+    {
+      "path": "/travel/accommodation/hotel-grand-hyatt",
+      "width": 1280,
+      "height": 900,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": 0,
+      "notFound": false
+    },
+    {
+      "path": "/travel/accommodation/hotel-mandarin-oriental",
+      "width": 1280,
+      "height": 900,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": 0,
+      "notFound": false
+    },
+    {
+      "path": "/travel/accommodation/hotel-shangri-la",
+      "width": 1280,
+      "height": 900,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": 0,
+      "notFound": false
+    },
+    {
+      "path": "/sources",
+      "width": 1280,
+      "height": 900,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": 0,
+      "notFound": false
+    },
+    {
+      "path": "/planner",
+      "width": 1280,
+      "height": 900,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": 0,
+      "notFound": false
+    },
+    {
+      "path": "/",
+      "width": 768,
+      "height": 1024,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": 0,
+      "notFound": false
+    },
+    {
+      "path": "/travel/accommodation?data=real",
+      "width": 768,
+      "height": 1024,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": 0,
+      "notFound": false
+    },
+    {
+      "path": "/travel/accommodation?data=demo",
+      "width": 768,
+      "height": 1024,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": 0,
+      "notFound": false
+    },
+    {
+      "path": "/travel/accommodation?data=all",
+      "width": 768,
+      "height": 1024,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": 0,
+      "notFound": false
+    },
+    {
+      "path": "/travel/accommodation/compare?ids=hotel-novotel-siam,hotel-shangri-la",
+      "width": 768,
+      "height": 1024,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": 0,
+      "notFound": false
+    },
+    {
+      "path": "/travel/accommodation/hotel-novotel-siam",
+      "width": 768,
+      "height": 1024,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": 0,
+      "notFound": false
+    },
+    {
+      "path": "/travel/accommodation/hotel-grand-hyatt",
+      "width": 768,
+      "height": 1024,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": 0,
+      "notFound": false
+    },
+    {
+      "path": "/travel/accommodation/hotel-mandarin-oriental",
+      "width": 768,
+      "height": 1024,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": 0,
+      "notFound": false
+    },
+    {
+      "path": "/travel/accommodation/hotel-shangri-la",
+      "width": 768,
+      "height": 1024,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": 0,
+      "notFound": false
+    },
+    {
+      "path": "/sources",
+      "width": 768,
+      "height": 1024,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": 0,
+      "notFound": false
+    },
+    {
+      "path": "/planner",
+      "width": 768,
+      "height": 1024,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": 0,
+      "notFound": false
+    },
+    {
+      "path": "/",
+      "width": 390,
+      "height": 844,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": 0,
+      "notFound": false
+    },
+    {
+      "path": "/travel/accommodation?data=real",
+      "width": 390,
+      "height": 844,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": 0,
+      "notFound": false
+    },
+    {
+      "path": "/travel/accommodation?data=demo",
+      "width": 390,
+      "height": 844,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": 0,
+      "notFound": false
+    },
+    {
+      "path": "/travel/accommodation?data=all",
+      "width": 390,
+      "height": 844,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": 0,
+      "notFound": false
+    },
+    {
+      "path": "/travel/accommodation/compare?ids=hotel-novotel-siam,hotel-shangri-la",
+      "width": 390,
+      "height": 844,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": 0,
+      "notFound": false
+    },
+    {
+      "path": "/travel/accommodation/hotel-novotel-siam",
+      "width": 390,
+      "height": 844,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": 0,
+      "notFound": false
+    },
+    {
+      "path": "/travel/accommodation/hotel-grand-hyatt",
+      "width": 390,
+      "height": 844,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": 0,
+      "notFound": false
+    },
+    {
+      "path": "/travel/accommodation/hotel-mandarin-oriental",
+      "width": 390,
+      "height": 844,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": 0,
+      "notFound": false
+    },
+    {
+      "path": "/travel/accommodation/hotel-shangri-la",
+      "width": 390,
+      "height": 844,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": 0,
+      "notFound": false
+    },
+    {
+      "path": "/sources",
+      "width": 390,
+      "height": 844,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": 0,
+      "notFound": false
+    },
+    {
+      "path": "/planner",
+      "width": 390,
+      "height": 844,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": 0,
+      "notFound": false
+    }
+  ],
+  "pageErrors": []
+}
