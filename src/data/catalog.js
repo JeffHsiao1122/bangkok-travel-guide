@@ -1,3 +1,4 @@
+import {stayGuides} from './stay-guides.js';
 import {realFoodPlaces} from './food-guides.js';
 import {enrichPlace} from './first-visit.js';
 import rows from './places.json' with { type: 'json' };
@@ -7,7 +8,7 @@ export const places = rows.map(([id,name,type,category,area,lat,lng,duration,cos
 export const areas = ['暹羅','素坤逸','是隆','舊城河岸','唐人街','河岸','洽圖洽'];
 export const preferences = ['觀光','美食','購物','夜市','文化體驗','按摩及 SPA','咖啡廳','自然景點','親子活動','水上市場','近郊一日遊'];
 export const themes = ['初次曼谷自由行','美食之旅','購物之旅','文化體驗','輕鬆慢遊','親子旅遊','情侶旅遊','高 CP 值旅遊'];
-export const accommodations = Array.from({length:8},(_,i)=>({id:`stay-${i+1}`,name:['暹羅交通型住宿','素坤逸城市飯店','是隆商務型住宿','河岸景觀住宿','老城文化旅宿','唐人街設計旅宿','Ari 生活型住宿','暹羅親子住宿'][i],area:areas[[0,1,2,5,3,4,6,0][i]],kind:['平價住宿','中價位住宿','中價位住宿','高級飯店','平價住宿','中價位住宿','平價住宿','親子住宿'][i],price:[1200,2500,2200,6000,1500,2800,1800,3500][i],transport:i===3?'船運／轉乘範例':'BTS／MRT 沿線範例',family:i===7,description:'虛構住宿方案，非可預訂飯店。用來比較區域、交通與預算；不代表即時房價。',status:'範例資料',source:'本網站住宿情境範例',updatedAt,confirmedAt:null}));
+export const accommodations = Array.from({length:8},(_,i)=>({id:`stay-${i+1}`,name:['暹羅交通型住宿','素坤逸城市飯店','是隆商務型住宿','河岸景觀住宿','老城文化旅宿','唐人街設計旅宿','Ari 生活型住宿','暹羅親子住宿'][i],area:areas[[0,1,2,5,3,4,6,0][i]],kind:['平價住宿','中價位住宿','中價位住宿','高級飯店','平價住宿','中價位住宿','平價住宿','親子住宿'][i],price:[1200,2500,2200,6000,1500,2800,1800,3500][i],transport:i===3?'船運／轉乘範例':'BTS／MRT 沿線範例',family:i===7,description:'虛構住宿方案，非可預訂飯店。用來比較區域、交通與預算；不代表即時房價。',status:'範例資料',source:'本網站住宿情境範例',updatedAt,confirmedAt:null})).concat(stayGuides);
 export const banks = ['國泰世華銀行','中國信託銀行','玉山銀行','台新銀行','永豐銀行','富邦銀行','其他銀行','示範銀行'];
 export const lounges = ['Miracle Lounge','Coral Lounge','Oman Air First & Business Class Lounge','Thai Airways Royal Orchid Lounge','Turkish Airlines Lounge'].map((name,i)=>({id:`lounge-${i}`,name,brand:name.split(' Lounge')[0],airport:'BKK',terminal:null,floor:null,gate:null,hours:null,price:null,shower:null,wifi:null,charging:null,family:null,food:null,drinks:null,quiet:null,location:'航廈、樓層與登機門待確認',status:'待確認',updatedAt,confirmedAt:null,source:'依專案需求建立的待核實品牌清單；未確認目前營運或合作資格。',official:null,booking:null,review:null}));
 export const demoLounges = ['河岸休息室 A','城市休息室 B','花園休息室 C'].map((name,i)=>({id:`demo-lounge-${i}`,name:`示範｜${name}`,brand:'虛構示範品牌',airport:'BKK（示範）',terminal:'國際出發區（虛構）',floor:3,gate:['A1','B2','C3'][i],hours:'06:00–23:00（範例）',open:360,close:1380,price:[1000,1200,900][i],shower:i!==2,wifi:true,charging:true,family:i===2,food:i!==2,drinks:'飲水／咖啡（範例）',quiet:i!==0,location:`虛構國際出發區 3 樓，${['A1','B2','C3'][i]} 門旁`,status:'範例資料',updatedAt,confirmedAt:null,source:'本網站虛構示範；非真實貴賓室',official:null,booking:null,review:null}));

@@ -54,7 +54,7 @@ test('自動排程不把未知餐費當零且顯示必去未安排原因；鎖�
  assert.ok(regenerated.days[0].activities.some(a=>a.placeId===realFoodPlaces[0].id&&a.cost===null&&a.locked));
 });
 test('實際元件呈現授權、未知費用與部分地圖，首頁不再精選虛構餐廳',async()=>{
- const {createServer}=await import('vite');const server=await createServer({server:{middlewareMode:true,hmr:false,ws:false},appType:'custom',logLevel:'error'});
+ const {createServer}=await import('vite');const server=await createServer({optimizeDeps:{noDiscovery:true,include:[]},server:{middlewareMode:true,hmr:false,ws:false},appType:'custom',logLevel:'error'});
  try{
   const React=await import('react'),{MemoryRouter}=await import('react-router-dom'),{renderToStaticMarkup}=await import('react-dom/server');
   const {AppProvider,PlaceCard,MapView}=await server.ssrLoadModule('/src/components/shared.jsx');

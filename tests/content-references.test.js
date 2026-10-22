@@ -50,7 +50,7 @@ test('所有改寫來源保留授權、作者歷史與閱讀版本，發布授�
  assert.ok(notice.includes('https://creativecommons.org/licenses/by-sa/4.0/'));
 });
 test('實際頁面呈現逐欄日期與授權，已核實欄位仍未知，不含 BTS 外連',async()=>{
- const {createServer}=await import('vite');const server=await createServer({server:{middlewareMode:true,hmr:false,ws:false},appType:'custom',logLevel:'error'});
+ const {createServer}=await import('vite');const server=await createServer({optimizeDeps:{noDiscovery:true,include:[]},server:{middlewareMode:true,hmr:false,ws:false},appType:'custom',logLevel:'error'});
  try{
   const {PlaceReference,RailReference,ContentSources}=await server.ssrLoadModule('/src/components/ContentReference.jsx');
   const {AppProvider}=await server.ssrLoadModule('/src/components/shared.jsx');

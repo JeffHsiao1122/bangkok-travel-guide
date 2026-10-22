@@ -79,3 +79,16 @@ https://en.wikivoyage.org/wiki/Bangkok/Sukhumvit
 作者與歷史：https://en.wikivoyage.org/w/index.php?title=Bangkok%2FSukhumvit&action=history
 閱讀版本：5374176；閱讀日期：2026-10-06。
 Wattana Panich 條目標示更新 2025-01；Roong Roeng 日期未提供，均非目前營運核實。
+
+住宿指南新增：2026-10-23
+範圍：src/data/stay-guides.js 中的名稱、街道與交通起點。
+Wikivoyage contributors；翻譯、刪節；改寫欄位以 CC BY-SA 4.0 提供。
+https://creativecommons.org/licenses/by-sa/4.0/
+原文另載 CC BY-SA 3.0 相容內容與作者歷史；保留作者及原文連結。
+沒有使用照片、房價、設施描述、評價或營運方文章。
+https://en.wikivoyage.org/wiki/Bangkok/Siam_Square
+作者與歷史：https://en.wikivoyage.org/w/index.php?title=Bangkok%2FSiam_Square&action=history
+閱讀版本：5394404；閱讀日期：2026-10-23；欄位日期未提供。
+https://en.wikivoyage.org/wiki/Bangkok/Silom
+作者與歷史：https://en.wikivoyage.org/w/index.php?title=Bangkok%2FSilom&action=history
+閱讀版本：5397789；閱讀日期：2026-10-23；欄位日期未提供。

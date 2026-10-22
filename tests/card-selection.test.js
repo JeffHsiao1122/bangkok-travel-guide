@@ -16,7 +16,7 @@ test('信用卡查詢只接受所選銀行的資料庫卡片，拒絕卡號、�
 
 test('實際信用卡頁面渲染不含自由文字輸入，未知網址參數不回顯為卡片',async()=>{
   const {createServer}=await import('vite');
-  const server=await createServer({server:{middlewareMode:true,hmr:false,ws:false},appType:'custom',logLevel:'error'});
+  const server=await createServer({optimizeDeps:{noDiscovery:true,include:[]},server:{middlewareMode:true,hmr:false,ws:false},appType:'custom',logLevel:'error'});
   try {
     const {LoungeFinder,CreditCards}=await server.ssrLoadModule('/src/pages/Lounges.jsx');
     const {AppProvider}=await server.ssrLoadModule('/src/components/shared.jsx');
