@@ -1,0 +1,309 @@
+{
+  "date": "2026-10-23",
+  "scope": "正式網站 Chrome 獨立環境，只允許本站網域，沒有使用者瀏覽器資料",
+  "checks": [
+    {
+      "name": "保留五個品牌並清楚區分確切據點",
+      "pass": true
+    },
+    {
+      "name": "未核對時列出六項待辦",
+      "pass": true
+    },
+    {
+      "name": "全部勾齊仍不認證免費或入場",
+      "pass": true
+    },
+    {
+      "name": "重新整理清除準備選項",
+      "pass": true
+    },
+    {
+      "name": "品牌比較保持未知欄位",
+      "pass": true
+    },
+    {
+      "name": "無效比較網址不顯示空表格",
+      "pass": true
+    },
+    {
+      "name": "虛構示範也不能篩成已確認免費",
+      "pass": true
+    },
+    {
+      "name": "詳細頁標示品牌與查證限制",
+      "pass": true
+    },
+    {
+      "name": "信用卡查詢仍無自由卡號欄位",
+      "pass": true
+    }
+  ],
+  "layouts": [
+    {
+      "path": "/lounges",
+      "width": 1280,
+      "height": 900,
+      "h1": 1,
+      "overflow": false,
+      "brokenImages": 0
+    },
+    {
+      "path": "/lounges/compare?ids=lounge-0,lounge-1",
+      "width": 1280,
+      "height": 900,
+      "h1": 1,
+      "overflow": false,
+      "brokenImages": 0
+    },
+    {
+      "path": "/lounges?demo=1",
+      "width": 1280,
+      "height": 900,
+      "h1": 1,
+      "overflow": false,
+      "brokenImages": 0
+    },
+    {
+      "path": "/lounges/lounge-0",
+      "width": 1280,
+      "height": 900,
+      "h1": 1,
+      "overflow": false,
+      "brokenImages": 0
+    },
+    {
+      "path": "/lounges/lounge-1",
+      "width": 1280,
+      "height": 900,
+      "h1": 1,
+      "overflow": false,
+      "brokenImages": 0
+    },
+    {
+      "path": "/lounges/lounge-2",
+      "width": 1280,
+      "height": 900,
+      "h1": 1,
+      "overflow": false,
+      "brokenImages": 0
+    },
+    {
+      "path": "/lounges/lounge-3",
+      "width": 1280,
+      "height": 900,
+      "h1": 1,
+      "overflow": false,
+      "brokenImages": 0
+    },
+    {
+      "path": "/lounges/lounge-4",
+      "width": 1280,
+      "height": 900,
+      "h1": 1,
+      "overflow": false,
+      "brokenImages": 0
+    },
+    {
+      "path": "/sources",
+      "width": 1280,
+      "height": 900,
+      "h1": 1,
+      "overflow": false,
+      "brokenImages": 0
+    },
+    {
+      "path": "/lounge-finder",
+      "width": 1280,
+      "height": 900,
+      "h1": 1,
+      "overflow": false,
+      "brokenImages": 0
+    },
+    {
+      "path": "/guides/bkk-guide",
+      "width": 1280,
+      "height": 900,
+      "h1": 1,
+      "overflow": false,
+      "brokenImages": 0
+    },
+    {
+      "path": "/lounges",
+      "width": 768,
+      "height": 1024,
+      "h1": 1,
+      "overflow": false,
+      "brokenImages": 0
+    },
+    {
+      "path": "/lounges/compare?ids=lounge-0,lounge-1",
+      "width": 768,
+      "height": 1024,
+      "h1": 1,
+      "overflow": false,
+      "brokenImages": 0
+    },
+    {
+      "path": "/lounges?demo=1",
+      "width": 768,
+      "height": 1024,
+      "h1": 1,
+      "overflow": false,
+      "brokenImages": 0
+    },
+    {
+      "path": "/lounges/lounge-0",
+      "width": 768,
+      "height": 1024,
+      "h1": 1,
+      "overflow": false,
+      "brokenImages": 0
+    },
+    {
+      "path": "/lounges/lounge-1",
+      "width": 768,
+      "height": 1024,
+      "h1": 1,
+      "overflow": false,
+      "brokenImages": 0
+    },
+    {
+      "path": "/lounges/lounge-2",
+      "width": 768,
+      "height": 1024,
+      "h1": 1,
+      "overflow": false,
+      "brokenImages": 0
+    },
+    {
+      "path": "/lounges/lounge-3",
+      "width": 768,
+      "height": 1024,
+      "h1": 1,
+      "overflow": false,
+      "brokenImages": 0
+    },
+    {
+      "path": "/lounges/lounge-4",
+      "width": 768,
+      "height": 1024,
+      "h1": 1,
+      "overflow": false,
+      "brokenImages": 0
+    },
+    {
+      "path": "/sources",
+      "width": 768,
+      "height": 1024,
+      "h1": 1,
+      "overflow": false,
+      "brokenImages": 0
+    },
+    {
+      "path": "/lounge-finder",
+      "width": 768,
+      "height": 1024,
+      "h1": 1,
+      "overflow": false,
+      "brokenImages": 0
+    },
+    {
+      "path": "/guides/bkk-guide",
+      "width": 768,
+      "height": 1024,
+      "h1": 1,
+      "overflow": false,
+      "brokenImages": 0
+    },
+    {
+      "path": "/lounges",
+      "width": 390,
+      "height": 844,
+      "h1": 1,
+      "overflow": false,
+      "brokenImages": 0
+    },
+    {
+      "path": "/lounges/compare?ids=lounge-0,lounge-1",
+      "width": 390,
+      "height": 844,
+      "h1": 1,
+      "overflow": false,
+      "brokenImages": 0
+    },
+    {
+      "path": "/lounges?demo=1",
+      "width": 390,
+      "height": 844,
+      "h1": 1,
+      "overflow": false,
+      "brokenImages": 0
+    },
+    {
+      "path": "/lounges/lounge-0",
+      "width": 390,
+      "height": 844,
+      "h1": 1,
+      "overflow": false,
+      "brokenImages": 0
+    },
+    {
+      "path": "/lounges/lounge-1",
+      "width": 390,
+      "height": 844,
+      "h1": 1,
+      "overflow": false,
+      "brokenImages": 0
+    },
+    {
+      "path": "/lounges/lounge-2",
+      "width": 390,
+      "height": 844,
+      "h1": 1,
+      "overflow": false,
+      "brokenImages": 0
+    },
+    {
+      "path": "/lounges/lounge-3",
+      "width": 390,
+      "height": 844,
+      "h1": 1,
+      "overflow": false,
+      "brokenImages": 0
+    },
+    {
+      "path": "/lounges/lounge-4",
+      "width": 390,
+      "height": 844,
+      "h1": 1,
+      "overflow": false,
+      "brokenImages": 0
+    },
+    {
+      "path": "/sources",
+      "width": 390,
+      "height": 844,
+      "h1": 1,
+      "overflow": false,
+      "brokenImages": 0
+    },
+    {
+      "path": "/lounge-finder",
+      "width": 390,
+      "height": 844,
+      "h1": 1,
+      "overflow": false,
+      "brokenImages": 0
+    },
+    {
+      "path": "/guides/bkk-guide",
+      "width": 390,
+      "height": 844,
+      "h1": 1,
+      "overflow": false,
+      "brokenImages": 0
+    }
+  ],
+  "pageErrors": []
+}

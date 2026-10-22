@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-23",
+  "release": "b4cb61d79a876a07ae6cf39b54f807bd7e045341",
+  "checks": [
+    {
+      "path": "index.html",
+      "status": 200,
+      "bytes": 752,
+      "sha256": "b77b5668c7d348614a97f056edee2911b4d2fc820058531a397ef3e1148b001e",
+      "matchesLocal": true
+    },
+    {
+      "path": "favicon.svg",
+      "status": 200,
+      "bytes": 264,
+      "sha256": "ff67040081541d90a713bff5feca7c6ba1e3450238c177ca6cfc9e2b59deb83c",
+      "matchesLocal": true
+    },
+    {
+      "path": "assets/index-D9XdlU2u.js",
+      "status": 200,
+      "bytes": 459824,
+      "sha256": "171cbe404afdb4e89882c501fa3b7beab1e0776a31f6553359552bfc58dd4e5d",
+      "matchesLocal": true
+    },
+    {
+      "path": "assets/index-D1BzPUXO.css",
+      "status": 200,
+      "bytes": 23550,
+      "sha256": "f80f27bb3818d3ecfa1e6874325b85592373b2f5a5ae03f8918ca84d6501c6cc",
+      "matchesLocal": true
+    },
+    {
+      "path": "images/bangkok-hero.png",
+      "status": 200,
+      "bytes": 2942824,
+      "sha256": "47f173eafe8bc831d45fa1e512f9b6a7189a814f869a81c5c52109eb15553770",
+      "matchesLocal": true
+    },
+    {
+      "path": "third-party-notices.txt",
+      "status": 200,
+      "bytes": 10077,
+      "sha256": "f5e63fc614f5db603a9e384a5d788903a512679a6020433f36f62d0cd3fe8581",
+      "matchesLocal": true
+    },
+    {
+      "path": "content-licenses.txt",
+      "status": 200,
+      "bytes": 5907,
+      "sha256": "02c3c8b6bb17ded8b3f74ec8d96b7fcb77beba6241e12d372118cff10438ca69",
+      "matchesLocal": true
+    }
+  ]
+}
