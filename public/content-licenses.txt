@@ -92,3 +92,14 @@ https://en.wikivoyage.org/wiki/Bangkok/Siam_Square
 https://en.wikivoyage.org/wiki/Bangkok/Silom
 作者與歷史：https://en.wikivoyage.org/w/index.php?title=Bangkok%2FSilom&action=history
 閱讀版本：5397789；閱讀日期：2026-10-23；欄位日期未提供。
+
+BKK 貴賓室概覽（2026-10-23）
+適用：src/data/lounge-reference.js 的 loungeOverview 航空公司名稱概覽。
+Wikivoyage contributors；僅刪節、翻譯；改寫欄位採 CC BY-SA 4.0。
+https://creativecommons.org/licenses/by-sa/4.0/
+Suvarnabhumi Airport / Wait / Lounges
+https://en.wikivoyage.org/wiki/Suvarnabhumi_Airport
+作者與歷史：https://en.wikivoyage.org/w/index.php?title=Suvarnabhumi_Airport&action=history
+閱讀版本：5316459；閱讀日期：2026-10-23；條目日期未提供。
+未採用評價、價格、會員／艙等入場條件、照片、地圖及官方文章。
+準備核對工具與步驟由本站原創，與上述參考文字分開標示。

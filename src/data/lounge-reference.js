@@ -1,0 +1,5 @@
+// Adapted overview: CC BY-SA 4.0; not an admission rule or branch database.
+export const loungeSource={id:'bkk-lounge-overview',title:'Suvarnabhumi Airport',url:'https://en.wikivoyage.org/wiki/Suvarnabhumi_Airport',historyUrl:'https://en.wikivoyage.org/w/index.php?title=Suvarnabhumi_Airport&action=history',revision:5316459,reviewedAt:'2026-10-23',authors:'Wikivoyage contributors',license:'CC-BY-SA-4.0',modified:'僅刪節及翻譯航空公司貴賓室名稱概覽；改寫採相同授權。',sourceUpdatedAt:null,confirmedAt:null};
+export const loungeOverview='指南提到泰航於 BKK 設有多個貴賓室，亦提及 EVA Air Lounge 與 Singapore Airlines Silver Kris Lounge。這些名稱只作探索起點，並非已確認營運的逐據點清單。';
+export const readinessFields=[['branch','確切據點','已核對完整名稱、航廈與區域'],['route','可達動線','已核對航班區域與可達路線'],['hours','當日時段','已核對使用日期與營業時間'],['access','入場依據','已向銀行、會籍或航空公司核對條件'],['cost','本人與攜伴','已核對本人及每位同行者費用'],['gate','登機預留','已自行核對前往登機門與報到時間']];
+export function readinessReport(answers){const missing=readinessFields.filter(([id])=>answers[id]!=='yes').map(([,label])=>label);return {missing,complete:missing.length===0,free:false,admissionVerified:false};}

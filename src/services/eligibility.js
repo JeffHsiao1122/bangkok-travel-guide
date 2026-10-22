@@ -4,7 +4,7 @@ export function evaluateBenefit(card,benefit,lounge,date,answers={}) {
  if(!validDate(date))return {status:'待確認',free:false,message:'請提供有效使用日期。'};
  const demo=card.status==='範例資料';const prefix=demo?'示範結果｜':'';
  if(date<benefit.start||date>benefit.end)return {status:'已到期或尚未生效',free:false,message:`${prefix}不在公告適用期間內。`};
- if(!demo&&(card.status!=='已確認'||!benefit.verified||lounge.status!=='已確認'))return {status:'待確認',free:false,message:'合作或條件尚未查證，不能判定免費。'};
+ if(!demo&&(lounge.recordKind==='brand'||lounge.hasVerifiedBranch===false||card.status!=='已確認'||!benefit.verified||lounge.status!=='已確認'))return {status:'待確認',free:false,message:'合作或條件尚未查證，不能判定免費。'};
  if(!Number.isInteger(benefit.quota)||benefit.quota<=0)return {status:'資料不足',free:false,message:'免費次數為零或尚未確認，請向發卡銀行核對。'};
  if(answers.zone==='domestic')return {status:'動線與合作範圍待確認',free:false,message:'這組資料未確認國內或抵達旅客適用，不判定可入場。'};
  if(answers.activated==='no'||answers.qualified==='no')return {status:'未符合條件',free:false,message:`${prefix}未滿足啟用或刷卡條件；付費資訊請另行確認。`};
