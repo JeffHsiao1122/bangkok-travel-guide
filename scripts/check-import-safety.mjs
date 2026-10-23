@@ -1,0 +1,23 @@
+// Local-only import validation QA. Uses synthetic travel data and an existing browser.
+import assert from 'node:assert/strict';
+import {mkdir,writeFile} from 'node:fs/promises';
+const base=process.env.BANGKOK_QA_URL??'http://127.0.0.1:4175/bangkok-travel-guide/';assert.ok(['localhost','127.0.0.1'].includes(new URL(base).hostname));
+const {chromium}=await import(process.env.BANGKOK_BROWSER_MODULE??'playwright');const browser=await chromium.launch({headless:true,...(process.env.BANGKOK_BROWSER_EXECUTABLE?{executablePath:process.env.BANGKOK_BROWSER_EXECUTABLE}:{})});
+const report={cases:[],errors:[],unexpectedRequests:[]};
+try{for(const width of [390,1280]){
+ const context=await browser.newContext({viewport:{width,height:900}});await context.route('**/*',r=>new URL(r.request().url()).origin===new URL(base).origin?r.continue():r.abort());const page=await context.newPage();page.setDefaultTimeout(8000);page.on('pageerror',e=>report.errors.push(e.message));context.on('request',r=>{if(new URL(r.url()).origin!==new URL(base).origin||r.url().includes('unexpected-qa-image')||!['GET','HEAD'].includes(r.method()))report.unexpectedRequests.push(r.method());});
+ const go=async path=>{await page.goto(base+'#'+path);await page.locator('main h1').waitFor();};const saved=()=>page.evaluate(()=>localStorage.getItem('bangkok-trips-v1'));
+ await go('/trips/bangkok-3');await page.getByRole('button',{name:'使用此行程並修改',exact:true}).click();await page.locator('.trip-name-input').waitFor();const before=await saved(),original=JSON.parse(before).trips[0];await go('/my-trips');
+ const invalid=structuredClone(original);invalid.options.note={bad:'structure'};
+ await page.getByLabel('匯入 JSON 備份',{exact:true}).setInputFiles({name:'invalid-note.json',mimeType:'application/json',buffer:Buffer.from(JSON.stringify(invalid))});await page.getByRole('alert').waitFor();assert.match(await page.getByRole('alert').innerText(),/文字欄位/);assert.equal(await saved(),before);
+ const badActivity=structuredClone(original);badActivity.days[0].activities[0].type={bad:'structure'};
+ await page.getByText('貼上 JSON 備份內容匯入',{exact:true}).click();await page.getByLabel('貼上行程備份內容',{exact:true}).fill(JSON.stringify(badActivity));await page.getByRole('button',{name:'匯入貼上的備份',exact:true}).click();assert.match(await page.getByRole('alert').innerText(),/活動資料/);assert.equal(await saved(),before);
+ await page.getByLabel('匯入 JSON 備份',{exact:true}).setInputFiles({name:'invalid-batch.json',mimeType:'application/json',buffer:Buffer.from(JSON.stringify({version:1,trips:[original,invalid]}))});await page.waitForFunction(()=>document.querySelector('[role=alert]')?.textContent.includes('文字欄位'));assert.equal(await saved(),before);
+ await page.reload();await page.locator('.info-card').waitFor();assert.equal(await page.locator('.info-card').count(),1);assert.equal(await saved(),before);
+ const literal='<img src="/unexpected-qa-image" onerror="window.__qaImportScript=1"> javascript:alert(1)',good=structuredClone(original);good.options.note=literal;good.days[0].activities[0].note=literal;
+ await page.getByLabel('匯入 JSON 備份',{exact:true}).setInputFiles({name:'valid-text.json',mimeType:'application/json',buffer:Buffer.from(JSON.stringify(good))});await page.waitForFunction(()=>JSON.parse(localStorage.getItem('bangkok-trips-v1')).trips.length===2);
+ const list=JSON.parse(await saved()).trips,copy=list.find(t=>t.id!==original.id);assert.deepEqual(list.find(t=>t.id===original.id),original);assert.equal(copy.options.note,literal);assert.equal(copy.days[0].activities[0].note,literal);
+ await go('/my-trips/'+copy.id);assert.ok((await page.locator('main').innerText()).includes(literal));assert.equal(await page.locator('img[src="/unexpected-qa-image"],a[href^="javascript:"]').count(),0);assert.equal(await page.evaluate(()=>window.__qaImportScript??0),0);
+ await go('/my-trips/'+copy.id+'/edit');await page.locator('.trip-name-input').waitFor();assert.equal(await page.locator('.editable-activity').first().getByLabel('活動備註',{exact:true}).inputValue(),literal);assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
+ report.cases.push({width,invalidFileRejected:true,invalidPasteRejected:true,invalidBatchAtomic:true,originalUnchanged:true,validImportEditable:true,literalTextNotExecuted:true});await context.close();
+}assert.deepEqual(report.errors,[]);assert.deepEqual(report.unexpectedRequests,[]);await mkdir('docs/local/import-safety',{recursive:true});await writeFile('docs/local/import-safety/results.json',JSON.stringify(report,null,2)+'\n');console.log(JSON.stringify(report,null,2));}finally{await browser.close();}

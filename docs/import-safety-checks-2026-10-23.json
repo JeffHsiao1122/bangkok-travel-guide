@@ -1,0 +1,24 @@
+{
+  "cases": [
+    {
+      "width": 390,
+      "invalidFileRejected": true,
+      "invalidPasteRejected": true,
+      "invalidBatchAtomic": true,
+      "originalUnchanged": true,
+      "validImportEditable": true,
+      "literalTextNotExecuted": true
+    },
+    {
+      "width": 1280,
+      "invalidFileRejected": true,
+      "invalidPasteRejected": true,
+      "invalidBatchAtomic": true,
+      "originalUnchanged": true,
+      "validImportEditable": true,
+      "literalTextNotExecuted": true
+    }
+  ],
+  "errors": [],
+  "unexpectedRequests": []
+}

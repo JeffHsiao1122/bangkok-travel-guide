@@ -3,6 +3,7 @@ export const STORE_KEY='bangkok-trips-v1';
 export const DRAFT_KEY='bangkok-drafts-v1';
 export const MAX_BYTES=2000000;
 function text(value,max=5000){return typeof value==='string'&&value.length<=max;}
+function optionalTextFields(value,limits){return value&&typeof value==='object'&&!Array.isArray(value)&&Object.entries(limits).every(([key,max])=>value[key]==null||text(value[key],max));}
 function byteLength(value){return new TextEncoder().encode(value).byteLength;}
 function parseJson(raw){try{return JSON.parse(raw);}catch{throw Error('內容不是完整有效的 JSON，請使用本網站匯出的完整備份。');}}
 function minute(value){return Number.isInteger(value)&&value>=0&&value<=1440;}
@@ -11,11 +12,12 @@ function validCoordinates(p){return p.lat===null&&p.lng===null || Number.isFinit
 function validSnapshot(p){return text(p.name,200)&&text(p.id,100)&&text(p.area,200)&&text(p.type,100)&&validCoordinates(p)&&minute(p.open)&&minute(p.close)&&p.close>=p.open&&Array.isArray(p.weekdays)&&p.weekdays.every(n=>Number.isInteger(n)&&n>=0&&n<=6)&&stringList(p.tags)&&text(p.status,50)&&(p.lastEntry==null||minute(p.lastEntry));}
 export function validateTrip(trip) {
  if(!trip||trip.schemaVersion!==1)throw Error('不支援的行程版本。');
+ if(!optionalTextFields(trip.options,{name:120,note:5000,hotelNote:5000,area:200,arrivalAirport:100,departureAirport:100,wake:50}))throw Error('行程文字欄位格式不正確，請使用未修改結構的完整 JSON 備份。');
  if(!text(trip.id,100)||!trip.id||!text(trip.name,120)||!trip.name.trim()||!validDate(trip.start)||!validDate(trip.end)||!Array.isArray(trip.days)||trip.days.length<1||trip.days.length>14||dayCount(trip.start,trip.end)!==trip.days.length)throw Error('行程日期、名稱或天數格式不正確。');
  const options=normaliseOptions(trip.options);if(options.start!==trip.start||options.days!==trip.days.length||trip.timezone!=='Asia/Bangkok'||!text(trip.origin,200)||!text(trip.createdAt,100)||!Number.isFinite(Date.parse(trip.createdAt))||!text(trip.updatedAt,100)||!Number.isFinite(Date.parse(trip.updatedAt))||!stringList(trip.reasons??[])||!Array.isArray(trip.unassigned??[])||(trip.unassigned??[]).length>100||(trip.unassigned??[]).some(x=>!x||!text(x.id,100)||!text(x.name,200)||!text(x.reason,1000)))throw Error('行程設定格式不正確。');const ids=new Set(),dayIds=new Set();
  for(const [i,d]of trip.days.entries()){
   if(d.date!==addDays(trip.start,i)||!Array.isArray(d.activities)||d.activities.length>50||!text(d.id,100)||dayIds.has(d.id)||!minute(d.startMinute)||!minute(d.endMinute)||!stringList(d.reasons??[]))throw Error('每日行程格式不正確。');dayIds.add(d.id);
-  for(const a of d.activities){if(!text(a.id,100)||ids.has(a.id)||!text(a.name,200)||!minute(a.start)||!Number.isInteger(a.duration)||a.duration<5||a.duration>1440||a.cost!==null&&(!Number.isFinite(a.cost)||a.cost<0)||!['person','group'].includes(a.unit)||!text(a.note??'',5000)||a.placeId!=null&&!text(a.placeId,100)||['fixed','locked','localPause'].some(key=>a[key]!=null&&typeof a[key]!=='boolean'))throw Error('活動資料不正確或編號重複。');ids.add(a.id);if(a.snapshot&&!validSnapshot(a.snapshot))throw Error('地點資料格式不正確。');}
+  for(const a of d.activities){if(!text(a.id,100)||ids.has(a.id)||!text(a.name,200)||!minute(a.start)||!Number.isInteger(a.duration)||a.duration<5||a.duration>1440||a.cost!==null&&(!Number.isFinite(a.cost)||a.cost<0)||!['person','group'].includes(a.unit)||!text(a.note??'',5000)||!optionalTextFields(a,{type:100})||a.placeId!=null&&!text(a.placeId,100)||['fixed','locked','localPause'].some(key=>a[key]!=null&&typeof a[key]!=='boolean'))throw Error('活動資料不正確或編號重複。');ids.add(a.id);if(a.snapshot&&!validSnapshot(a.snapshot))throw Error('地點資料格式不正確。');}
  }
  return trip;
 }
