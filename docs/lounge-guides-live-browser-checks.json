@@ -1,0 +1,193 @@
+{
+  "date": "2026-10-23",
+  "scope": "正式網址原創指南與閱讀入口",
+  "layouts": [
+    {
+      "path": "/lounges",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/guides",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/sitemap",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/guides/bkk-guide",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/guides/miracle-coral",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/guides/first-lounge",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/guides/low-cost-lounge",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/guides/booking",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/lounges",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/guides",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/sitemap",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/guides/bkk-guide",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/guides/miracle-coral",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/guides/first-lounge",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/guides/low-cost-lounge",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/guides/booking",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/lounges",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/guides",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/sitemap",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/guides/bkk-guide",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/guides/miracle-coral",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/guides/first-lounge",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/guides/low-cost-lounge",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/guides/booking",
+      "width": 1280,
+      "pass": true
+    }
+  ],
+  "interactions": [
+    {
+      "name": "390 寬度文章目錄可見並可操作",
+      "pass": true
+    },
+    {
+      "name": "768 寬度文章目錄可見並可操作",
+      "pass": true
+    },
+    {
+      "name": "1280 寬度文章目錄可見並可操作",
+      "pass": true
+    },
+    {
+      "name": "bkk-guide 目錄跳轉與鍵盤焦點",
+      "pass": true
+    },
+    {
+      "name": "bkk-guide 問答展開與相關文章入口",
+      "pass": true
+    },
+    {
+      "name": "miracle-coral 目錄跳轉與鍵盤焦點",
+      "pass": true
+    },
+    {
+      "name": "miracle-coral 問答展開與相關文章入口",
+      "pass": true
+    },
+    {
+      "name": "first-lounge 目錄跳轉與鍵盤焦點",
+      "pass": true
+    },
+    {
+      "name": "first-lounge 問答展開與相關文章入口",
+      "pass": true
+    },
+    {
+      "name": "low-cost-lounge 目錄跳轉與鍵盤焦點",
+      "pass": true
+    },
+    {
+      "name": "low-cost-lounge 問答展開與相關文章入口",
+      "pass": true
+    },
+    {
+      "name": "booking 目錄跳轉與鍵盤焦點",
+      "pass": true
+    },
+    {
+      "name": "booking 問答展開與相關文章入口",
+      "pass": true
+    },
+    {
+      "name": "比較文章只有原創問題與判讀，未捏造設備或價格",
+      "pass": true
+    },
+    {
+      "name": "貴賓室入口可開啟完整文章",
+      "pass": true
+    },
+    {
+      "name": "網站地圖收錄五篇文章",
+      "pass": true
+    }
+  ],
+  "errors": []
+}
