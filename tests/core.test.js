@@ -1,9 +1,8 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {places,cards,benefits,demoLounges} from '../src/data/catalog.js';
+import {places} from '../src/data/catalog.js';
 import {validDate,dayCount,addDays,generateTrip,normaliseOptions,blankTrip,makeActivity,recalculateTrip,travelEstimate,regenerateDay} from '../src/services/planner.js';
 import {validateTrip,writeTrips,readTrips,importTrips,duplicateTrip,STORE_KEY} from '../src/services/trip-storage.js';
-import {evaluateBenefit} from '../src/services/eligibility.js';
 const options={start:'2026-11-01',days:5,startTime:'09:00',endTime:'20:00',people:2,mode:'transit',prefs:['觀光','美食','文化體驗'],area:'暹羅',dailyBudget:3000,must:[],excluded:[]};
 function memory(){const data=new Map();return {getItem:key=>data.get(key)??null,setItem:(key,value)=>data.set(key,value),removeItem:key=>data.delete(key)};}
 test('日期驗證與跨月計算',()=>{assert.equal(validDate('2026-02-31'),false);assert.equal(validDate('2024-02-29'),true);assert.equal(dayCount('2026-10-31','2026-11-02'),3);assert.equal(addDays('2026-12-31',1),'2027-01-01');});
@@ -23,14 +22,10 @@ test('儲存損壞保留原資料、不自動清空',()=>{const s=memory();s.set
 test('瀏覽器禁止保存時回報錯誤',()=>{const t=generateTrip(options,places);assert.throws(()=>writeTrips({setItem(){throw Error('禁止保存');}},[t]),/禁止保存/);});
 test('複製行程重新建立識別碼並保持原行程',()=>{const t=generateTrip(options,places);const r=duplicateTrip(t);assert.notEqual(r.id,t.id);assert.notEqual(r.days[0].activities[0].id,t.days[0].activities[0].id);r.days[0].activities[0].name='副本';assert.notEqual(t.days[0].activities[0].name,'副本');});
 test('匯入格式、版本、大小與活動欄位驗證',()=>{const t=generateTrip(options,places);assert.equal(importTrips(JSON.stringify(t)).length,1);assert.throws(()=>importTrips('{}'));assert.throws(()=>importTrips('x'.repeat(2000001)));assert.throws(()=>importTrips(JSON.stringify({...t,schemaVersion:99})));const bad=structuredClone(t);bad.days[0].activities[0].start='09:00';assert.throws(()=>importTrips(JSON.stringify(bad)));});
-test('虛構卡不能被當成真實免費資格',()=>{const r=evaluateBenefit(cards[0],benefits[0],demoLounges[0],'2026-10-20',{activated:'yes',qualified:'yes'});assert.equal(r.free,false);assert.match(r.status,/示範/);});
-test('過期、啟用未知、刷卡未達與合作缺漏分開回報',()=>{assert.match(evaluateBenefit(cards[0],benefits[0],demoLounges[0],'2027-01-01',{}).status,/到期/);assert.equal(evaluateBenefit(cards[0],benefits[0],demoLounges[0],'2026-10-20',{}).status,'需核對條件');assert.equal(evaluateBenefit(cards[0],benefits[0],demoLounges[0],'2026-10-20',{activated:'no'}).status,'未符合條件');assert.equal(evaluateBenefit(cards[1],benefits[1],demoLounges[0],'2026-10-20',{}).status,'資料不足');});
-test('未核實的真實方案不能顯示免費',()=>{const card={...cards[0],status:'待確認'};const r=evaluateBenefit(card,benefits[0],demoLounges[0],'2026-10-20',{activated:'yes',qualified:'yes'});assert.equal(r.free,false);assert.equal(r.status,'待確認');});
 test('低預算與自行用餐空檔不重複計算交通費（88 組條件）',()=>{for(const b of [50,100,150,200,250,300,350,400,500,700,1000])for(const mode of ['transit','taxi'])for(const food of [0,50,100,300]){const t=generateTrip({...options,days:3,people:3,mode,prefs:['購物','美食'],dailyBudget:b,totalBudget:b*3,foodBudget:food},places);assert.ok(t.days.every(d=>d.perPerson<=b),`每日上限 ${b}／${mode}／餐費 ${food}`);assert.ok(t.totalPerPerson<=b*3);}});
 test('未填預算重複整理仍為未知，單日重排仍可安排活動',()=>{const t=generateTrip({...options,dailyBudget:null,totalBudget:null,foodBudget:null,ticketBudget:null},places);assert.equal(normaliseOptions(t.options).dailyBudget,null);assert.deepEqual(normaliseOptions(normaliseOptions(t.options)),normaliseOptions(t.options));assert.ok(regenerateDay(t,0,places).days[0].activities.length>0);});
 test('清晨起飛與深夜抵達可保存空白當日',()=>{for(const patch of [{arrivalTime:'23:59'},{departureTime:'02:00'}])validateTrip(generateTrip({...options,days:1,...patch},places));});
 test('拒絕會破壞呈現的匯入偏好、地點與時間欄位',()=>{for(const mutate of [t=>t.options.prefs='美食',t=>t.days[0].activities[0].snapshot.weekdays='全部',t=>t.days[0].activities[0].snapshot.tags=42,t=>t.days[0].activities[0].duration=75.5,t=>t.days[0].date='2026-11-02',t=>t.options.mode='invalid']){const t=generateTrip(options,places);mutate(t);assert.throws(()=>importTrips(JSON.stringify(t)));}});
 test('刪除後保存空清單，重新讀取仍為空',()=>{const s=memory();writeTrips(s,[generateTrip(options,places)]);writeTrips(s,[]);assert.deepEqual(readTrips(s),[]);});
 test('匯入重新計算預算，不沿用備份裡過時的總額',()=>{const t=generateTrip(options,places);const expected=t.totalPerPerson;t.totalPerPerson=999999;assert.equal(importTrips(JSON.stringify(t))[0].totalPerPerson,expected);});
-test('無效查詢日期、零次數與國內動線不宣稱免費',()=>{for(const [patch,date,answers] of [[{},'2026-02-31',{}],[{quota:0},'2026-10-20',{}],[{},'2026-10-20',{zone:'domestic'}]]){const r=evaluateBenefit(cards[0],{...benefits[0],...patch},demoLounges[0],date,answers);assert.equal(r.free,false);assert.notEqual(r.status,'示範條件符合');}});
 test('備份大小以實際 UTF-8 位元組計算，空白名稱不可保存',()=>{assert.throws(()=>importTrips('中'.repeat(700000)),/檔案過大/);const t=generateTrip(options,places);t.name='   ';assert.throws(()=>validateTrip(t));});

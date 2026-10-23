@@ -1,0 +1,173 @@
+{
+  "pageChecks": [
+    {
+      "width": 390,
+      "path": "/",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "path": "/travel",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "path": "/lounges",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "path": "/lounges/compare",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "path": "/lounges/lounge-0",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "path": "/guides",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "path": "/guides/first-lounge",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "path": "/sitemap",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "path": "/sources",
+      "pass": true
+    },
+    {
+      "width": 768,
+      "path": "/",
+      "pass": true
+    },
+    {
+      "width": 768,
+      "path": "/travel",
+      "pass": true
+    },
+    {
+      "width": 768,
+      "path": "/lounges",
+      "pass": true
+    },
+    {
+      "width": 768,
+      "path": "/lounges/compare",
+      "pass": true
+    },
+    {
+      "width": 768,
+      "path": "/lounges/lounge-0",
+      "pass": true
+    },
+    {
+      "width": 768,
+      "path": "/guides",
+      "pass": true
+    },
+    {
+      "width": 768,
+      "path": "/guides/first-lounge",
+      "pass": true
+    },
+    {
+      "width": 768,
+      "path": "/sitemap",
+      "pass": true
+    },
+    {
+      "width": 768,
+      "path": "/sources",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "path": "/",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "path": "/travel",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "path": "/lounges",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "path": "/lounges/compare",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "path": "/lounges/lounge-0",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "path": "/guides",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "path": "/guides/first-lounge",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "path": "/sitemap",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "path": "/sources",
+      "pass": true
+    }
+  ],
+  "redirects": [
+    {
+      "path": "/credit-cards",
+      "pass": true
+    },
+    {
+      "path": "/credit-cards/compare?ids=demo-card-0",
+      "pass": true
+    },
+    {
+      "path": "/credit-cards/demo-card-0",
+      "pass": true
+    },
+    {
+      "path": "/lounge-finder?card=private-test",
+      "pass": true
+    },
+    {
+      "path": "/guides/taiwan-cards",
+      "pass": true
+    },
+    {
+      "path": "/guides/check-benefits",
+      "pass": true
+    }
+  ],
+  "interactions": [
+    "未知淋浴不冒充可用",
+    "示範設施篩選與重設",
+    "兩個休息空間比較",
+    "一般準備清單與重新整理清除",
+    "既有行程原樣保留"
+  ],
+  "errors": []
+}
