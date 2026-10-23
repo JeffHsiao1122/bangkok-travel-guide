@@ -1,0 +1,1794 @@
+{
+  "scope": "本機隔離瀏覽器／合成測試行程",
+  "cases": [
+    {
+      "name": "日期延長後撤銷不會停在已移除的日期（390）",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "name": "日期延長後撤銷不會停在已移除的日期（1280）",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "name": "自動排程、必去／排除、活動編輯、排序、跨日、鎖定重排與保存",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "name": "JSON 真實下載與檔案匯入、錯誤匯入保留資料、複製／刪除／清除確認",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "name": "空白行程、自訂活動、縮短日期確認、撤銷與草稿還原",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "name": "全站公開頁面、圖片、未知路由與三種螢幕寬度",
+      "width": 1280,
+      "pass": true
+    }
+  ],
+  "routes": [
+    {
+      "path": "/first-visit",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/travel",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/travel/flights",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/travel/airports/bkk",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/travel/airports/dmk",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/travel/accommodation",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/travel/transportation",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/travel/food",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/travel/attractions",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/lounges",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/lounges/compare",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/trips",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/planner",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/my-trips/new",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/my-trips",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/guides",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/guides/bkk-guide",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/guides/miracle-coral",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/guides/first-lounge",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/guides/low-cost-lounge",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/guides/booking",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/about",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/faq",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/contact",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/sitemap",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/privacy",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/disclaimer",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/sources",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/travel/attractions/grand-palace",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/travel/attractions/wat-pho",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/travel/attractions/wat-arun",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/travel/attractions/flower-market",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/travel/attractions/chinatown",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/travel/attractions/talat-noi",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/travel/attractions/river-city",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/travel/attractions/iconsiam",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/travel/attractions/asiatique",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/travel/attractions/siam-paragon",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/travel/attractions/mbk",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/travel/attractions/art-center",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/travel/attractions/jim-thompson",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/travel/attractions/centralworld",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/travel/attractions/lumphini",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/travel/attractions/benjakitti",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/travel/attractions/terminal21",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/travel/attractions/emporium",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/travel/attractions/spa-example",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/travel/attractions/chatuchak",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/travel/attractions/ari",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/travel/attractions/aquarium-example",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/travel/attractions/floating-example",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/travel/attractions/ayutthaya-example",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/travel/food/food-thai",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/travel/food/food-noodle",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/travel/food/food-basil",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/travel/food/food-tea",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/travel/food/food-mango",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/travel/food/food-street",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/travel/food/food-cafe",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/travel/food/food-market",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/travel/food/food-mall",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/travel/food/food-ari",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/travel/food/food-silom",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/travel/food/food-river",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/travel/attractions/chatuchak-park",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/travel/food/food-thip-samai",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/travel/food/food-mont-nomsod",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/travel/food/food-som-tam-nua",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/travel/food/food-prachak",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/travel/food/food-roong-roeng",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/travel/food/food-wattana-panich",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/travel/accommodation/stay-1",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/travel/accommodation/stay-2",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/travel/accommodation/stay-3",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/travel/accommodation/stay-4",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/travel/accommodation/stay-5",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/travel/accommodation/stay-6",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/travel/accommodation/stay-7",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/travel/accommodation/stay-8",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/travel/accommodation/hotel-novotel-siam",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/travel/accommodation/hotel-grand-hyatt",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/travel/accommodation/hotel-mandarin-oriental",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/travel/accommodation/hotel-shangri-la",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/travel/accommodation/compare",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/travel/transportation/bts",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/travel/transportation/mrt",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/travel/transportation/arl",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/travel/transportation/taxi",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/travel/transportation/grab",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/travel/transportation/tuktuk",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/travel/transportation/bus",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/travel/transportation/boat",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/travel/transportation/transfer",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/travel/transportation/red-line",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/travel/airlines/traditional",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/travel/airlines/low-cost",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/travel/areas/%E6%9A%B9%E7%BE%85",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/travel/areas/%E7%B4%A0%E5%9D%A4%E9%80%B8",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/travel/areas/%E6%98%AF%E9%9A%86",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/travel/areas/%E8%88%8A%E5%9F%8E%E6%B2%B3%E5%B2%B8",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/travel/areas/%E5%94%90%E4%BA%BA%E8%A1%97",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/travel/areas/%E6%B2%B3%E5%B2%B8",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/travel/areas/%E6%B4%BD%E5%9C%96%E6%B4%BD",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/lounges/lounge-0",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/lounges/lounge-1",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/lounges/lounge-2",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/lounges/lounge-3",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/lounges/lounge-4",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/lounges/demo-lounge-0",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/lounges/demo-lounge-1",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/lounges/demo-lounge-2",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/trips/bangkok-3",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/trips/bangkok-4",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/trips/bangkok-5",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/trips/bangkok-6",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/trips/bangkok-7",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "path": "/first-visit",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/travel",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/travel/flights",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/travel/airports/bkk",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/travel/airports/dmk",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/travel/accommodation",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/travel/transportation",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/travel/food",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/travel/attractions",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/lounges",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/lounges/compare",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/trips",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/planner",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/my-trips/new",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/my-trips",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/guides",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/guides/bkk-guide",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/guides/miracle-coral",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/guides/first-lounge",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/guides/low-cost-lounge",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/guides/booking",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/about",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/faq",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/contact",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/sitemap",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/privacy",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/disclaimer",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/sources",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/travel/attractions/grand-palace",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/travel/attractions/wat-pho",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/travel/attractions/wat-arun",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/travel/attractions/flower-market",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/travel/attractions/chinatown",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/travel/attractions/talat-noi",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/travel/attractions/river-city",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/travel/attractions/iconsiam",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/travel/attractions/asiatique",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/travel/attractions/siam-paragon",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/travel/attractions/mbk",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/travel/attractions/art-center",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/travel/attractions/jim-thompson",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/travel/attractions/centralworld",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/travel/attractions/lumphini",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/travel/attractions/benjakitti",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/travel/attractions/terminal21",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/travel/attractions/emporium",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/travel/attractions/spa-example",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/travel/attractions/chatuchak",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/travel/attractions/ari",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/travel/attractions/aquarium-example",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/travel/attractions/floating-example",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/travel/attractions/ayutthaya-example",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/travel/food/food-thai",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/travel/food/food-noodle",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/travel/food/food-basil",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/travel/food/food-tea",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/travel/food/food-mango",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/travel/food/food-street",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/travel/food/food-cafe",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/travel/food/food-market",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/travel/food/food-mall",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/travel/food/food-ari",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/travel/food/food-silom",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/travel/food/food-river",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/travel/attractions/chatuchak-park",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/travel/food/food-thip-samai",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/travel/food/food-mont-nomsod",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/travel/food/food-som-tam-nua",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/travel/food/food-prachak",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/travel/food/food-roong-roeng",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/travel/food/food-wattana-panich",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/travel/accommodation/stay-1",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/travel/accommodation/stay-2",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/travel/accommodation/stay-3",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/travel/accommodation/stay-4",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/travel/accommodation/stay-5",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/travel/accommodation/stay-6",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/travel/accommodation/stay-7",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/travel/accommodation/stay-8",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/travel/accommodation/hotel-novotel-siam",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/travel/accommodation/hotel-grand-hyatt",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/travel/accommodation/hotel-mandarin-oriental",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/travel/accommodation/hotel-shangri-la",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/travel/accommodation/compare",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/travel/transportation/bts",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/travel/transportation/mrt",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/travel/transportation/arl",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/travel/transportation/taxi",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/travel/transportation/grab",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/travel/transportation/tuktuk",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/travel/transportation/bus",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/travel/transportation/boat",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/travel/transportation/transfer",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/travel/transportation/red-line",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/travel/airlines/traditional",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/travel/airlines/low-cost",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/travel/areas/%E6%9A%B9%E7%BE%85",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/travel/areas/%E7%B4%A0%E5%9D%A4%E9%80%B8",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/travel/areas/%E6%98%AF%E9%9A%86",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/travel/areas/%E8%88%8A%E5%9F%8E%E6%B2%B3%E5%B2%B8",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/travel/areas/%E5%94%90%E4%BA%BA%E8%A1%97",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/travel/areas/%E6%B2%B3%E5%B2%B8",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/travel/areas/%E6%B4%BD%E5%9C%96%E6%B4%BD",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/lounges/lounge-0",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/lounges/lounge-1",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/lounges/lounge-2",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/lounges/lounge-3",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/lounges/lounge-4",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/lounges/demo-lounge-0",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/lounges/demo-lounge-1",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/lounges/demo-lounge-2",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/trips/bangkok-3",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/trips/bangkok-4",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/trips/bangkok-5",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/trips/bangkok-6",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/trips/bangkok-7",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "path": "/first-visit",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/travel",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/travel/flights",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/travel/airports/bkk",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/travel/airports/dmk",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/travel/accommodation",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/travel/transportation",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/travel/food",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/travel/attractions",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/lounges",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/lounges/compare",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/trips",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/planner",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/my-trips/new",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/my-trips",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/guides",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/guides/bkk-guide",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/guides/miracle-coral",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/guides/first-lounge",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/guides/low-cost-lounge",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/guides/booking",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/about",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/faq",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/contact",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/sitemap",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/privacy",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/disclaimer",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/sources",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/travel/attractions/grand-palace",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/travel/attractions/wat-pho",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/travel/attractions/wat-arun",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/travel/attractions/flower-market",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/travel/attractions/chinatown",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/travel/attractions/talat-noi",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/travel/attractions/river-city",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/travel/attractions/iconsiam",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/travel/attractions/asiatique",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/travel/attractions/siam-paragon",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/travel/attractions/mbk",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/travel/attractions/art-center",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/travel/attractions/jim-thompson",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/travel/attractions/centralworld",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/travel/attractions/lumphini",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/travel/attractions/benjakitti",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/travel/attractions/terminal21",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/travel/attractions/emporium",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/travel/attractions/spa-example",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/travel/attractions/chatuchak",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/travel/attractions/ari",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/travel/attractions/aquarium-example",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/travel/attractions/floating-example",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/travel/attractions/ayutthaya-example",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/travel/food/food-thai",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/travel/food/food-noodle",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/travel/food/food-basil",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/travel/food/food-tea",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/travel/food/food-mango",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/travel/food/food-street",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/travel/food/food-cafe",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/travel/food/food-market",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/travel/food/food-mall",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/travel/food/food-ari",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/travel/food/food-silom",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/travel/food/food-river",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/travel/attractions/chatuchak-park",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/travel/food/food-thip-samai",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/travel/food/food-mont-nomsod",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/travel/food/food-som-tam-nua",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/travel/food/food-prachak",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/travel/food/food-roong-roeng",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/travel/food/food-wattana-panich",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/travel/accommodation/stay-1",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/travel/accommodation/stay-2",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/travel/accommodation/stay-3",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/travel/accommodation/stay-4",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/travel/accommodation/stay-5",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/travel/accommodation/stay-6",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/travel/accommodation/stay-7",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/travel/accommodation/stay-8",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/travel/accommodation/hotel-novotel-siam",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/travel/accommodation/hotel-grand-hyatt",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/travel/accommodation/hotel-mandarin-oriental",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/travel/accommodation/hotel-shangri-la",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/travel/accommodation/compare",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/travel/transportation/bts",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/travel/transportation/mrt",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/travel/transportation/arl",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/travel/transportation/taxi",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/travel/transportation/grab",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/travel/transportation/tuktuk",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/travel/transportation/bus",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/travel/transportation/boat",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/travel/transportation/transfer",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/travel/transportation/red-line",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/travel/airlines/traditional",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/travel/airlines/low-cost",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/travel/areas/%E6%9A%B9%E7%BE%85",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/travel/areas/%E7%B4%A0%E5%9D%A4%E9%80%B8",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/travel/areas/%E6%98%AF%E9%9A%86",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/travel/areas/%E8%88%8A%E5%9F%8E%E6%B2%B3%E5%B2%B8",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/travel/areas/%E5%94%90%E4%BA%BA%E8%A1%97",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/travel/areas/%E6%B2%B3%E5%B2%B8",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/travel/areas/%E6%B4%BD%E5%9C%96%E6%B4%BD",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/lounges/lounge-0",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/lounges/lounge-1",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/lounges/lounge-2",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/lounges/lounge-3",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/lounges/lounge-4",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/lounges/demo-lounge-0",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/lounges/demo-lounge-1",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/lounges/demo-lounge-2",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/trips/bangkok-3",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/trips/bangkok-4",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/trips/bangkok-5",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/trips/bangkok-6",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "path": "/trips/bangkok-7",
+      "width": 1280,
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "date": "2026-10-23"
+}
