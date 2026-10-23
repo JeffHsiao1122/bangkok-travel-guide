@@ -1,0 +1,55 @@
+{
+  "cases": [
+    {
+      "name": "跳至主要內容可用鍵盤啟動",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "name": "跨頁導航後焦點到主要內容",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "name": "確認視窗取消與 Escape 保留行程並返回按鈕",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "name": "備份視窗 Escape 返回原按鈕",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "name": "跳至主要內容可用鍵盤啟動",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "name": "跨頁導航後焦點到主要內容",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "name": "確認視窗取消與 Escape 保留行程並返回按鈕",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "name": "備份視窗 Escape 返回原按鈕",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "name": "手機選單 Escape 關閉並回到按鈕",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "name": "手機點選目前頁面也能關閉選單",
+      "width": 390,
+      "pass": true
+    }
+  ],
+  "errors": []
+}
