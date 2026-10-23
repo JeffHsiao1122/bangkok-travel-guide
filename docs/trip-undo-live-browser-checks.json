@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-23",
+  "release": "61a56e9d9998277ba6646b60705fb99f733f27df",
+  "scope": "正式網址／獨立 Chrome／合成測試行程",
+  "checks": [
+    {
+      "width": 390,
+      "undo": true,
+      "selectedDay": 3,
+      "map": true,
+      "budget": true,
+      "saveReload": true,
+      "originalActivitiesUnchanged": true,
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "undo": true,
+      "selectedDay": 3,
+      "map": true,
+      "budget": true,
+      "saveReload": true,
+      "originalActivitiesUnchanged": true,
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "undo": true,
+      "selectedDay": 3,
+      "map": true,
+      "budget": true,
+      "saveReload": true,
+      "originalActivitiesUnchanged": true,
+      "overflow": false
+    }
+  ],
+  "errors": []
+}
