@@ -1,0 +1,61 @@
+{
+  "date": "2026-10-23",
+  "scope": "本機 Chrome 列印／合成行程；未發布",
+  "pdfChecks": [
+    {
+      "case": "three-day",
+      "days": 3,
+      "pages": 5,
+      "allDatesAndActivities": true,
+      "warningsAndNotes": true,
+      "dailyBudgets": true,
+      "noControlsOrBlankPages": true,
+      "noTextOutsidePaper": true,
+      "creditsChecked": true
+    },
+    {
+      "case": "empty-days",
+      "days": 2,
+      "pages": 3,
+      "allDatesAndActivities": true,
+      "warningsAndNotes": true,
+      "dailyBudgets": true,
+      "noControlsOrBlankPages": true,
+      "noTextOutsidePaper": true,
+      "creditsChecked": false
+    },
+    {
+      "case": "long-trip",
+      "days": 14,
+      "pages": 17,
+      "allDatesAndActivities": true,
+      "warningsAndNotes": true,
+      "dailyBudgets": true,
+      "noControlsOrBlankPages": true,
+      "noTextOutsidePaper": true,
+      "creditsChecked": false
+    }
+  ],
+  "buttonAndStorageChecks": [
+    {
+      "case": "three-day",
+      "nativePrintCalled": true,
+      "storedTripUnchanged": true,
+      "screenRestored": true
+    },
+    {
+      "case": "empty-days",
+      "nativePrintCalled": true,
+      "storedTripUnchanged": true,
+      "screenRestored": true
+    },
+    {
+      "case": "long-trip",
+      "nativePrintCalled": true,
+      "storedTripUnchanged": true,
+      "screenRestored": true
+    }
+  ],
+  "visualReview": "最新25頁已轉圖檢視；代表頁另以原尺寸查看",
+  "browserErrors": []
+}

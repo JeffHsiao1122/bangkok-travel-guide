@@ -28,3 +28,22 @@
 /* Lounge editorial content uses the existing colour and type scale. */
 .lounge-reading{margin:28px 0}.lounge-reading h3{margin:10px 0;font-size:1.05rem;line-height:1.6}.lounge-reading p{font-size:.88rem}.lounge-reading .text-link{display:inline-block;margin-top:12px}.guide-shortcuts{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:22px}.guide-shortcuts .editorial-row{align-items:start}.guide-lead{font-size:1.06rem;line-height:1.95}.guide-toc ol{margin-bottom:0}.guide-toc button{text-align:left;line-height:1.8;min-height:38px}.guide-section{margin:32px 0;scroll-margin-top:110px}.guide-section:focus{outline:2px solid var(--green);outline-offset:8px}.lounge-article table{min-width:560px}.lounge-article caption{text-align:left;padding:0 0 14px;font-weight:600}.lounge-article th,.lounge-article td{white-space:normal;min-width:150px;vertical-align:top}.lounge-article .comparison{max-width:100%;overflow:auto}.lounge-article .lounge-reading .grid{gap:16px}
 .guide-toc{display:block;position:static;inset:auto;box-shadow:none}.guide-toc h2{margin-bottom:12px}.guide-toc ol{margin:0;padding-left:24px}.lounge-reading small{display:block;margin-top:16px}.lounge-reading .text-link{display:block}
+
+/* Print all days and reminders without interactive controls. */
+@media print{
+ @page{size:A4;margin:14mm;@bottom-left{content:"Bangkok Travel Guide";font:8pt sans-serif;color:#526058}@bottom-right{content:counter(page) " / " counter(pages);font:8pt sans-serif;color:#526058}}
+ :root,html,body{background:#fff!important}.container{min-height:0}
+ .skip{display:none!important}
+ .page-head{margin:0 0 6mm}.page-head h1{font-size:22pt;overflow-wrap:anywhere}.page-head p{font-size:10pt}.page-head .eyebrow{font-size:8pt}
+ .trip-print{font-size:10pt;line-height:1.6;color:#182b23;overflow-wrap:anywhere}
+ .trip-print h2{font-size:15pt;margin:5mm 0 3mm;break-after:avoid}.trip-print h3{font-size:11pt;break-after:avoid}
+ .trip-print p{margin:2mm 0}.trip-print ul{padding-left:6mm;margin:2mm 0}.trip-print li{margin:1mm 0}
+ .trip-print table{width:100%;border-collapse:collapse;table-layout:fixed;font-size:9pt}.trip-print th,.trip-print td{border:1px solid #a4ada7;padding:2mm;text-align:left;overflow-wrap:anywhere}.trip-print thead{display:table-header-group}.trip-print tr{break-inside:avoid}
+ .print-budget{break-inside:avoid}.print-totals{display:grid;grid-template-columns:1fr 1fr;gap:1mm 5mm;margin:4mm 0}.print-totals dd{margin:0}
+ .print-day{break-before:page;break-inside:auto}.print-activity{display:grid;grid-template-columns:20mm minmax(0,1fr);gap:3mm;padding:3mm 0;border-bottom:1px solid #cbd0cb;break-inside:auto}.print-activity>div{min-width:0}.print-time{font-weight:600}
+ .print-transport{font-size:8pt;color:#526058}.print-source{font-size:8pt;color:#526058}.print-note{white-space:pre-wrap;overflow-wrap:anywhere}
+ .print-reminders,.print-reasons,.print-trip-note,.print-credits{break-inside:auto}.print-warning{font-weight:600}.print-reminders h3,.print-reasons h3{margin-top:4mm}
+ .print-final{font-size:8pt;border-top:1px solid #a4ada7;padding-top:3mm;margin-top:6mm!important}
+}
+
+.privacy-note{margin:14px 0;line-height:1.8}.privacy-note .text-link{margin-left:8px}
