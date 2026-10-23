@@ -47,3 +47,5 @@
 }
 
 .privacy-note{margin:14px 0;line-height:1.8}.privacy-note .text-link{margin-left:8px}
+
+.station-access>h3{margin:22px 0 12px}.station-access>.field{margin:20px 0;max-width:640px}.station-cards{margin:22px 0}.station-cards h3{margin:12px 0 8px}.station-cards p,.station-cards dd{overflow-wrap:anywhere}.station-cards .detail-list{grid-template-columns:110px minmax(0,1fr);margin:18px 0}.station-cards summary{cursor:pointer;font-weight:600}.station-cards details p{margin:12px 0}@media(max-width:550px){.station-cards .detail-list{grid-template-columns:1fr;gap:5px}.station-cards dd{margin-bottom:12px}}

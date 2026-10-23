@@ -1,0 +1,458 @@
+[
+  {
+    "id": "Q19794088",
+    "url": "https://www.wikidata.org/wiki/Q19794088",
+    "endpoint": "https://www.wikidata.org/wiki/Special:EntityData/Q19794088.json",
+    "revision": 2436161146,
+    "sourceModifiedAt": "2025-11-30T19:24:34Z",
+    "retrievedAt": "2026-10-23",
+    "license": "CC0-1.0",
+    "labels": {
+      "en": "Sanam Chai Station",
+      "th": "สถานีสนามไชย"
+    },
+    "props": {
+      "P17": [
+        {
+          "value": {
+            "entity-type": "item",
+            "numeric-id": 869,
+            "id": "Q869"
+          },
+          "rank": "normal",
+          "referenceCount": 0
+        }
+      ],
+      "P625": [
+        {
+          "value": {
+            "latitude": 13.743864,
+            "longitude": 100.494675,
+            "altitude": null,
+            "precision": 1e-07,
+            "globe": "http://www.wikidata.org/entity/Q2"
+          },
+          "rank": "normal",
+          "referenceCount": 1
+        }
+      ],
+      "P296": [
+        {
+          "value": "BL31",
+          "rank": "normal",
+          "referenceCount": 0
+        }
+      ],
+      "P16": [
+        {
+          "value": {
+            "entity-type": "item",
+            "numeric-id": 806485,
+            "id": "Q806485"
+          },
+          "rank": "normal",
+          "referenceCount": 0
+        }
+      ]
+    }
+  },
+  {
+    "id": "Q1030167",
+    "url": "https://www.wikidata.org/wiki/Q1030167",
+    "endpoint": "https://www.wikidata.org/wiki/Special:EntityData/Q1030167.json",
+    "revision": 2497466601,
+    "sourceModifiedAt": "2026-05-25T20:20:50Z",
+    "retrievedAt": "2026-10-23",
+    "license": "CC0-1.0",
+    "labels": {
+      "en": "National Stadium BTS Station",
+      "th": "สถานีสนามกีฬาแห่งชาติ"
+    },
+    "props": {
+      "P17": [
+        {
+          "value": {
+            "entity-type": "item",
+            "numeric-id": 869,
+            "id": "Q869"
+          },
+          "rank": "normal",
+          "referenceCount": 1
+        }
+      ],
+      "P625": [
+        {
+          "value": {
+            "latitude": 13.746513888889,
+            "longitude": 100.52910833333,
+            "altitude": null,
+            "precision": 0.000277778,
+            "globe": "http://www.wikidata.org/entity/Q2"
+          },
+          "rank": "normal",
+          "referenceCount": 1
+        }
+      ],
+      "P296": [
+        {
+          "value": "W1",
+          "rank": "normal",
+          "referenceCount": 1
+        }
+      ],
+      "P16": [
+        {
+          "value": {
+            "entity-type": "item",
+            "numeric-id": 806501,
+            "id": "Q806501"
+          },
+          "rank": "normal",
+          "referenceCount": 0
+        }
+      ]
+    }
+  },
+  {
+    "id": "Q1016037",
+    "url": "https://www.wikidata.org/wiki/Q1016037",
+    "endpoint": "https://www.wikidata.org/wiki/Special:EntityData/Q1016037.json",
+    "revision": 2461764956,
+    "sourceModifiedAt": "2026-02-08T14:22:30Z",
+    "retrievedAt": "2026-10-23",
+    "license": "CC0-1.0",
+    "labels": {
+      "en": "Siam BTS Station",
+      "th": "สถานีสยาม"
+    },
+    "props": {
+      "P17": [
+        {
+          "value": {
+            "entity-type": "item",
+            "numeric-id": 869,
+            "id": "Q869"
+          },
+          "rank": "normal",
+          "referenceCount": 1
+        }
+      ],
+      "P625": [
+        {
+          "value": {
+            "latitude": 13.745619,
+            "longitude": 100.534228,
+            "altitude": null,
+            "precision": 0.0001,
+            "globe": "http://www.wikidata.org/entity/Q2"
+          },
+          "rank": "normal",
+          "referenceCount": 1
+        }
+      ],
+      "P296": [
+        {
+          "value": "CEN",
+          "rank": "normal",
+          "referenceCount": 1
+        }
+      ],
+      "P16": [
+        {
+          "value": {
+            "entity-type": "item",
+            "numeric-id": 806501,
+            "id": "Q806501"
+          },
+          "rank": "normal",
+          "referenceCount": 0
+        }
+      ]
+    }
+  },
+  {
+    "id": "Q4924120",
+    "url": "https://www.wikidata.org/wiki/Q4924120",
+    "endpoint": "https://www.wikidata.org/wiki/Special:EntityData/Q4924120.json",
+    "revision": 2497577001,
+    "sourceModifiedAt": "2026-05-26T01:28:38Z",
+    "retrievedAt": "2026-10-23",
+    "license": "CC0-1.0",
+    "labels": {
+      "en": "Asok BTS Station",
+      "th": "สถานีอโศก"
+    },
+    "props": {
+      "P17": [
+        {
+          "value": {
+            "entity-type": "item",
+            "numeric-id": 869,
+            "id": "Q869"
+          },
+          "rank": "normal",
+          "referenceCount": 1
+        }
+      ],
+      "P625": [
+        {
+          "value": {
+            "latitude": 13.73703333,
+            "longitude": 100.56041944,
+            "altitude": null,
+            "precision": 2.77777777778e-06,
+            "globe": "http://www.wikidata.org/entity/Q2"
+          },
+          "rank": "normal",
+          "referenceCount": 1
+        }
+      ],
+      "P296": [
+        {
+          "value": "E4",
+          "rank": "normal",
+          "referenceCount": 1
+        }
+      ],
+      "P16": [
+        {
+          "value": {
+            "entity-type": "item",
+            "numeric-id": 806501,
+            "id": "Q806501"
+          },
+          "rank": "normal",
+          "referenceCount": 0
+        }
+      ]
+    }
+  },
+  {
+    "id": "Q1036841",
+    "url": "https://www.wikidata.org/wiki/Q1036841",
+    "endpoint": "https://www.wikidata.org/wiki/Special:EntityData/Q1036841.json",
+    "revision": 2317694600,
+    "sourceModifiedAt": "2025-02-27T12:01:58Z",
+    "retrievedAt": "2026-10-23",
+    "license": "CC0-1.0",
+    "labels": {
+      "en": "Sukhumvit MRT Station",
+      "th": "สถานีสุขุมวิท"
+    },
+    "props": {
+      "P17": [
+        {
+          "value": {
+            "entity-type": "item",
+            "numeric-id": 869,
+            "id": "Q869"
+          },
+          "rank": "normal",
+          "referenceCount": 1
+        }
+      ],
+      "P625": [
+        {
+          "value": {
+            "latitude": 13.7376,
+            "longitude": 100.561,
+            "altitude": null,
+            "precision": 0.0092476972093936,
+            "globe": "http://www.wikidata.org/entity/Q2"
+          },
+          "rank": "normal",
+          "referenceCount": 1
+        }
+      ],
+      "P296": [
+        {
+          "value": "7 SUK",
+          "rank": "normal",
+          "referenceCount": 1
+        }
+      ],
+      "P16": [
+        {
+          "value": {
+            "entity-type": "item",
+            "numeric-id": 806485,
+            "id": "Q806485"
+          },
+          "rank": "normal",
+          "referenceCount": 0
+        }
+      ]
+    }
+  },
+  {
+    "id": "Q6633149",
+    "url": "https://www.wikidata.org/wiki/Q6633149",
+    "endpoint": "https://www.wikidata.org/wiki/Special:EntityData/Q6633149.json",
+    "revision": 2497575819,
+    "sourceModifiedAt": "2026-05-26T01:25:10Z",
+    "retrievedAt": "2026-10-23",
+    "license": "CC0-1.0",
+    "labels": {
+      "en": "Chit Lom BTS Station",
+      "th": "สถานีชิดลม"
+    },
+    "props": {
+      "P17": [
+        {
+          "value": {
+            "entity-type": "item",
+            "numeric-id": 869,
+            "id": "Q869"
+          },
+          "rank": "normal",
+          "referenceCount": 1
+        }
+      ],
+      "P625": [
+        {
+          "value": {
+            "latitude": 13.744108333333333,
+            "longitude": 100.54309722222222,
+            "altitude": null,
+            "precision": 0.000277778,
+            "globe": "http://www.wikidata.org/entity/Q2"
+          },
+          "rank": "normal",
+          "referenceCount": 1
+        }
+      ],
+      "P296": [
+        {
+          "value": "E1",
+          "rank": "normal",
+          "referenceCount": 1
+        }
+      ],
+      "P16": [
+        {
+          "value": {
+            "entity-type": "item",
+            "numeric-id": 806501,
+            "id": "Q806501"
+          },
+          "rank": "normal",
+          "referenceCount": 0
+        }
+      ]
+    }
+  },
+  {
+    "id": "Q1036816",
+    "url": "https://www.wikidata.org/wiki/Q1036816",
+    "endpoint": "https://www.wikidata.org/wiki/Special:EntityData/Q1036816.json",
+    "revision": 2472406493,
+    "sourceModifiedAt": "2026-03-16T05:57:51Z",
+    "retrievedAt": "2026-10-23",
+    "license": "CC0-1.0",
+    "labels": {
+      "en": "Si Lom MRT Station",
+      "th": "สถานีสีลม"
+    },
+    "props": {
+      "P17": [
+        {
+          "value": {
+            "entity-type": "item",
+            "numeric-id": 869,
+            "id": "Q869"
+          },
+          "rank": "normal",
+          "referenceCount": 1
+        }
+      ],
+      "P625": [
+        {
+          "value": {
+            "latitude": 13.72882752,
+            "longitude": 100.5377984,
+            "altitude": null,
+            "precision": 2.77777777778e-06,
+            "globe": "http://www.wikidata.org/entity/Q2"
+          },
+          "rank": "normal",
+          "referenceCount": 1
+        }
+      ],
+      "P296": [
+        {
+          "value": "BL26",
+          "rank": "normal",
+          "referenceCount": 0
+        }
+      ],
+      "P16": [
+        {
+          "value": {
+            "entity-type": "item",
+            "numeric-id": 806485,
+            "id": "Q806485"
+          },
+          "rank": "normal",
+          "referenceCount": 0
+        }
+      ]
+    }
+  },
+  {
+    "id": "Q873641",
+    "url": "https://www.wikidata.org/wiki/Q873641",
+    "endpoint": "https://www.wikidata.org/wiki/Special:EntityData/Q873641.json",
+    "revision": 2491947998,
+    "sourceModifiedAt": "2026-05-15T11:37:43Z",
+    "retrievedAt": "2026-10-23",
+    "license": "CC0-1.0",
+    "labels": {
+      "en": "Mo Chit BTS Station",
+      "th": "สถานีหมอชิต"
+    },
+    "props": {
+      "P17": [
+        {
+          "value": {
+            "entity-type": "item",
+            "numeric-id": 869,
+            "id": "Q869"
+          },
+          "rank": "normal",
+          "referenceCount": 1
+        }
+      ],
+      "P625": [
+        {
+          "value": {
+            "latitude": 13.802583,
+            "longitude": 100.553833,
+            "altitude": null,
+            "precision": 0.0001,
+            "globe": "http://www.wikidata.org/entity/Q2"
+          },
+          "rank": "normal",
+          "referenceCount": 1
+        }
+      ],
+      "P296": [
+        {
+          "value": "N8",
+          "rank": "normal",
+          "referenceCount": 1
+        }
+      ],
+      "P16": [
+        {
+          "value": {
+            "entity-type": "item",
+            "numeric-id": 806501,
+            "id": "Q806501"
+          },
+          "rank": "normal",
+          "referenceCount": 0
+        }
+      ]
+    }
+  }
+]

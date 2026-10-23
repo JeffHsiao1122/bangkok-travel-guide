@@ -1,0 +1,334 @@
+{
+  "selections": [
+    {
+      "width": 390,
+      "place": "grand-palace",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "place": "wat-pho",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "place": "wat-arun",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "place": "siam-paragon",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "place": "art-center",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "place": "jim-thompson",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "place": "lumphini",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "place": "centralworld",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "place": "terminal21",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "place": "chatuchak-park",
+      "pass": true
+    },
+    {
+      "width": 768,
+      "place": "grand-palace",
+      "pass": true
+    },
+    {
+      "width": 768,
+      "place": "wat-pho",
+      "pass": true
+    },
+    {
+      "width": 768,
+      "place": "wat-arun",
+      "pass": true
+    },
+    {
+      "width": 768,
+      "place": "siam-paragon",
+      "pass": true
+    },
+    {
+      "width": 768,
+      "place": "art-center",
+      "pass": true
+    },
+    {
+      "width": 768,
+      "place": "jim-thompson",
+      "pass": true
+    },
+    {
+      "width": 768,
+      "place": "lumphini",
+      "pass": true
+    },
+    {
+      "width": 768,
+      "place": "centralworld",
+      "pass": true
+    },
+    {
+      "width": 768,
+      "place": "terminal21",
+      "pass": true
+    },
+    {
+      "width": 768,
+      "place": "chatuchak-park",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "place": "grand-palace",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "place": "wat-pho",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "place": "wat-arun",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "place": "siam-paragon",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "place": "art-center",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "place": "jim-thompson",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "place": "lumphini",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "place": "centralworld",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "place": "terminal21",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "place": "chatuchak-park",
+      "pass": true
+    }
+  ],
+  "detailPages": [
+    {
+      "width": 390,
+      "place": "grand-palace",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "place": "wat-pho",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "place": "wat-arun",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "place": "siam-paragon",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "place": "art-center",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "place": "jim-thompson",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "place": "lumphini",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "place": "centralworld",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "place": "terminal21",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "place": "chatuchak-park",
+      "pass": true
+    },
+    {
+      "width": 768,
+      "place": "grand-palace",
+      "pass": true
+    },
+    {
+      "width": 768,
+      "place": "wat-pho",
+      "pass": true
+    },
+    {
+      "width": 768,
+      "place": "wat-arun",
+      "pass": true
+    },
+    {
+      "width": 768,
+      "place": "siam-paragon",
+      "pass": true
+    },
+    {
+      "width": 768,
+      "place": "art-center",
+      "pass": true
+    },
+    {
+      "width": 768,
+      "place": "jim-thompson",
+      "pass": true
+    },
+    {
+      "width": 768,
+      "place": "lumphini",
+      "pass": true
+    },
+    {
+      "width": 768,
+      "place": "centralworld",
+      "pass": true
+    },
+    {
+      "width": 768,
+      "place": "terminal21",
+      "pass": true
+    },
+    {
+      "width": 768,
+      "place": "chatuchak-park",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "place": "grand-palace",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "place": "wat-pho",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "place": "wat-arun",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "place": "siam-paragon",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "place": "art-center",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "place": "jim-thompson",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "place": "lumphini",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "place": "centralworld",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "place": "terminal21",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "place": "chatuchak-park",
+      "pass": true
+    }
+  ],
+  "checks": [
+    {
+      "width": 390,
+      "selectionReload": true,
+      "linkedDetailAndBack": true,
+      "invalidSelectionFallback": true,
+      "sourceAttribution": true,
+      "existingTripUnchanged": true
+    },
+    {
+      "width": 768,
+      "selectionReload": true,
+      "linkedDetailAndBack": true,
+      "invalidSelectionFallback": true,
+      "sourceAttribution": true,
+      "existingTripUnchanged": true
+    },
+    {
+      "width": 1280,
+      "selectionReload": true,
+      "linkedDetailAndBack": true,
+      "invalidSelectionFallback": true,
+      "sourceAttribution": true,
+      "existingTripUnchanged": true
+    }
+  ],
+  "errors": [],
+  "unexpectedRequests": []
+}

@@ -103,3 +103,43 @@ https://en.wikivoyage.org/wiki/Suvarnabhumi_Airport
 閱讀版本：5316459；閱讀日期：2026-10-23；條目日期未提供。
 未採用評價、價格、會員／艙等入場條件、照片、地圖及官方文章。
 準備核對工具與步驟由本站原創，與上述參考文字分開標示。
+
+
+車站基本結構化資料（2026-10-23 新增，獨立於上方 CC BY-SA 改寫範圍）
+範圍：src/data/station-facts.json 與 station-access.js 中的車站名稱、代碼及座標來源欄位。
+授權：CC0-1.0 https://creativecommons.org/publicdomain/zero/1.0/
+政策：https://www.wikidata.org/wiki/Wikidata:Licensing
+讀取日期不是營運核實；景點至車站的既有社群指南參考仍遵守其 CC BY-SA 授權。
+未使用圖片、路線圖、評價或營運方網站文章。
+
+Sanam Chai Station (Q19794088)
+https://www.wikidata.org/wiki/Q19794088
+來源版本：2436161146；來源編輯：2025-11-30T19:24:34Z；讀取：2026-10-23
+
+National Stadium BTS Station (Q1030167)
+https://www.wikidata.org/wiki/Q1030167
+來源版本：2497466601；來源編輯：2026-05-25T20:20:50Z；讀取：2026-10-23
+
+Siam BTS Station (Q1016037)
+https://www.wikidata.org/wiki/Q1016037
+來源版本：2461764956；來源編輯：2026-02-08T14:22:30Z；讀取：2026-10-23
+
+Asok BTS Station (Q4924120)
+https://www.wikidata.org/wiki/Q4924120
+來源版本：2497577001；來源編輯：2026-05-26T01:28:38Z；讀取：2026-10-23
+
+Sukhumvit MRT Station (Q1036841)
+https://www.wikidata.org/wiki/Q1036841
+來源版本：2317694600；來源編輯：2025-02-27T12:01:58Z；讀取：2026-10-23
+
+Chit Lom BTS Station (Q6633149)
+https://www.wikidata.org/wiki/Q6633149
+來源版本：2497575819；來源編輯：2026-05-26T01:25:10Z；讀取：2026-10-23
+
+Si Lom MRT Station (Q1036816)
+https://www.wikidata.org/wiki/Q1036816
+來源版本：2472406493；來源編輯：2026-03-16T05:57:51Z；讀取：2026-10-23
+
+Mo Chit BTS Station (Q873641)
+https://www.wikidata.org/wiki/Q873641
+來源版本：2491947998；來源編輯：2026-05-15T11:37:43Z；讀取：2026-10-23
