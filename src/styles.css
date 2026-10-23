@@ -24,3 +24,7 @@
 .reference-details summary{cursor:pointer;font-weight:600;color:var(--green);min-height:44px}
 .reference-details>p{margin-top:12px}
 .rail-reference ol li{margin:10px 0}
+
+/* Lounge editorial content uses the existing colour and type scale. */
+.lounge-reading{margin:28px 0}.lounge-reading h3{margin:10px 0;font-size:1.05rem;line-height:1.6}.lounge-reading p{font-size:.88rem}.lounge-reading .text-link{display:inline-block;margin-top:12px}.guide-shortcuts{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:22px}.guide-shortcuts .editorial-row{align-items:start}.guide-lead{font-size:1.06rem;line-height:1.95}.guide-toc ol{margin-bottom:0}.guide-toc button{text-align:left;line-height:1.8;min-height:38px}.guide-section{margin:32px 0;scroll-margin-top:110px}.guide-section:focus{outline:2px solid var(--green);outline-offset:8px}.lounge-article table{min-width:560px}.lounge-article caption{text-align:left;padding:0 0 14px;font-weight:600}.lounge-article th,.lounge-article td{white-space:normal;min-width:150px;vertical-align:top}.lounge-article .comparison{max-width:100%;overflow:auto}.lounge-article .lounge-reading .grid{gap:16px}
+.guide-toc{display:block;position:static;inset:auto;box-shadow:none}.guide-toc h2{margin-bottom:12px}.guide-toc ol{margin:0;padding-left:24px}.lounge-reading small{display:block;margin-top:16px}.lounge-reading .text-link{display:block}
