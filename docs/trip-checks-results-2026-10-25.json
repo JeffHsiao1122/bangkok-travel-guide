@@ -83,5 +83,56 @@
   "coreErrors": [],
   "pagesBuild": "passed",
   "pagesAssetPrefixes": "passed",
-  "published": false
+  "published": true,
+  "production": {
+    "codeSha": "506983658a84709674d511a53d4c6a9b07607ace",
+    "workflowRun": 40116749202,
+    "deployment": "success",
+    "browser": {
+      "widths": [
+        {
+          "width": 390,
+          "savedAndEditor": true,
+          "lazyOnlyWhenUsed": true,
+          "emptyDayIsOptional": true,
+          "unassignedAndUnknownShown": true,
+          "readingNoWrites": true,
+          "dayLinksWork": true,
+          "unsavedUpdatesVisible": true,
+          "savedVersionUnchangedUntilSave": true,
+          "reloadKeepsEdit": true,
+          "otherDaysAndLegacyPreserved": true
+        },
+        {
+          "width": 768,
+          "savedAndEditor": true,
+          "lazyOnlyWhenUsed": true,
+          "emptyDayIsOptional": true,
+          "unassignedAndUnknownShown": true,
+          "readingNoWrites": true,
+          "dayLinksWork": true,
+          "unsavedUpdatesVisible": true,
+          "savedVersionUnchangedUntilSave": true,
+          "reloadKeepsEdit": true,
+          "otherDaysAndLegacyPreserved": true
+        },
+        {
+          "width": 1280,
+          "savedAndEditor": true,
+          "lazyOnlyWhenUsed": true,
+          "emptyDayIsOptional": true,
+          "unassignedAndUnknownShown": true,
+          "readingNoWrites": true,
+          "dayLinksWork": true,
+          "unsavedUpdatesVisible": true,
+          "savedVersionUnchangedUntilSave": true,
+          "reloadKeepsEdit": true,
+          "otherDaysAndLegacyPreserved": true
+        }
+      ],
+      "errors": [],
+      "unexpectedRequests": []
+    },
+    "assetHashMatches": 7
+  }
 }
