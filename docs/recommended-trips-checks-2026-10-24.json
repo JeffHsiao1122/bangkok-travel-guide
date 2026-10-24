@@ -1,0 +1,45 @@
+{
+  "scope": "本機隔離瀏覽器／合成旅遊資料",
+  "date": "2026-10-24",
+  "unitTests": 64,
+  "build": "通過，首頁程式小於 500 kB；推薦詳情分開載入",
+  "pagesAssets": "通過",
+  "browser": {
+    "widths": [
+      {
+        "width": 390,
+        "dailySwitching": true,
+        "invalidDateSafe": true,
+        "routeSwitchClamped": true,
+        "copiesEditable": true,
+        "reloadAndExport": true,
+        "oldTripUnchanged": true,
+        "filtersAndSourceLinks": true
+      },
+      {
+        "width": 768,
+        "dailySwitching": true,
+        "invalidDateSafe": true,
+        "routeSwitchClamped": true,
+        "copiesEditable": true,
+        "reloadAndExport": true,
+        "oldTripUnchanged": true,
+        "filtersAndSourceLinks": true
+      },
+      {
+        "width": 1280,
+        "dailySwitching": true,
+        "invalidDateSafe": true,
+        "routeSwitchClamped": true,
+        "copiesEditable": true,
+        "reloadAndExport": true,
+        "oldTripUnchanged": true,
+        "filtersAndSourceLinks": true
+      }
+    ],
+    "dailyViews": 75,
+    "savedCopies": 12,
+    "errors": [],
+    "unexpectedRequests": []
+  }
+}
