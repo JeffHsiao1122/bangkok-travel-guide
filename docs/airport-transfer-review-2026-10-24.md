@@ -1,6 +1,6 @@
 # BKK／DMK 機場進城指南（2026-10-24）
 
-狀態：本機完成，尚未提交、上傳或發布。原帳號名稱、組織、遠端及正式網址未更改。
+狀態：本機完成後已依使用者確認發布，見 [正式紀錄](airport-transfer-release-2026-10-24.md)。原帳號名稱、組織、遠端及正式網址未更改。
 
 ## 本批內容
 
@@ -65,4 +65,4 @@
 
 公開合成結果：`airport-transfer-checks-2026-10-24.json`；代表圖：`airport-transfer-preview-390.png`、`airport-transfer-preview-1280.png`。詳細資料位於忽略上傳的 `docs/local/airport-transfer-qa`、`docs/local/airport-transfer-core`。
 
-本批未發布，等待使用者確認公開範圍。瀏覽器尺寸模擬不代表所有實機／Safari／讀屏均已驗證；發布確認也不是第三方授權或保證來源永遠正確。
+本批已依使用者確認公開發布。瀏覽器尺寸模擬不代表所有實機／Safari／讀屏均已驗證；發布確認也不是第三方授權或保證來源永遠正確。
