@@ -41,5 +41,49 @@
     "savedCopies": 12,
     "errors": [],
     "unexpectedRequests": []
+  },
+  "production": {
+    "codeSha": "dd32cd12fe4a4aa272be77df0b842d55b3af5c09",
+    "workflowRun": 40083124999,
+    "deployment": "success",
+    "browser": {
+      "widths": [
+        {
+          "width": 390,
+          "dailySwitching": true,
+          "invalidDateSafe": true,
+          "routeSwitchClamped": true,
+          "copiesEditable": true,
+          "reloadAndExport": true,
+          "oldTripUnchanged": true,
+          "filtersAndSourceLinks": true
+        },
+        {
+          "width": 768,
+          "dailySwitching": true,
+          "invalidDateSafe": true,
+          "routeSwitchClamped": true,
+          "copiesEditable": true,
+          "reloadAndExport": true,
+          "oldTripUnchanged": true,
+          "filtersAndSourceLinks": true
+        },
+        {
+          "width": 1280,
+          "dailySwitching": true,
+          "invalidDateSafe": true,
+          "routeSwitchClamped": true,
+          "copiesEditable": true,
+          "reloadAndExport": true,
+          "oldTripUnchanged": true,
+          "filtersAndSourceLinks": true
+        }
+      ],
+      "dailyViews": 75,
+      "savedCopies": 12,
+      "errors": [],
+      "unexpectedRequests": []
+    },
+    "assetHashMatches": 5
   }
 }
