@@ -79,5 +79,50 @@
   "coreErrors": [],
   "pagesBuild": "passed",
   "pagesAssetPrefixes": "passed",
-  "published": false
+  "published": true,
+  "production": {
+    "codeSha": "4123dda9f74a2097b5452d6c90b41f43b0d1ed49",
+    "workflowRun": 40120056177,
+    "deployment": "success",
+    "browser": {
+      "widths": [
+        {
+          "width": 390,
+          "sixDetailsAndSources": true,
+          "fiveLocatedOneUnknown": true,
+          "manualAddAndReload": true,
+          "feesRemainUnknown": true,
+          "jsonRetainsBothSourceDates": true,
+          "printRetainsOldAndNewRevisions": true,
+          "oldTripUnchanged": true,
+          "mapCreditsAndSourcePage": true
+        },
+        {
+          "width": 768,
+          "sixDetailsAndSources": true,
+          "fiveLocatedOneUnknown": true,
+          "manualAddAndReload": true,
+          "feesRemainUnknown": true,
+          "jsonRetainsBothSourceDates": true,
+          "printRetainsOldAndNewRevisions": true,
+          "oldTripUnchanged": true,
+          "mapCreditsAndSourcePage": true
+        },
+        {
+          "width": 1280,
+          "sixDetailsAndSources": true,
+          "fiveLocatedOneUnknown": true,
+          "manualAddAndReload": true,
+          "feesRemainUnknown": true,
+          "jsonRetainsBothSourceDates": true,
+          "printRetainsOldAndNewRevisions": true,
+          "oldTripUnchanged": true,
+          "mapCreditsAndSourcePage": true
+        }
+      ],
+      "errors": [],
+      "unexpectedRequests": []
+    },
+    "assetHashMatches": 9
+  }
 }
