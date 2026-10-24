@@ -84,5 +84,56 @@
   "coreErrors": [],
   "pagesBuild": "passed",
   "pagesAssetPrefixes": "passed",
-  "published": false
+  "published": true,
+  "production": {
+    "codeSha": "63426ccffb739a017e5e5e03ac7bd8d323ae0098",
+    "workflowRun": 40084177462,
+    "deployment": "success",
+    "browser": {
+      "widths": [
+        {
+          "width": 390,
+          "defaultReal": true,
+          "tenSourcedChoices": true,
+          "demoChoicesRetained": true,
+          "outOfScopeMustExplained": true,
+          "longTripBlankDays": true,
+          "regenerationScope": true,
+          "otherDaysUnchanged": true,
+          "reloadExportPrintScope": true,
+          "legacyUnchanged": true,
+          "demoModeWorks": true
+        },
+        {
+          "width": 768,
+          "defaultReal": true,
+          "tenSourcedChoices": true,
+          "demoChoicesRetained": true,
+          "outOfScopeMustExplained": true,
+          "longTripBlankDays": true,
+          "regenerationScope": true,
+          "otherDaysUnchanged": true,
+          "reloadExportPrintScope": true,
+          "legacyUnchanged": true,
+          "demoModeWorks": true
+        },
+        {
+          "width": 1280,
+          "defaultReal": true,
+          "tenSourcedChoices": true,
+          "demoChoicesRetained": true,
+          "outOfScopeMustExplained": true,
+          "longTripBlankDays": true,
+          "regenerationScope": true,
+          "otherDaysUnchanged": true,
+          "reloadExportPrintScope": true,
+          "legacyUnchanged": true,
+          "demoModeWorks": true
+        }
+      ],
+      "errors": [],
+      "unexpectedRequests": []
+    },
+    "assetHashMatches": 5
+  }
 }
