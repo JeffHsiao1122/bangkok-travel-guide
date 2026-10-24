@@ -1,5 +1,5 @@
 Bangkok Travel Guide — 旅遊參考內容授權
-更新：2026-10-06
+授權清單更新：2026-10-24；各來源原讀取日期與版本分別保留，並非營運核實日期。
 
 適用範圍：src/data/content-references.js 及 src/data/food-guides.js 的 Wikivoyage 改寫欄位及其公開呈現。
 原創文字與參考欄位分開署名；不是將第三方官方網站、照片、商標或整個網站程式改授權。
@@ -143,3 +143,34 @@ https://www.wikidata.org/wiki/Q1036816
 Mo Chit BTS Station (Q873641)
 https://www.wikidata.org/wiki/Q873641
 來源版本：2491947998；來源編輯：2026-05-15T11:37:43Z；讀取：2026-10-23
+
+
+機場交通車站基本資料（2026-10-24 新增，獨立 CC0 範圍）
+檔案：src/data/airport-station-facts.json。只取結構化名稱、代碼、概略座標與站點關聯，不包含圖片、業者文章、時刻表或票價。
+授權：CC0-1.0 https://creativecommons.org/publicdomain/zero/1.0/
+Wikidata 政策：https://www.wikidata.org/wiki/Wikidata:Licensing
+路線參考沿用既有 Bangkok 社群指南，仍保留上方 CC BY-SA 4.0、作者與原版本，不以本批讀取日期冒充營運確認。
+
+Suvarnabhumi Station (Q6633190)
+https://www.wikidata.org/wiki/Q6633190
+來源版本：2538367698；來源編輯：2026-08-30T22:50:53Z；讀取：2026-10-24
+
+Phaya Thai Airport Link Station (Q13021649)
+https://www.wikidata.org/wiki/Q13021649
+來源版本：2461764757；來源編輯：2026-02-08T14:21:19Z；讀取：2026-10-24
+
+Phaya Thai BTS Station (Q15139351)
+https://www.wikidata.org/wiki/Q15139351
+來源版本：2466218838；來源編輯：2026-02-24T05:16:32Z；讀取：2026-10-24
+
+Makkasan station (Q11340409)
+https://www.wikidata.org/wiki/Q11340409
+來源版本：2497064259；來源編輯：2026-05-25T03:03:14Z；讀取：2026-10-24
+
+Phetchaburi MRT Station (Q4921013)
+https://www.wikidata.org/wiki/Q4921013
+來源版本：2257871612；來源編輯：2024-10-08T14:53:15Z；讀取：2026-10-24
+
+Don Mueang station (Q35596136)
+https://www.wikidata.org/wiki/Q35596136
+來源版本：2436073846；來源編輯：2025-11-30T14:40:32Z；讀取：2026-10-24

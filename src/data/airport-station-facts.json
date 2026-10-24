@@ -1,0 +1,574 @@
+[
+  {
+    "id": "Q6633190",
+    "url": "https://www.wikidata.org/wiki/Q6633190",
+    "endpoint": "https://www.wikidata.org/wiki/Special:EntityData/Q6633190.json",
+    "revision": 2538367698,
+    "sourceModifiedAt": "2026-08-30T22:50:53Z",
+    "retrievedAt": "2026-10-24",
+    "license": "CC0-1.0",
+    "labels": {
+      "en": "Suvarnabhumi Station",
+      "th": "สถานีสุวรรณภูมิ"
+    },
+    "props": {
+      "P17": [
+        {
+          "value": {
+            "entity-type": "item",
+            "numeric-id": 869,
+            "id": "Q869"
+          },
+          "rank": "normal",
+          "referenceCount": 1
+        }
+      ],
+      "P625": [
+        {
+          "value": {
+            "latitude": 13.69416667,
+            "longitude": 100.7511111,
+            "altitude": null,
+            "precision": 0.0001,
+            "globe": "http://www.wikidata.org/entity/Q2"
+          },
+          "rank": "normal",
+          "referenceCount": 1
+        }
+      ],
+      "P296": [
+        {
+          "value": "A1",
+          "rank": "normal",
+          "referenceCount": 1
+        }
+      ],
+      "P16": [
+        {
+          "value": {
+            "entity-type": "item",
+            "numeric-id": 7283953,
+            "id": "Q7283953"
+          },
+          "rank": "normal",
+          "referenceCount": 0
+        }
+      ],
+      "P81": [
+        {
+          "value": {
+            "entity-type": "item",
+            "numeric-id": 1133704,
+            "id": "Q1133704"
+          },
+          "rank": "normal",
+          "referenceCount": 1
+        }
+      ],
+      "P361": [
+        {
+          "value": {
+            "entity-type": "item",
+            "numeric-id": 7283953,
+            "id": "Q7283953"
+          },
+          "rank": "normal",
+          "referenceCount": 0
+        }
+      ],
+      "P833": [
+        {
+          "value": {
+            "entity-type": "item",
+            "numeric-id": 141223977,
+            "id": "Q141223977"
+          },
+          "rank": "normal",
+          "referenceCount": 1
+        }
+      ],
+      "P1365": []
+    }
+  },
+  {
+    "id": "Q13021649",
+    "url": "https://www.wikidata.org/wiki/Q13021649",
+    "endpoint": "https://www.wikidata.org/wiki/Special:EntityData/Q13021649.json",
+    "revision": 2461764757,
+    "sourceModifiedAt": "2026-02-08T14:21:19Z",
+    "retrievedAt": "2026-10-24",
+    "license": "CC0-1.0",
+    "labels": {
+      "en": "Phaya Thai Airport Link Station",
+      "th": "สถานีพญาไท"
+    },
+    "props": {
+      "P17": [
+        {
+          "value": {
+            "entity-type": "item",
+            "numeric-id": 869,
+            "id": "Q869"
+          },
+          "rank": "normal",
+          "referenceCount": 0
+        }
+      ],
+      "P625": [
+        {
+          "value": {
+            "latitude": 13.75673,
+            "longitude": 100.53492,
+            "altitude": null,
+            "precision": 1e-05,
+            "globe": "http://www.wikidata.org/entity/Q2"
+          },
+          "rank": "normal",
+          "referenceCount": 0
+        }
+      ],
+      "P296": [
+        {
+          "value": "A8",
+          "rank": "normal",
+          "referenceCount": 0
+        }
+      ],
+      "P16": [
+        {
+          "value": {
+            "entity-type": "item",
+            "numeric-id": 7283953,
+            "id": "Q7283953"
+          },
+          "rank": "normal",
+          "referenceCount": 0
+        }
+      ],
+      "P81": [
+        {
+          "value": {
+            "entity-type": "item",
+            "numeric-id": 1133704,
+            "id": "Q1133704"
+          },
+          "rank": "normal",
+          "referenceCount": 0
+        }
+      ],
+      "P361": [
+        {
+          "value": {
+            "entity-type": "item",
+            "numeric-id": 1133704,
+            "id": "Q1133704"
+          },
+          "rank": "normal",
+          "referenceCount": 0
+        }
+      ],
+      "P833": [
+        {
+          "value": {
+            "entity-type": "item",
+            "numeric-id": 15139351,
+            "id": "Q15139351"
+          },
+          "rank": "normal",
+          "referenceCount": 0
+        },
+        {
+          "value": {
+            "entity-type": "item",
+            "numeric-id": 109127834,
+            "id": "Q109127834"
+          },
+          "rank": "normal",
+          "referenceCount": 0
+        }
+      ],
+      "P1365": []
+    }
+  },
+  {
+    "id": "Q15139351",
+    "url": "https://www.wikidata.org/wiki/Q15139351",
+    "endpoint": "https://www.wikidata.org/wiki/Special:EntityData/Q15139351.json",
+    "revision": 2466218838,
+    "sourceModifiedAt": "2026-02-24T05:16:32Z",
+    "retrievedAt": "2026-10-24",
+    "license": "CC0-1.0",
+    "labels": {
+      "en": "Phaya Thai BTS Station",
+      "th": "สถานีพญาไท"
+    },
+    "props": {
+      "P17": [
+        {
+          "value": {
+            "entity-type": "item",
+            "numeric-id": 869,
+            "id": "Q869"
+          },
+          "rank": "normal",
+          "referenceCount": 1
+        }
+      ],
+      "P625": [
+        {
+          "value": {
+            "latitude": 13.756941666666666,
+            "longitude": 100.53384444444444,
+            "altitude": null,
+            "precision": 0.000277778,
+            "globe": "http://www.wikidata.org/entity/Q2"
+          },
+          "rank": "normal",
+          "referenceCount": 1
+        }
+      ],
+      "P296": [],
+      "P16": [
+        {
+          "value": {
+            "entity-type": "item",
+            "numeric-id": 806501,
+            "id": "Q806501"
+          },
+          "rank": "normal",
+          "referenceCount": 0
+        }
+      ],
+      "P81": [
+        {
+          "value": {
+            "entity-type": "item",
+            "numeric-id": 4921598,
+            "id": "Q4921598"
+          },
+          "rank": "normal",
+          "referenceCount": 0
+        }
+      ],
+      "P361": [],
+      "P833": [
+        {
+          "value": {
+            "entity-type": "item",
+            "numeric-id": 13021649,
+            "id": "Q13021649"
+          },
+          "rank": "normal",
+          "referenceCount": 0
+        },
+        {
+          "value": {
+            "entity-type": "item",
+            "numeric-id": 109127834,
+            "id": "Q109127834"
+          },
+          "rank": "normal",
+          "referenceCount": 0
+        }
+      ],
+      "P1365": []
+    }
+  },
+  {
+    "id": "Q11340409",
+    "url": "https://www.wikidata.org/wiki/Q11340409",
+    "endpoint": "https://www.wikidata.org/wiki/Special:EntityData/Q11340409.json",
+    "revision": 2497064259,
+    "sourceModifiedAt": "2026-05-25T03:03:14Z",
+    "retrievedAt": "2026-10-24",
+    "license": "CC0-1.0",
+    "labels": {
+      "en": "Makkasan station",
+      "th": "สถานีมักกะสัน"
+    },
+    "props": {
+      "P17": [
+        {
+          "value": {
+            "entity-type": "item",
+            "numeric-id": 869,
+            "id": "Q869"
+          },
+          "rank": "normal",
+          "referenceCount": 1
+        }
+      ],
+      "P625": [
+        {
+          "value": {
+            "latitude": 13.751,
+            "longitude": 100.5613,
+            "altitude": null,
+            "precision": 0.000277778,
+            "globe": "http://www.wikidata.org/entity/Q2"
+          },
+          "rank": "normal",
+          "referenceCount": 1
+        },
+        {
+          "value": {
+            "latitude": 13.751,
+            "longitude": 100.5613,
+            "altitude": null,
+            "precision": 0.0001,
+            "globe": "http://www.wikidata.org/entity/Q2"
+          },
+          "rank": "normal",
+          "referenceCount": 0
+        }
+      ],
+      "P296": [
+        {
+          "value": "CAT",
+          "rank": "normal",
+          "referenceCount": 1
+        }
+      ],
+      "P16": [
+        {
+          "value": {
+            "entity-type": "item",
+            "numeric-id": 1133704,
+            "id": "Q1133704"
+          },
+          "rank": "normal",
+          "referenceCount": 0
+        }
+      ],
+      "P81": [
+        {
+          "value": {
+            "entity-type": "item",
+            "numeric-id": 1133704,
+            "id": "Q1133704"
+          },
+          "rank": "normal",
+          "referenceCount": 0
+        }
+      ],
+      "P361": [
+        {
+          "value": {
+            "entity-type": "item",
+            "numeric-id": 7283953,
+            "id": "Q7283953"
+          },
+          "rank": "normal",
+          "referenceCount": 0
+        }
+      ],
+      "P833": [
+        {
+          "value": {
+            "entity-type": "item",
+            "numeric-id": 11283652,
+            "id": "Q11283652"
+          },
+          "rank": "normal",
+          "referenceCount": 0
+        },
+        {
+          "value": {
+            "entity-type": "item",
+            "numeric-id": 4921013,
+            "id": "Q4921013"
+          },
+          "rank": "normal",
+          "referenceCount": 0
+        }
+      ],
+      "P1365": []
+    }
+  },
+  {
+    "id": "Q4921013",
+    "url": "https://www.wikidata.org/wiki/Q4921013",
+    "endpoint": "https://www.wikidata.org/wiki/Special:EntityData/Q4921013.json",
+    "revision": 2257871612,
+    "sourceModifiedAt": "2024-10-08T14:53:15Z",
+    "retrievedAt": "2026-10-24",
+    "license": "CC0-1.0",
+    "labels": {
+      "en": "Phetchaburi MRT Station",
+      "th": "สถานีเพชรบุรี"
+    },
+    "props": {
+      "P17": [
+        {
+          "value": {
+            "entity-type": "item",
+            "numeric-id": 869,
+            "id": "Q869"
+          },
+          "rank": "normal",
+          "referenceCount": 1
+        }
+      ],
+      "P625": [
+        {
+          "value": {
+            "latitude": 13.7491,
+            "longitude": 100.563,
+            "altitude": null,
+            "precision": 0.0092481511847741,
+            "globe": "http://www.wikidata.org/entity/Q2"
+          },
+          "rank": "normal",
+          "referenceCount": 1
+        }
+      ],
+      "P296": [
+        {
+          "value": "PET",
+          "rank": "normal",
+          "referenceCount": 1
+        }
+      ],
+      "P16": [
+        {
+          "value": {
+            "entity-type": "item",
+            "numeric-id": 806485,
+            "id": "Q806485"
+          },
+          "rank": "normal",
+          "referenceCount": 0
+        }
+      ],
+      "P81": [
+        {
+          "value": {
+            "entity-type": "item",
+            "numeric-id": 2486364,
+            "id": "Q2486364"
+          },
+          "rank": "normal",
+          "referenceCount": 1
+        }
+      ],
+      "P361": [],
+      "P833": [
+        {
+          "value": {
+            "entity-type": "item",
+            "numeric-id": 11340409,
+            "id": "Q11340409"
+          },
+          "rank": "normal",
+          "referenceCount": 0
+        },
+        {
+          "value": {
+            "entity-type": "item",
+            "numeric-id": 11283652,
+            "id": "Q11283652"
+          },
+          "rank": "normal",
+          "referenceCount": 0
+        }
+      ],
+      "P1365": []
+    }
+  },
+  {
+    "id": "Q35596136",
+    "url": "https://www.wikidata.org/wiki/Q35596136",
+    "endpoint": "https://www.wikidata.org/wiki/Special:EntityData/Q35596136.json",
+    "revision": 2436073846,
+    "sourceModifiedAt": "2025-11-30T14:40:32Z",
+    "retrievedAt": "2026-10-24",
+    "license": "CC0-1.0",
+    "labels": {
+      "en": "Don Mueang station",
+      "th": "สถานีดอนเมือง"
+    },
+    "props": {
+      "P17": [
+        {
+          "value": {
+            "entity-type": "item",
+            "numeric-id": 869,
+            "id": "Q869"
+          },
+          "rank": "normal",
+          "referenceCount": 0
+        }
+      ],
+      "P625": [
+        {
+          "value": {
+            "latitude": 13.914688,
+            "longitude": 100.5978685,
+            "altitude": null,
+            "precision": 1e-07,
+            "globe": "http://www.wikidata.org/entity/Q2"
+          },
+          "rank": "normal",
+          "referenceCount": 0
+        }
+      ],
+      "P296": [
+        {
+          "value": "RN08",
+          "rank": "normal",
+          "referenceCount": 0
+        },
+        {
+          "value": "ดม.",
+          "rank": "normal",
+          "referenceCount": 1
+        }
+      ],
+      "P16": [
+        {
+          "value": {
+            "entity-type": "item",
+            "numeric-id": 7283953,
+            "id": "Q7283953"
+          },
+          "rank": "normal",
+          "referenceCount": 0
+        }
+      ],
+      "P81": [
+        {
+          "value": {
+            "entity-type": "item",
+            "numeric-id": 15078613,
+            "id": "Q15078613"
+          },
+          "rank": "normal",
+          "referenceCount": 0
+        }
+      ],
+      "P361": [],
+      "P833": [
+        {
+          "value": {
+            "entity-type": "item",
+            "numeric-id": 1046755,
+            "id": "Q1046755"
+          },
+          "rank": "normal",
+          "referenceCount": 0
+        }
+      ],
+      "P1365": [
+        {
+          "value": {
+            "entity-type": "item",
+            "numeric-id": 6585967,
+            "id": "Q6585967"
+          },
+          "rank": "normal",
+          "referenceCount": 0
+        }
+      ]
+    }
+  }
+]

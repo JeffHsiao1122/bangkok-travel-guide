@@ -1,0 +1,419 @@
+{
+  "conditions": [
+    {
+      "width": 390,
+      "airport": "bkk",
+      "arrival": "unknown",
+      "luggage": "unknown",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "airport": "bkk",
+      "arrival": "unknown",
+      "luggage": "light",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "airport": "bkk",
+      "arrival": "unknown",
+      "luggage": "assistance",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "airport": "bkk",
+      "arrival": "day",
+      "luggage": "unknown",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "airport": "bkk",
+      "arrival": "day",
+      "luggage": "light",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "airport": "bkk",
+      "arrival": "day",
+      "luggage": "assistance",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "airport": "bkk",
+      "arrival": "night",
+      "luggage": "unknown",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "airport": "bkk",
+      "arrival": "night",
+      "luggage": "light",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "airport": "bkk",
+      "arrival": "night",
+      "luggage": "assistance",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "airport": "dmk",
+      "arrival": "unknown",
+      "luggage": "unknown",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "airport": "dmk",
+      "arrival": "unknown",
+      "luggage": "light",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "airport": "dmk",
+      "arrival": "unknown",
+      "luggage": "assistance",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "airport": "dmk",
+      "arrival": "day",
+      "luggage": "unknown",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "airport": "dmk",
+      "arrival": "day",
+      "luggage": "light",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "airport": "dmk",
+      "arrival": "day",
+      "luggage": "assistance",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "airport": "dmk",
+      "arrival": "night",
+      "luggage": "unknown",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "airport": "dmk",
+      "arrival": "night",
+      "luggage": "light",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "airport": "dmk",
+      "arrival": "night",
+      "luggage": "assistance",
+      "pass": true
+    },
+    {
+      "width": 768,
+      "airport": "bkk",
+      "arrival": "unknown",
+      "luggage": "unknown",
+      "pass": true
+    },
+    {
+      "width": 768,
+      "airport": "bkk",
+      "arrival": "unknown",
+      "luggage": "light",
+      "pass": true
+    },
+    {
+      "width": 768,
+      "airport": "bkk",
+      "arrival": "unknown",
+      "luggage": "assistance",
+      "pass": true
+    },
+    {
+      "width": 768,
+      "airport": "bkk",
+      "arrival": "day",
+      "luggage": "unknown",
+      "pass": true
+    },
+    {
+      "width": 768,
+      "airport": "bkk",
+      "arrival": "day",
+      "luggage": "light",
+      "pass": true
+    },
+    {
+      "width": 768,
+      "airport": "bkk",
+      "arrival": "day",
+      "luggage": "assistance",
+      "pass": true
+    },
+    {
+      "width": 768,
+      "airport": "bkk",
+      "arrival": "night",
+      "luggage": "unknown",
+      "pass": true
+    },
+    {
+      "width": 768,
+      "airport": "bkk",
+      "arrival": "night",
+      "luggage": "light",
+      "pass": true
+    },
+    {
+      "width": 768,
+      "airport": "bkk",
+      "arrival": "night",
+      "luggage": "assistance",
+      "pass": true
+    },
+    {
+      "width": 768,
+      "airport": "dmk",
+      "arrival": "unknown",
+      "luggage": "unknown",
+      "pass": true
+    },
+    {
+      "width": 768,
+      "airport": "dmk",
+      "arrival": "unknown",
+      "luggage": "light",
+      "pass": true
+    },
+    {
+      "width": 768,
+      "airport": "dmk",
+      "arrival": "unknown",
+      "luggage": "assistance",
+      "pass": true
+    },
+    {
+      "width": 768,
+      "airport": "dmk",
+      "arrival": "day",
+      "luggage": "unknown",
+      "pass": true
+    },
+    {
+      "width": 768,
+      "airport": "dmk",
+      "arrival": "day",
+      "luggage": "light",
+      "pass": true
+    },
+    {
+      "width": 768,
+      "airport": "dmk",
+      "arrival": "day",
+      "luggage": "assistance",
+      "pass": true
+    },
+    {
+      "width": 768,
+      "airport": "dmk",
+      "arrival": "night",
+      "luggage": "unknown",
+      "pass": true
+    },
+    {
+      "width": 768,
+      "airport": "dmk",
+      "arrival": "night",
+      "luggage": "light",
+      "pass": true
+    },
+    {
+      "width": 768,
+      "airport": "dmk",
+      "arrival": "night",
+      "luggage": "assistance",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "airport": "bkk",
+      "arrival": "unknown",
+      "luggage": "unknown",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "airport": "bkk",
+      "arrival": "unknown",
+      "luggage": "light",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "airport": "bkk",
+      "arrival": "unknown",
+      "luggage": "assistance",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "airport": "bkk",
+      "arrival": "day",
+      "luggage": "unknown",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "airport": "bkk",
+      "arrival": "day",
+      "luggage": "light",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "airport": "bkk",
+      "arrival": "day",
+      "luggage": "assistance",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "airport": "bkk",
+      "arrival": "night",
+      "luggage": "unknown",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "airport": "bkk",
+      "arrival": "night",
+      "luggage": "light",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "airport": "bkk",
+      "arrival": "night",
+      "luggage": "assistance",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "airport": "dmk",
+      "arrival": "unknown",
+      "luggage": "unknown",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "airport": "dmk",
+      "arrival": "unknown",
+      "luggage": "light",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "airport": "dmk",
+      "arrival": "unknown",
+      "luggage": "assistance",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "airport": "dmk",
+      "arrival": "day",
+      "luggage": "unknown",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "airport": "dmk",
+      "arrival": "day",
+      "luggage": "light",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "airport": "dmk",
+      "arrival": "day",
+      "luggage": "assistance",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "airport": "dmk",
+      "arrival": "night",
+      "luggage": "unknown",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "airport": "dmk",
+      "arrival": "night",
+      "luggage": "light",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "airport": "dmk",
+      "arrival": "night",
+      "luggage": "assistance",
+      "pass": true
+    }
+  ],
+  "widths": [
+    {
+      "width": 390,
+      "checklistReset": true,
+      "reloadReset": true,
+      "invalidQuerySafe": true,
+      "airportAndRailLinks": true,
+      "homeAndSitemapLinks": true,
+      "existingTripUnchanged": true,
+      "sixSourceVersions": true,
+      "lazyPageLoaded": true
+    },
+    {
+      "width": 768,
+      "checklistReset": true,
+      "reloadReset": true,
+      "invalidQuerySafe": true,
+      "airportAndRailLinks": true,
+      "homeAndSitemapLinks": true,
+      "existingTripUnchanged": true,
+      "sixSourceVersions": true,
+      "lazyPageLoaded": true
+    },
+    {
+      "width": 1280,
+      "checklistReset": true,
+      "reloadReset": true,
+      "invalidQuerySafe": true,
+      "airportAndRailLinks": true,
+      "homeAndSitemapLinks": true,
+      "existingTripUnchanged": true,
+      "sixSourceVersions": true,
+      "lazyPageLoaded": true
+    }
+  ],
+  "errors": [],
+  "unexpectedRequests": []
+}

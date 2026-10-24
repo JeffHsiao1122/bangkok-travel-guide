@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{lazy,Suspense} from 'react';
 import {Routes,Route,Link,Navigate} from 'react-router-dom';
 import {AppProvider,Layout,PageHead} from './components/shared.jsx';
 import FirstVisit from './pages/FirstVisit.jsx';
@@ -7,10 +7,11 @@ import {TravelOverview,PlacesList,PlaceDetail,Flights,Airport,Airline,Accommodat
 import {Lounges,LoungeDetail} from './pages/Lounges.jsx';
 import {Guides,Guide,StaticPage} from './pages/Static.jsx';
 import {Planner,RecommendedTrips,RecommendedDetail,MyTrips,TripDetail,TripEditor} from './pages/Trips.jsx';
+const AirportTransfers=lazy(()=>import('./pages/AirportTransfers.jsx'));
 function Pending(){return <div className="container"><PageHead title="功能開發中" description="此頁正在依 Phase 1 規劃製作。"/><Link className="button" to="/">回首頁</Link></div>;}
 export default function App(){return <AppProvider><Layout><Routes>
  <Route path="/" element={<Home/>}/><Route path="/sitemap" element={<Sitemap/>}/>
- <Route path="/first-visit" element={<FirstVisit/>}/><Route path="/travel" element={<TravelOverview/>}/><Route path="/travel/flights" element={<Flights/>}/><Route path="/travel/airports/:id" element={<Airport/>}/><Route path="/travel/airlines/:id" element={<Airline/>}/>
+ <Route path="/first-visit" element={<FirstVisit/>}/><Route path="/airport-transfers" element={<Suspense fallback={<div className="container"><p role="status">正在開啟機場進城指南…</p></div>}><AirportTransfers/></Suspense>}/><Route path="/travel" element={<TravelOverview/>}/><Route path="/travel/flights" element={<Flights/>}/><Route path="/travel/airports/:id" element={<Airport/>}/><Route path="/travel/airlines/:id" element={<Airline/>}/>
  <Route path="/travel/accommodation" element={<Accommodation/>}/><Route path="/travel/accommodation/compare" element={<Accommodation compare/>}/><Route path="/travel/accommodation/:id" element={<AccommodationDetail/>}/><Route path="/travel/areas/:id" element={<Area/>}/>
  <Route path="/travel/transportation" element={<Transportation/>}/><Route path="/travel/transportation/:id" element={<TransportDetail/>}/><Route path="/travel/food" element={<PlacesList food/>}/><Route path="/travel/food/:id" element={<PlaceDetail/>}/><Route path="/travel/attractions" element={<PlacesList/>}/><Route path="/travel/attractions/:id" element={<PlaceDetail/>}/>
  <Route path="/lounges" element={<Lounges/>}/><Route path="/lounges/compare" element={<Lounges compare/>}/><Route path="/lounges/:id" element={<LoungeDetail/>}/><Route path="/credit-cards/*" element={<Navigate to="/lounges" replace/>}/><Route path="/lounge-finder" element={<Navigate to="/lounges" replace/>}/><Route path="/guides/taiwan-cards" element={<Navigate to="/lounges" replace/>}/><Route path="/guides/check-benefits" element={<Navigate to="/lounges" replace/>}/>

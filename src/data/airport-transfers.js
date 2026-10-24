@@ -1,0 +1,14 @@
+// Only Wikidata structured facts are CC0. Route guide text keeps its existing CC BY-SA attribution.
+import facts from './airport-station-facts.json' with {type:'json'};
+export const airportTransferDate='2026-10-24';
+const meta={Q6633190:['bkk-arl','Suvarnabhumi','Airport Rail Link','A1'],Q13021649:['phaya-thai-arl','Phaya Thai','Airport Rail Link','A8'],Q15139351:['phaya-thai-bts','Phaya Thai','BTS',null],Q11340409:['makkasan-arl','Makkasan','Airport Rail Link',null],Q4921013:['phetchaburi-mrt','Phetchaburi','MRT',null],Q35596136:['don-mueang-red','Don Mueang','深紅線','RN08']};
+export const airportStations=facts.map(fact=>{const [id,name,system,candidate]=meta[fact.id];const code=candidate&&fact.props.P296.some(p=>p.rank!=='deprecated'&&p.value===candidate)?candidate:null;const coordinate=fact.props.P625.find(p=>p.rank!=='deprecated'&&p.value.precision<=0.001)?.value;return {id,name,system,fact,code,coordinate:coordinate?{lat:coordinate.latitude,lng:coordinate.longitude}:null,codeNote:code?'來源所列代碼，非當日營運核實。':'來源缺漏或歷史代碼未核實，暫不採用。',coordinateNote:coordinate?'僅為概略站點，不代表機場乘車樓層、出口或電梯。':'來源座標精度較粗，暫不提供定位；請用站名查找。',fare:null,hours:null,walkMinutes:null,confirmedAt:null};});
+export const airportStationById=Object.fromEntries(airportStations.map(s=>[s.id,s]));
+export const airportRailOptions={
+ bkk:[{id:'bkk-bts',title:'先比較 Phaya Thai 接 BTS',stations:['bkk-arl','phaya-thai-arl','phaya-thai-bts'],railId:'arl',after:'接下來依住宿實際位置核對 BTS 下車站及最後一段。Phaya Thai 的兩個系統分開購票與查時刻，不把同名站當成同一車票。',costItems:['Airport Rail Link 車票','BTS 車票','車站到住宿的最後一段']},{id:'bkk-mrt',title:'先比較 Makkasan 接 MRT',stations:['bkk-arl','makkasan-arl','phetchaburi-mrt'],railId:'arl',after:'Makkasan 與 Phetchaburi 是不同站點；核對站間步行、出口、電梯與行李接續，再查 MRT 下車站。',costItems:['Airport Rail Link 車票','MRT 車票','站間接續與住宿最後一段']}],
+ dmk:[{id:'dmk-red',title:'先核對 Don Mueang 與深紅線',stations:['don-mueang-red'],railId:'red-line',after:'從 DMK 航廈到車站的接續、市區下車站及後續轉乘仍需逐段核對。留意同名舊站項目，不直接套用舊站座標或機場名稱。本站既有指南的 DMK 敘述有差異，仍列候選方案。',costItems:['深紅線車票','後續轉乘票價','車站到住宿的最後一段']}],
+};
+export function normalizeAirport(value){return value==='dmk'?'dmk':'bkk';}
+export function transferAdvice({airport='bkk',arrival='unknown',luggage='unknown'}={}){return {airport:normalizeAirport(airport),notes:[arrival==='night'?'深夜或清晨抵達：未核對當日首末班前，不能認定列車可搭；同時準備車輛方案。':arrival==='day'?'一般時段也需核對當日服務；飛機落地後還有出關、領行李與等車時間。':'抵達時段尚未確定：先保留不同交通選擇，確認航班後再查當日服務。',luggage==='assistance'?'行李多或需要協助：比較搬運、電梯、站間接續與車輛容量；不要只比較票價。':luggage==='light'?'能自行搬運行李也需確認實際出口與步行路面，保留最後一段與休息時間。':'行李與協助需求未定：先核對同行人數、件數及可搬運程度，不推定鐵路或小車一定適合。']};}
+export const transferChecklist=['分別核對去程與回程機場碼、日期及當地時間','已查住宿的實際位置與交通最後一段','已查當日交通服務、票價及航空公司回程報到要求','已核對人數、行李與協助需求','已準備班次中斷或來不及搭車時的備援交通'];
+export function airportStationMapUrl(s){return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${s.fact.labels.en} Bangkok ${s.system}`)}`;}
