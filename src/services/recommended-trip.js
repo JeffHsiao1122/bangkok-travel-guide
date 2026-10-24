@@ -4,7 +4,7 @@ import {recommendedPlans} from '../data/recommended-plans.js';
 export function createRecommendedTrip(template,options,database){
  if(!Number.isInteger(template?.days)||!recommendedPlans[template.days])throw Error('尚無此天數的原創推薦行程。');
  const days=template.days;
- const settings={...options,days,end:addDays(options.start,days-1),name:template.name};
+ const settings={...options,dataMode:'real',days,end:addDays(options.start,days-1),name:template.name};
  if(days===3)return createFirstTrip(settings,database);
  const trip=blankTrip(settings);
  trip.origin=`原創 ${days} 日動線（基本資料 CC0，營運待確認）`;

@@ -1,7 +1,7 @@
 import {blankTrip,makeActivity,recalculateTrip,uid} from './planner.js';
 import {curatedDays} from '../data/first-visit.js';
 export function createFirstTrip(options,database){
- const trip=blankTrip({...options,days:3,name:'初訪曼谷・文化與城市三日'});
+ const trip=blankTrip({...options,dataMode:'real',days:3,name:'初訪曼谷・文化與城市三日'});
  trip.origin='原創三日動線（基本資料 CC0，營運待確認）';
  trip.reasons=['依真實地點的概略座標與本站原創建議安排；不代表營業時間或交通班次已確認。','以三個可遊覽日為規劃起點；若是三天兩夜，請依航班縮短第一天與最後一天。','費用是預留額；0 不等於免費。用餐自選，未提供已查證的餐廳。'];
  trip.days=trip.days.map((day,index)=>({...day,startMinute:540,endMinute:1200,reasons:[curatedDays[index].reason,curatedDays[index].transport],activities:curatedDays[index].stops.map(([id,start])=>{

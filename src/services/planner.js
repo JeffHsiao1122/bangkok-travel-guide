@@ -8,7 +8,7 @@ export function dayCount(start,end) { if(!validDate(start)||!validDate(end)) ret
 export function distance(a,b) { if(![a?.lat,a?.lng,b?.lat,b?.lng].every(Number.isFinite)) return null; const r=x=>x*Math.PI/180; return 6371*2*Math.asin(Math.sqrt(Math.sin(r(b.lat-a.lat)/2)**2+Math.cos(r(a.lat))*Math.cos(r(b.lat))*Math.sin(r(b.lng-a.lng)/2)**2)); }
 export function travelEstimate(a,b,mode='transit') { const km=distance(a,b); if(km===null) return {minutes:30,cost:mode==='taxi'?250:50,unit:mode==='taxi'?'車':'人',unknown:true}; const minutes=Math.ceil((km/(mode==='taxi'?22:18)*60+15)/5)*5; return {minutes,cost:mode==='taxi'?Math.ceil((60+km*15)/10)*10:Math.ceil((30+km*3)/10)*10,unit:mode==='taxi'?'車':'人',unknown:false}; }
 export function normaliseOptions(raw) {
- const o={...raw}; o.days=Number(o.days??dayCount(o.start,o.end)); if(!validDate(o.start)||!Number.isInteger(o.days)||o.days<1||o.days>14) throw Error('請設定有效出發日期，行程天數為 1–14 天。');
+ const o={...raw}; if(o.dataMode!==undefined&&!['real','demo'].includes(o.dataMode))throw Error('排程資料範圍格式不正確。'); o.days=Number(o.days??dayCount(o.start,o.end)); if(!validDate(o.start)||!Number.isInteger(o.days)||o.days<1||o.days>14) throw Error('請設定有效出發日期，行程天數為 1–14 天。');
  if(o.end&&dayCount(o.start,o.end)!==o.days) throw Error('起迄日期與旅遊天數不一致。');
  o.startMinute=parseTime(o.startTime??'09:00');o.endMinute=parseTime(o.endTime??'20:00');
  if(!Number.isFinite(o.startMinute)||!Number.isFinite(o.endMinute)||o.endMinute-o.startMinute<120) throw Error('每日結束時間至少需比開始時間晚 2 小時。');
@@ -19,6 +19,7 @@ export function normaliseOptions(raw) {
  if(o.must.some(id=>o.excluded.includes(id))) throw Error('必去與排除清單有相同地點，請先移除衝突。');
  o.mode=o.mode??'transit';o.pace=o.pace??'normal';if(!['transit','taxi'].includes(o.mode)||!['relaxed','normal','busy'].includes(o.pace))throw Error('交通方式或旅遊步調格式不正確。');return o;
 }
+export function isSourcedPlace(place){return place?.fact?.license==='CC0-1.0'&&Number.isFinite(place.lat)&&Number.isFinite(place.lng);}
 export function makeActivity(place,start=540) {return {id:uid(),placeId:place.id,name:place.name,snapshot:clone(place),start,duration:place.duration,cost:place.cost,unit:'person',locked:false,fixed:false,note:''};}
 export function recalculateDay(day,options={people:1,mode:'transit'},database=[]) {
  const warnings=[];const segments=[];let cost=0; let cursor=day.startMinute??540;let previous=null;
@@ -37,8 +38,8 @@ export function recalculateDay(day,options={people:1,mode:'transit'},database=[]
 export function recalculateTrip(trip,database=[]) {const result=clone(trip);result.days=result.days.map(d=>recalculateDay(d,result.options,database));result.estimatedGroup=result.days.reduce((n,d)=>n+d.cost,0);result.estimatedPerPerson=result.estimatedGroup/result.options.people;result.shoppingTotal=Number(result.options.shoppingBudget??0)*result.days.length;result.totalPerPerson=result.estimatedPerPerson+result.shoppingTotal+Number(result.options.flightBudget??0)+Number(result.options.hotelBudget??0);result.warnings=[];if(result.options.totalBudget!=null&&result.totalPerPerson>result.options.totalBudget)result.warnings.push('總預估支出超過總預算，請刪減活動或調整條件。');return result;}
 export function generateTrip(raw,database,blocked=[]) {
  const options=normaliseOptions(raw);const used=new Set(blocked);const reasons=[];const unassigned=[];const days=[];let totalSpent=0;
- const eligible=database.filter(p=>p.planningEligible!==false&&!options.excluded.includes(p.id)&&(!options.accessible||p.accessibility===true));
- for(const id of options.must)if(!eligible.some(p=>p.id===id))unassigned.push({id,name:database.find(p=>p.id===id)?.name??id,reason:database.find(p=>p.id===id)?.planningEligible===false?'當期營業時段、餐費與位置不足，暫不自動安排；可核對後手動加入。':'必要條件、無障礙資料或地點資料不符，無法確認安排。'});
+ const eligible=database.filter(p=>p.planningEligible!==false&&(options.dataMode!=='real'||isSourcedPlace(p))&&!options.excluded.includes(p.id)&&(!options.accessible||p.accessibility===true));
+ for(const id of options.must)if(!eligible.some(p=>p.id===id))unassigned.push({id,name:database.find(p=>p.id===id)?.name??id,reason:options.dataMode==='real'&&!isSourcedPlace(database.find(p=>p.id===id))?'此地點不在有基本來源的排程範圍內，未自動加入；請核對後手動安排。':database.find(p=>p.id===id)?.planningEligible===false?'當期營業時段、餐費與位置不足，暫不自動安排；可核對後手動加入。':'必要條件、無障礙資料或地點資料不符，無法確認安排。'});
  for(let i=0;i<options.days;i++) {
   const date=addDays(options.start,i);const weekday=new Date(`${date}T12:00:00Z`).getUTCDay();let start=options.startMinute,end=options.endMinute;
   if(i===0&&options.arrivalTime){const time=parseTime(options.arrivalTime);if(!Number.isFinite(time))throw Error('抵達時間格式錯誤。');start=Math.min(1440,Math.max(start,time+150));}
@@ -68,13 +69,15 @@ export function generateTrip(raw,database,blocked=[]) {
    if(p.type==='餐廳')meal=true;else stops++;
    day=recalculateDay(day,options,database);day.reasons.push(`${p.name}：${options.must.includes(p.id)?'優先安排必去地點':`符合偏好，依${p.area}與交通距離安排`}；預留交通與休息。`);
   }
-  if(day.activities.length===0)day.reasons.push(start>=end?'抵達／起飛緩衝後沒有可安排時間。':'符合必要條件、營業時間與預算的範例不足，保留空檔。');
+  if(day.activities.length===0)day.reasons.push(start>=end?'抵達／起飛緩衝後沒有可安排時間。':'符合目前資料範圍、必要條件、規劃時段與預算的地點不足，保留空檔。');
   days.push(recalculateDay(day,options,database));
  }
  for(const id of options.must)if(!used.has(id)&&!unassigned.some(x=>x.id===id))unassigned.push({id,name:database.find(p=>p.id===id)?.name??id,reason:'受可用日期、時間、交通或預算限制，無法安排。'});
  if(!options.arrivalTime||!options.departureTime)reasons.push('未完整填寫航班時間；第一天與最後一天請自行核對可用時段。');
+ if(options.dataMode==='real')reasons.push('自動安排僅使用已有 CC0 基本來源與概略座標的地點；營業、費用與交通仍待核對。用餐自行選店，資料不足時保留空檔，不用範例補滿。');
+ if(options.dataMode==='demo')reasons.push('你已選擇示範模式：可能包含虛構景點或餐廳，不能當作實際旅遊資訊。');
  if(options.accessible)reasons.push('僅選擇已標示可無障礙使用的資料；範例資料不足時不安排。');
- return recalculateTrip({schemaVersion:1,id:uid(),name:raw.name??`${options.days} 天曼谷旅程`,start:options.start,end:addDays(options.start,options.days-1),timezone:'Asia/Bangkok',origin:raw.origin??'規則排程',createdAt:new Date().toISOString(),updatedAt:new Date().toISOString(),options,days,unassigned,reasons},database);
+ return recalculateTrip({schemaVersion:1,id:uid(),name:raw.name??`${options.days} 天曼谷旅程`,start:options.start,end:addDays(options.start,options.days-1),timezone:'Asia/Bangkok',origin:raw.origin??(options.dataMode==='real'?'規則排程・有基本來源地點':options.dataMode==='demo'?'規則排程・示範模式':'規則排程'),createdAt:new Date().toISOString(),updatedAt:new Date().toISOString(),options,days,unassigned,reasons},database);
 }
 export function blankTrip(raw) {const options=normaliseOptions(raw);return recalculateTrip({schemaVersion:1,id:uid(),name:raw.name||'我的曼谷旅程',start:options.start,end:addDays(options.start,options.days-1),timezone:'Asia/Bangkok',origin:'手動建立',createdAt:new Date().toISOString(),updatedAt:new Date().toISOString(),options,unassigned:[],reasons:[],days:Array.from({length:options.days},(_,i)=>({id:uid(),date:addDays(options.start,i),startMinute:options.startMinute,endMinute:options.endMinute,activities:[],reasons:[]}))});}
 export function regenerateDay(trip,index,database) {
@@ -87,5 +90,5 @@ export function regenerateDay(trip,index,database) {
   for(const candidate of pending){const proposed=[...combined,candidate].sort((a,b)=>a.start-b.start);const fits=proposed.every((a,i)=>{if(!i)return a.start>=day.startMinute;const prev=proposed[i-1];const t=travelEstimate(prev.snapshot,a.snapshot,original.options.mode);return prev.start+prev.duration+t.minutes<=a.start;});if(fits)combined.push(candidate);}
   produced.days[0]={...produced.days[0],activities:combined.sort((a,b)=>a.start-b.start),reasons:[...produced.days[0].reasons,'保留鎖定活動的名稱、時間與費用，只補入可銜接的活動。']};
  }
- original.days[index]=produced.days[0];original.unassigned=required.filter(id=>!original.days[index].activities.some(a=>a.placeId===id)).map(id=>({id,name:database.find(p=>p.id===id)?.name??id,reason:'單日可用時段、鎖定活動、預算或交通不足。'}));original.reasons=[...original.reasons,...produced.reasons];return recalculateTrip(original,database);
+ original.days[index]=produced.days[0];original.unassigned=required.filter(id=>!original.days[index].activities.some(a=>a.placeId===id)).map(id=>({id,name:database.find(p=>p.id===id)?.name??id,reason:produced.unassigned.find(p=>p.id===id)?.reason??'單日可用時段、鎖定活動、預算或交通不足。'}));original.reasons=[...original.reasons,...produced.reasons];return recalculateTrip(original,database);
 }
