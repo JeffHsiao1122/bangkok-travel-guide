@@ -1,0 +1,83 @@
+{
+  "date": "2026-10-25",
+  "scope": "本機隔離瀏覽器／合成資料",
+  "unitTests": 82,
+  "locatedRestaurants": 5,
+  "unknownRestaurants": 1,
+  "browser": {
+    "widths": [
+      {
+        "width": 390,
+        "sixDetailsAndSources": true,
+        "fiveLocatedOneUnknown": true,
+        "manualAddAndReload": true,
+        "feesRemainUnknown": true,
+        "jsonRetainsBothSourceDates": true,
+        "printRetainsOldAndNewRevisions": true,
+        "oldTripUnchanged": true,
+        "mapCreditsAndSourcePage": true
+      },
+      {
+        "width": 768,
+        "sixDetailsAndSources": true,
+        "fiveLocatedOneUnknown": true,
+        "manualAddAndReload": true,
+        "feesRemainUnknown": true,
+        "jsonRetainsBothSourceDates": true,
+        "printRetainsOldAndNewRevisions": true,
+        "oldTripUnchanged": true,
+        "mapCreditsAndSourcePage": true
+      },
+      {
+        "width": 1280,
+        "sixDetailsAndSources": true,
+        "fiveLocatedOneUnknown": true,
+        "manualAddAndReload": true,
+        "feesRemainUnknown": true,
+        "jsonRetainsBothSourceDates": true,
+        "printRetainsOldAndNewRevisions": true,
+        "oldTripUnchanged": true,
+        "mapCreditsAndSourcePage": true
+      }
+    ],
+    "errors": [],
+    "unexpectedRequests": []
+  },
+  "coreCases": [
+    {
+      "name": "日期延長後撤銷不會停在已移除的日期（390）",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "name": "日期延長後撤銷不會停在已移除的日期（1280）",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "name": "自動排程、必去／排除、活動編輯、排序、跨日、鎖定重排與保存",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "name": "JSON 真實下載與檔案匯入、錯誤匯入保留資料、複製／刪除／清除確認",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "name": "空白行程、自訂活動、縮短日期確認、撤銷與草稿還原",
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "name": "全站公開頁面、圖片、未知路由與三種螢幕寬度",
+      "width": 1280,
+      "pass": true
+    }
+  ],
+  "routeChecks": 354,
+  "coreErrors": [],
+  "pagesBuild": "passed",
+  "pagesAssetPrefixes": "passed",
+  "published": false
+}

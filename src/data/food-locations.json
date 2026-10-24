@@ -1,0 +1,129 @@
+{
+  "sources": {
+    "food-location-rattanakosin": {
+      "id": "food-location-rattanakosin",
+      "title": "Bangkok/Rattanakosin",
+      "url": "https://en.wikivoyage.org/wiki/Bangkok/Rattanakosin",
+      "historyUrl": "https://en.wikivoyage.org/w/index.php?title=Bangkok%2FRattanakosin&action=history",
+      "revision": 5394401,
+      "authors": "Wikivoyage contributors（作者詳見原文與編輯歷史）",
+      "license": "CC-BY-SA-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "reviewedAt": "2026-10-25",
+      "modified": "僅摘錄店名、街道及概略座標供既有據點對照；欄位採 CC BY-SA 4.0，未採用營業、價格、照片或評價。"
+    },
+    "food-location-siam_square": {
+      "id": "food-location-siam_square",
+      "title": "Bangkok/Siam Square",
+      "url": "https://en.wikivoyage.org/wiki/Bangkok/Siam_Square",
+      "historyUrl": "https://en.wikivoyage.org/w/index.php?title=Bangkok%2FSiam_Square&action=history",
+      "revision": 5397669,
+      "authors": "Wikivoyage contributors（作者詳見原文與編輯歷史）",
+      "license": "CC-BY-SA-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "reviewedAt": "2026-10-25",
+      "modified": "僅摘錄店名、街道及概略座標供既有據點對照；欄位採 CC BY-SA 4.0，未採用營業、價格、照片或評價。"
+    },
+    "food-location-silom": {
+      "id": "food-location-silom",
+      "title": "Bangkok/Silom",
+      "url": "https://en.wikivoyage.org/wiki/Bangkok/Silom",
+      "historyUrl": "https://en.wikivoyage.org/w/index.php?title=Bangkok%2FSilom&action=history",
+      "revision": 5398299,
+      "authors": "Wikivoyage contributors（作者詳見原文與編輯歷史）",
+      "license": "CC-BY-SA-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "reviewedAt": "2026-10-25",
+      "modified": "僅摘錄店名、街道及概略座標供既有據點對照；欄位採 CC BY-SA 4.0，未採用營業、價格、照片或評價。"
+    },
+    "food-location-sukhumvit": {
+      "id": "food-location-sukhumvit",
+      "title": "Bangkok/Sukhumvit",
+      "url": "https://en.wikivoyage.org/wiki/Bangkok/Sukhumvit",
+      "historyUrl": "https://en.wikivoyage.org/w/index.php?title=Bangkok%2FSukhumvit&action=history",
+      "revision": 5397702,
+      "authors": "Wikivoyage contributors（作者詳見原文與編輯歷史）",
+      "license": "CC-BY-SA-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "reviewedAt": "2026-10-25",
+      "modified": "僅摘錄店名、街道及概略座標供既有據點對照；欄位採 CC BY-SA 4.0，未採用營業、價格、照片或評價。"
+    }
+  },
+  "records": {
+    "food-thip-samai": {
+      "sourceId": "food-location-rattanakosin",
+      "sourceName": "Thip Samai",
+      "sourceAddress": "313 Maha Chai Rd",
+      "coordinate": {
+        "lat": 13.752818,
+        "lng": 100.50479
+      },
+      "sourceUpdatedAt": null,
+      "section": "Eat / Thip Samai",
+      "status": "社群指南概略定位",
+      "confirmedAt": null
+    },
+    "food-mont-nomsod": {
+      "sourceId": "food-location-rattanakosin",
+      "sourceName": "Mont Nomsod",
+      "sourceAddress": "160/1-3 Dinso Rd",
+      "coordinate": {
+        "lat": 13.754139,
+        "lng": 100.501159
+      },
+      "sourceUpdatedAt": null,
+      "section": "Eat / Mont Nomsod",
+      "status": "社群指南概略定位",
+      "confirmedAt": null
+    },
+    "food-som-tam-nua": {
+      "sourceId": "food-location-siam_square",
+      "sourceName": "Som Tam Nua",
+      "sourceAddress": "392/14 Siam Square Soi 5",
+      "coordinate": null,
+      "sourceUpdatedAt": null,
+      "section": "Eat / Som Tam Nua",
+      "status": "待確認",
+      "confirmedAt": null
+    },
+    "food-prachak": {
+      "sourceId": "food-location-silom",
+      "sourceName": "Prachak Restaurant",
+      "sourceAddress": "1415 Charoen Krung Rd",
+      "coordinate": {
+        "lat": 13.72033,
+        "lng": 100.51603
+      },
+      "sourceUpdatedAt": null,
+      "section": "Eat / Prachak Restaurant",
+      "status": "社群指南概略定位",
+      "confirmedAt": null
+    },
+    "food-roong-roeng": {
+      "sourceId": "food-location-sukhumvit",
+      "sourceName": "Roong Roeng",
+      "sourceAddress": "10/3 Sukhumvit Soi 26",
+      "coordinate": {
+        "lat": 13.728242,
+        "lng": 100.570496
+      },
+      "sourceUpdatedAt": null,
+      "section": "Eat / Roong Roeng",
+      "status": "社群指南概略定位",
+      "confirmedAt": null
+    },
+    "food-wattana-panich": {
+      "sourceId": "food-location-sukhumvit",
+      "sourceName": "Wattana Panich",
+      "sourceAddress": "336 338 Ekkamai Rd, Khlong Tan Nuea",
+      "coordinate": {
+        "lat": 13.73414,
+        "lng": 100.5877
+      },
+      "sourceUpdatedAt": "2025-01-02",
+      "section": "Eat / Wattana Panich",
+      "status": "社群指南概略定位",
+      "confirmedAt": null
+    }
+  }
+}

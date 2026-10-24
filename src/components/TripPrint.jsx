@@ -4,7 +4,7 @@ import {timeText} from '../services/planner.js';
 const value=(input,fallback='未提供')=>typeof input==='string'?input:fallback;
 export function TripPrint({trip}){
  const unknown=trip.days.flatMap(day=>day.activities).filter(activity=>activity.cost===null).length;
- const sources=[...new Map(trip.days.flatMap(day=>day.activities).map(activity=>activity.snapshot?.foodGuide?.source).filter(source=>source&&typeof source.url==='string').map(source=>[source.url,source])).values()];
+ const sources=[...new Map(trip.days.flatMap(day=>day.activities).flatMap(activity=>[activity.snapshot?.foodGuide?.source,activity.snapshot?.foodGuide?.coordinateReference?.source]).filter(source=>source&&typeof source.url==='string').map(source=>[`${source.url}@${source.revision}`,source])).values()];
  return <div className="print-only trip-print" aria-label="全部行程列印內容">
   <section className="print-budget"><h2>每日預算摘要</h2>{trip.options.dataMode&&<p>{trip.options.dataMode==='real'?'自動安排範圍：有基本來源的地點；手動新增內容需逐筆核對。':'示範模式：可能包含虛構地點或餐廳，非實際旅遊資訊。'}</p>}<p>以下為每人 THB 的已填金額與估算，不是即時報價。未知費用、未填機票住宿不視為零成本。</p>{unknown>0&&<p className="print-warning">{unknown} 項活動費用待確認，合計不完整。</p>}
    <table><thead><tr><th scope="col">日期</th><th scope="col">活動與交通／人</th><th scope="col">待確認活動費用</th></tr></thead><tbody>{trip.days.map((day,index)=><tr key={day.id}><th scope="row">第 {index+1} 天 · {day.date}</th><td>{money(day.perPerson)}</td><td>{day.activities.filter(activity=>activity.cost===null).length} 項</td></tr>)}</tbody></table>

@@ -1,7 +1,7 @@
 Bangkok Travel Guide — 旅遊參考內容授權
-授權清單更新：2026-10-24；各來源原讀取日期與版本分別保留，並非營運核實日期。
+授權清單更新：2026-10-25；各來源原讀取日期與版本分別保留，並非營運核實日期。
 
-適用範圍：src/data/content-references.js 及 src/data/food-guides.js 的 Wikivoyage 改寫欄位及其公開呈現。
+適用範圍：src/data/content-references.js、src/data/food-guides.js 及 src/data/food-locations.json 的 Wikivoyage 改寫欄位及其公開呈現。
 原創文字與參考欄位分開署名；不是將第三方官方網站、照片、商標或整個網站程式改授權。
 
 授權：CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
@@ -174,3 +174,22 @@ https://www.wikidata.org/wiki/Q4921013
 Don Mueang station (Q35596136)
 https://www.wikidata.org/wiki/Q35596136
 來源版本：2436073846；來源編輯：2025-11-30T14:40:32Z；讀取：2026-10-24
+
+餐廳概略定位補充（2026-10-25）
+適用 src/data/food-locations.json 的店名／街道對照與概略座標，採 CC BY-SA 4.0；Wikivoyage contributors。
+僅摘錄並重組最小欄位，不使用照片、評價、營業時間、餐費或官方網站文章。
+來源閱讀不代表店家確認；Som Tam Nua 仍無座標。舊店名／餐點來源版本及日期不變。
+Bangkok/Rattanakosin · 版本 5394401 · 閱讀 2026-10-25
+https://en.wikivoyage.org/wiki/Bangkok/Rattanakosin
+作者與歷史：https://en.wikivoyage.org/w/index.php?title=Bangkok%2FRattanakosin&action=history
+Bangkok/Siam Square · 版本 5397669 · 閱讀 2026-10-25（座標未提供，僅保留缺漏依據）
+https://en.wikivoyage.org/wiki/Bangkok/Siam_Square
+作者與歷史：https://en.wikivoyage.org/w/index.php?title=Bangkok%2FSiam_Square&action=history
+Bangkok/Silom · 版本 5398299 · 閱讀 2026-10-25
+https://en.wikivoyage.org/wiki/Bangkok/Silom
+作者與歷史：https://en.wikivoyage.org/w/index.php?title=Bangkok%2FSilom&action=history
+Bangkok/Sukhumvit · 版本 5397702 · 閱讀 2026-10-25
+https://en.wikivoyage.org/wiki/Bangkok/Sukhumvit
+作者與歷史：https://en.wikivoyage.org/w/index.php?title=Bangkok%2FSukhumvit&action=history
+授權：https://creativecommons.org/licenses/by-sa/4.0/
+原文既有修改、相容授權、作者歷史與無保證聲明一併保留。不暗示營運方或 Wikimedia 背書。

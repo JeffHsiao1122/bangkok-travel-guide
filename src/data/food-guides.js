@@ -1,3 +1,6 @@
+import locations from './food-locations.json' with {type:'json'};
+export const foodLocationSources=locations.sources;
+export const foodLocations=locations.records;
 // Wikivoyage-derived fields below are CC BY-SA 4.0; see public/content-licenses.txt.
 import {guideSources,referenceLicense} from './content-references.js';
 export const foodDate='2026-10-06';
@@ -12,13 +15,13 @@ export const foodGuides=[
 ];
 export const realFoodPlaces=foodGuides.map(g=>({
  id:g.id,name:g.name,type:'餐廳',category:g.category,area:g.area,
- lat:null,lng:null,duration:g.duration,cost:null,open:0,close:1440,
+ lat:foodLocations[g.id]?.coordinate?.lat??null,lng:foodLocations[g.id]?.coordinate?.lng??null,duration:g.duration,cost:null,open:0,close:1440,
  weekdays:[0,1,2,3,4,5,6],tags:['美食',g.category,g.dishes,...g.aliases],
  status:'社群指南／營運待確認',source:`Wikivoyage ${foodSources[g.sourceId].title}（CC BY-SA 4.0）；非營運方核實`,
  updatedAt:foodDate,confirmedAt:null,accessibility:null,lastEntry:null,
- address:g.address,description:g.planning,coordinateStatus:'待確認；不填入猜測座標',
+ address:g.address,description:g.planning,coordinateStatus:foodLocations[g.id]?.coordinate?'社群指南概略定位，非入口或營運核實':'待確認；來源未提供，不填入猜測座標',
  hoursStatus:'待確認',ticketStatus:'餐費待確認',planningEligible:false,
- foodGuide:{...g,source:foodSources[g.sourceId],reviewedAt:foodDate,license:'CC-BY-SA-4.0',licenseUrl:referenceLicense,price:null,hours:null,official:null},
+ foodGuide:{...g,coordinateReference:{...foodLocations[g.id],source:foodLocationSources[foodLocations[g.id].sourceId]},source:foodSources[g.sourceId],reviewedAt:foodDate,license:'CC-BY-SA-4.0',licenseUrl:referenceLicense,price:null,hours:null,official:null},
 }));
 export function filterFood(entries,{q='',category='',area='',data='real'}={}){
  const term=q.trim().toLocaleLowerCase();

@@ -39,7 +39,7 @@ export function recalculateTrip(trip,database=[]) {const result=clone(trip);resu
 export function generateTrip(raw,database,blocked=[]) {
  const options=normaliseOptions(raw);const used=new Set(blocked);const reasons=[];const unassigned=[];const days=[];let totalSpent=0;
  const eligible=database.filter(p=>p.planningEligible!==false&&(options.dataMode!=='real'||isSourcedPlace(p))&&!options.excluded.includes(p.id)&&(!options.accessible||p.accessibility===true));
- for(const id of options.must)if(!eligible.some(p=>p.id===id))unassigned.push({id,name:database.find(p=>p.id===id)?.name??id,reason:options.dataMode==='real'&&!isSourcedPlace(database.find(p=>p.id===id))?'此地點不在有基本來源的排程範圍內，未自動加入；請核對後手動安排。':database.find(p=>p.id===id)?.planningEligible===false?'當期營業時段、餐費與位置不足，暫不自動安排；可核對後手動加入。':'必要條件、無障礙資料或地點資料不符，無法確認安排。'});
+ for(const id of options.must)if(!eligible.some(p=>p.id===id))unassigned.push({id,name:database.find(p=>p.id===id)?.name??id,reason:options.dataMode==='real'&&!isSourcedPlace(database.find(p=>p.id===id))?'此地點不在有基本來源的排程範圍內，未自動加入；請核對後手動安排。':database.find(p=>p.id===id)?.planningEligible===false?'當期營業時段、餐費或位置資料不足，暫不自動安排；可核對後手動加入。':'必要條件、無障礙資料或地點資料不符，無法確認安排。'});
  for(let i=0;i<options.days;i++) {
   const date=addDays(options.start,i);const weekday=new Date(`${date}T12:00:00Z`).getUTCDay();let start=options.startMinute,end=options.endMinute;
   if(i===0&&options.arrivalTime){const time=parseTime(options.arrivalTime);if(!Number.isFinite(time))throw Error('抵達時間格式錯誤。');start=Math.min(1440,Math.max(start,time+150));}

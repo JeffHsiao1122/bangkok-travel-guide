@@ -6,12 +6,12 @@ import {foodGuides,foodSources,realFoodPlaces,filterFood} from '../src/data/food
 import {blankTrip,makeActivity,recalculateTrip,generateTrip,regenerateDay} from '../src/services/planner.js';
 import {writeTrips,readTrips,importTrips,validateTrip} from '../src/services/trip-storage.js';
 const options={start:'2026-11-01',days:3,people:2,startTime:'09:00',endTime:'20:00'};
-function mealTrip(){const t=blankTrip(options);t.days[0].activities.push(makeActivity(realFoodPlaces[0]));return recalculateTrip(t,places);}
+function mealTrip(){const t=blankTrip(options);const legacy=structuredClone(realFoodPlaces[0]);legacy.lat=legacy.lng=null;delete legacy.foodGuide.coordinateReference;t.days[0].activities.push(makeActivity(legacy));return recalculateTrip(t,places);}
 test('六個店家參考與來源日期分開，未知營運欄位不編造',()=>{
  assert.equal(foodGuides.length,6);assert.equal(new Set(places.map(p=>p.id)).size,43);
  const notice=readFileSync('public/content-licenses.txt','utf8');
  for(const p of realFoodPlaces){
-  assert.equal(p.cost,null);assert.equal(p.lat,null);assert.equal(p.lng,null);assert.equal(p.confirmedAt,null);assert.equal(p.planningEligible,false);
+  assert.equal(p.cost,null);const coords=p.foodGuide.coordinateReference.coordinate;assert.equal(p.lat,coords?.lat??null);assert.equal(p.lng,coords?.lng??null);assert.equal(p.confirmedAt,null);assert.equal(p.planningEligible,false);
   assert.equal(p.foodGuide.hours,null);assert.equal(p.foodGuide.price,null);assert.equal(p.foodGuide.official,null);assert.equal(p.accessibility,null);
   const s=p.foodGuide.source;assert.equal(s.license,'CC-BY-SA-4.0');assert.equal(s.reviewedAt,'2026-10-06');
   assert.ok(s.authors&&s.modified&&s.historyUrl);assert.ok(notice.includes(s.url)&&notice.includes(s.historyUrl)&&notice.includes(String(s.revision)));
