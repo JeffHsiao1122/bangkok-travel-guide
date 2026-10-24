@@ -92,5 +92,65 @@
   "coreErrors": [],
   "pagesBuild": "passed",
   "pagesAssetPrefixes": "passed",
-  "published": false
+  "published": true,
+  "production": {
+    "codeSha": "48fc7159afc8266e0a52f23e92f9273c7e7d9e4a",
+    "workflowRun": 40115609361,
+    "deployment": "success",
+    "browser": {
+      "widths": [
+        {
+          "width": 390,
+          "lazyOnlyWhenOpened": true,
+          "recommendedAndSavedAndEditor": true,
+          "tenPlacesMatched": true,
+          "daySwitchRefreshes": true,
+          "arunNoInventedStation": true,
+          "customNotGeolocated": true,
+          "sourceDatesAndLicenses": true,
+          "storedTripUnchanged": true,
+          "openingNoDraft": true,
+          "reorderAndUndoRefresh": true,
+          "sourceLinkWorks": true,
+          "linksWrapWithoutClipping": true,
+          "budgetColumnPreserved": true
+        },
+        {
+          "width": 768,
+          "lazyOnlyWhenOpened": true,
+          "recommendedAndSavedAndEditor": true,
+          "tenPlacesMatched": true,
+          "daySwitchRefreshes": true,
+          "arunNoInventedStation": true,
+          "customNotGeolocated": true,
+          "sourceDatesAndLicenses": true,
+          "storedTripUnchanged": true,
+          "openingNoDraft": true,
+          "reorderAndUndoRefresh": true,
+          "sourceLinkWorks": true,
+          "linksWrapWithoutClipping": true,
+          "budgetColumnPreserved": true
+        },
+        {
+          "width": 1280,
+          "lazyOnlyWhenOpened": true,
+          "recommendedAndSavedAndEditor": true,
+          "tenPlacesMatched": true,
+          "daySwitchRefreshes": true,
+          "arunNoInventedStation": true,
+          "customNotGeolocated": true,
+          "sourceDatesAndLicenses": true,
+          "storedTripUnchanged": true,
+          "openingNoDraft": true,
+          "reorderAndUndoRefresh": true,
+          "sourceLinkWorks": true,
+          "linksWrapWithoutClipping": true,
+          "budgetColumnPreserved": true
+        }
+      ],
+      "errors": [],
+      "unexpectedRequests": []
+    },
+    "assetHashMatches": 6
+  }
 }
