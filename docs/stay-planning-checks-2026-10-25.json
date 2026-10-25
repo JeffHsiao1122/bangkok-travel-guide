@@ -1,0 +1,51 @@
+{
+  "widths": [
+    {
+      "width": 390,
+      "fourDetails": true,
+      "originalAdviceAndOldSourceDates": true,
+      "noIdentityInputs": true,
+      "areaAndAirportLinks": true,
+      "boatFilterTwoReferences": true,
+      "comparisonAndReload": true,
+      "combinedFilterAndReset": true,
+      "noOverflow": true,
+      "existingTripUnchanged": true
+    },
+    {
+      "width": 768,
+      "fourDetails": true,
+      "originalAdviceAndOldSourceDates": true,
+      "noIdentityInputs": true,
+      "areaAndAirportLinks": true,
+      "boatFilterTwoReferences": true,
+      "comparisonAndReload": true,
+      "combinedFilterAndReset": true,
+      "noOverflow": true,
+      "existingTripUnchanged": true
+    },
+    {
+      "width": 1280,
+      "fourDetails": true,
+      "originalAdviceAndOldSourceDates": true,
+      "noIdentityInputs": true,
+      "areaAndAirportLinks": true,
+      "boatFilterTwoReferences": true,
+      "comparisonAndReload": true,
+      "combinedFilterAndReset": true,
+      "noOverflow": true,
+      "existingTripUnchanged": true
+    }
+  ],
+  "errors": [],
+  "unexpectedRequests": [],
+  "date": "2026-10-25",
+  "published": false,
+  "nodeTests": {
+    "passed": 84,
+    "failed": 0
+  },
+  "pagesBuild": true,
+  "pagesAssets": true,
+  "newExternalSourceAccess": false
+}
