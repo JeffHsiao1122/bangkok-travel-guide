@@ -2,6 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import {places} from '../src/data/catalog.js';
+import {foodPlanning,foodPlanningDate} from '../src/data/food-planning.js';
 import {foodGuides,foodSources,realFoodPlaces,filterFood} from '../src/data/food-guides.js';
 import {blankTrip,makeActivity,recalculateTrip,generateTrip,regenerateDay} from '../src/services/planner.js';
 import {writeTrips,readTrips,importTrips,validateTrip} from '../src/services/trip-storage.js';
@@ -63,11 +64,23 @@ test('實際元件呈現授權、未知費用與部分地圖，首頁不再精�
   const {Budget}=await server.ssrLoadModule('/src/pages/Trips.jsx');
   const {default:Home}=await server.ssrLoadModule('/src/pages/Home.jsx');
   const render=(Component,props)=>renderToStaticMarkup(React.createElement(MemoryRouter,null,React.createElement(AppProvider,null,React.createElement(Component,props))));
-  for(const p of realFoodPlaces){const html=render(FoodGuideDetail,{place:p});assert.ok(html.includes('CC BY-SA 4.0')&&html.includes('作者與編輯歷史'));assert.ok(html.includes('餐費／價格區間'));assert.ok(!html.includes('00:00–24:00'));assert.ok(!html.includes('CC0'));assert.ok(!/href="[^\"]*bts\.co\.th/.test(html));}
+  for(const p of realFoodPlaces){const html=render(FoodGuideDetail,{place:p});assert.ok(html.includes('CC BY-SA 4.0')&&html.includes('作者與編輯歷史'));assert.ok(html.includes('餐費／價格區間'));assert.ok(html.includes('這一餐怎麼安排'));assert.ok(html.includes('本站原創規劃建議'));for(const field of ['fit','timing','fallback','check'])assert.ok(html.includes(foodPlanning[p.id][field]));assert.ok(html.includes('不是店家報價'));assert.ok(html.includes('2026-10-06'));assert.ok(!html.includes('00:00–24:00'));assert.ok(!html.includes('CC0'));assert.ok(!/href="[^\"]*bts\.co\.th/.test(html));}
   assert.ok(render(PlaceCard,{place:realFoodPlaces[0]}).includes('餐費 待確認'));
   const directory=render(PlacesDirectory,{food:true});assert.ok(directory.includes('找到 6 個'));assert.ok(!directory.includes('虛構餐廳範例，用來'));
   const trip=mealTrip(),map=render(MapView,{day:trip.days[0]});assert.ok(map.includes('座標待確認'));assert.ok(map.includes('313%20Maha%20Chai'));assert.ok(!map.includes('<polyline'));
   assert.ok(render(Budget,{trip}).includes('1 項活動費用待確認'));
   const home=render(Home);assert.ok(home.includes('food-thip-samai'));assert.ok(home.includes('指南參考／營運待確認'));
  }finally{await server.close();}
+});
+
+test('六家原創用餐安排完整且不混入可儲存的來源快照',()=>{
+ assert.equal(foodPlanningDate,'2026-10-25');
+ assert.deepEqual(Object.keys(foodPlanning).sort(),realFoodPlaces.map(p=>p.id).sort());
+ const before=JSON.stringify(realFoodPlaces);
+ for(const p of realFoodPlaces){
+  for(const key of ['fit','timing','fallback','check'])assert.ok(foodPlanning[p.id][key].length>30);
+  assert.ok(!Object.hasOwn(p.foodGuide,'fit'));assert.equal(p.foodGuide.price,null);assert.equal(p.foodGuide.hours,null);assert.equal(p.planningEligible,false);
+  const activity=makeActivity(p);assert.ok(!Object.hasOwn(activity.snapshot,'foodPlanning'));
+ }
+ assert.equal(JSON.stringify(realFoodPlaces),before);
 });

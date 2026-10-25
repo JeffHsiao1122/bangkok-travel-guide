@@ -1,0 +1,49 @@
+{
+  "widths": [
+    {
+      "width": 390,
+      "sixDetailsAndSources": true,
+      "fiveLocatedOneUnknown": true,
+      "manualAddAndReload": true,
+      "feesRemainUnknown": true,
+      "jsonRetainsBothSourceDates": true,
+      "printRetainsOldAndNewRevisions": true,
+      "oldTripUnchanged": true,
+      "mapCreditsAndSourcePage": true
+    },
+    {
+      "width": 768,
+      "sixDetailsAndSources": true,
+      "fiveLocatedOneUnknown": true,
+      "manualAddAndReload": true,
+      "feesRemainUnknown": true,
+      "jsonRetainsBothSourceDates": true,
+      "printRetainsOldAndNewRevisions": true,
+      "oldTripUnchanged": true,
+      "mapCreditsAndSourcePage": true
+    },
+    {
+      "width": 1280,
+      "sixDetailsAndSources": true,
+      "fiveLocatedOneUnknown": true,
+      "manualAddAndReload": true,
+      "feesRemainUnknown": true,
+      "jsonRetainsBothSourceDates": true,
+      "printRetainsOldAndNewRevisions": true,
+      "oldTripUnchanged": true,
+      "mapCreditsAndSourcePage": true
+    }
+  ],
+  "errors": [],
+  "unexpectedRequests": [],
+  "date": "2026-10-25",
+  "published": false,
+  "scope": "六家原創用餐安排，無新增外部資料取用",
+  "nodeTests": {
+    "passed": 83,
+    "failed": 0
+  },
+  "pagesBuild": true,
+  "pagesAssets": true,
+  "newPlanningContentAssertions": true
+}
