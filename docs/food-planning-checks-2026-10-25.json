@@ -37,7 +37,7 @@
   "errors": [],
   "unexpectedRequests": [],
   "date": "2026-10-25",
-  "published": false,
+  "published": true,
   "scope": "六家原創用餐安排，無新增外部資料取用",
   "nodeTests": {
     "passed": 83,
@@ -45,5 +45,48 @@
   },
   "pagesBuild": true,
   "pagesAssets": true,
-  "newPlanningContentAssertions": true
+  "newPlanningContentAssertions": true,
+  "deployedCommit": "f45bb032b696bcdc16af19d8f4cf81a0ddd91fc9",
+  "workflowRun": 40185583884,
+  "production": {
+    "widths": [
+      {
+        "width": 390,
+        "sixDetailsAndSources": true,
+        "fiveLocatedOneUnknown": true,
+        "manualAddAndReload": true,
+        "feesRemainUnknown": true,
+        "jsonRetainsBothSourceDates": true,
+        "printRetainsOldAndNewRevisions": true,
+        "oldTripUnchanged": true,
+        "mapCreditsAndSourcePage": true
+      },
+      {
+        "width": 768,
+        "sixDetailsAndSources": true,
+        "fiveLocatedOneUnknown": true,
+        "manualAddAndReload": true,
+        "feesRemainUnknown": true,
+        "jsonRetainsBothSourceDates": true,
+        "printRetainsOldAndNewRevisions": true,
+        "oldTripUnchanged": true,
+        "mapCreditsAndSourcePage": true
+      },
+      {
+        "width": 1280,
+        "sixDetailsAndSources": true,
+        "fiveLocatedOneUnknown": true,
+        "manualAddAndReload": true,
+        "feesRemainUnknown": true,
+        "jsonRetainsBothSourceDates": true,
+        "printRetainsOldAndNewRevisions": true,
+        "oldTripUnchanged": true,
+        "mapCreditsAndSourcePage": true
+      }
+    ],
+    "errors": [],
+    "unexpectedRequests": []
+  },
+  "productionAssetMatches": 9,
+  "productionNoReferrer": true
 }
